@@ -5,16 +5,17 @@ This repository centralizes documentation, tooling plans, and integration guidel
 ## Quick Start
 
 1. Review the [Environment Integration and Documentation Plan](docs/integration-plan.md) for platform-specific setup steps.
-2. Install the Codex CLI (requires Node.js):
+2. Copy `.env.template` to `.env` and add the required secrets for ChatGPT, Codex, Notion, GitHub, and Zotero.
+3. Install the Codex CLI (requires Node.js):
    ```bash
    npm install -g @openai/codex
    ```
-3. Configure your local `.env` file with scoped tokens for ChatGPT, Notion, GitHub, and Zotero.
 4. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
+5. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
 
 ## Repository Structure
 
-- `docs/` – Integration architecture, security controls, and task breakdown.
+- `docs/` – Integration architecture, security controls, universal linking guidance, and task breakdown.
 - `SECURITY.md` – Security policy and responsible disclosure instructions.
 - `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
 
