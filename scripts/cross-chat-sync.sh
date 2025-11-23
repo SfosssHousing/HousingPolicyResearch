@@ -36,7 +36,8 @@ fi
 if [[ "${1-}" == "--commit" ]]; then
   if git -C "$TARGET_DIR/.." rev-parse --is-inside-work-tree >/dev/null 2>&1; then
     REPO_DIR="$(cd "$TARGET_DIR/.." && pwd)"
-    git -C "$REPO_DIR" add indexes
+    # Add CSVs relative to the repo root (avoids duplicating the Capstone path)
+    git -C "$REPO_DIR" add "indexes"/*.csv
     git -C "$REPO_DIR" commit -m "chore(indexes): update cross-chat CSVs $(date +"%Y-%m-%d %H:%M:%S")"
     echo "Committed to Git repo at $REPO_DIR"
   else
