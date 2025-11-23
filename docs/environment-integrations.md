@@ -48,6 +48,23 @@ This document captures the current integration points that support the Housing P
 2. Export collections as `.bib` files into `references/` and commit alongside datasets for reproducibility.
 3. Configure Notion with the Zotero API token to embed bibliography entries in project dashboards.
 
+### 3.4 Reverse Sync Validation (GitHub → External Tools)
+
+To guarantee that updates originating in GitHub propagate back to the research tools, validate the following reverse paths at
+least once per release cycle:
+
+1. **GitHub → ChatGPT / Codex prompts**
+   - Reference commit hashes or permalinks when drafting prompts so conversational agents can cite the latest code state.
+   - Store curated prompt templates under `docs/prompts/` (planned) and update them whenever APIs or datasets change.
+2. **GitHub → Notion**
+   - Configure a Notion database view that mirrors the `docs/` directory; automate Markdown imports via the Notion API and
+     confirm timestamps align with the Git commit history.
+   - Record the sync status (last import time, actor) in a Notion property to provide traceability back to repository updates.
+3. **GitHub → Zotero**
+   - Publish release notes that list new or updated bibliography exports so Zotero maintainers know when to refresh
+     collections.
+   - Keep a `references/CHANGELOG.md` file (planned) that links Zotero collection IDs to the corresponding Git commits.
+
 ## 4. Error Corrections and Gaps Filled
 
 - **Missing documentation**: Added this document to capture integration requirements and security expectations.
@@ -59,15 +76,25 @@ This document captures the current integration points that support the Housing P
 1. **Documentation hardening**
    - [ ] Expand `README.md` with a quick-start section linking to this guide.
    - [ ] Create architecture diagram illustrating data flows (store under `docs/diagrams/`).
+   - [ ] Add `docs/prompts/` with reference templates that describe how to invoke automations from ChatGPT or Codex tools.
 2. **Automation stabilization**
    - [ ] Add CI workflow to lint and test shell scripts (e.g., `shellcheck`).
    - [ ] Parameterize source/target paths in automation scripts via environment variables.
+   - [ ] Create dry-run modes for automation scripts so they can be exercised in CI without moving sensitive files.
 3. **Integration validation**
    - [ ] Implement a health-check script that verifies access to Notion, Zotero, and GitHub APIs.
    - [ ] Document fallback procedures for API outages.
+   - [ ] Stand up a nightly job that performs round-trip validation (GitHub → Notion → GitHub) and emits alerts when
+         discrepancies are detected.
 4. **Security follow-up**
    - [ ] Schedule quarterly credential rotation reminders in Notion.
    - [ ] Review GitHub branch protection rules and enable required reviews for `main`.
+   - [ ] Add dependency and secret scanning results to the project Notion dashboard for cross-tool visibility.
+5. **Generative output readiness**
+   - [ ] Define a publishing pipeline for AI-generated briefs, including manual review checkpoints before GitHub commits.
+   - [ ] Capture prompt/response audit logs in Notion or Zotero notes to preserve research provenance.
+   - [ ] Map each planned generative artifact (e.g., policy memo, dataset summary) to the repositories and integrations needed
+         to produce it so future automation work can be scoped precisely.
 
 ## 6. Maintenance Cadence
 
