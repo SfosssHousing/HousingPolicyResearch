@@ -1,4 +1,4 @@
-# HousingPolicyResearch
+# Housing Policy Research
 
 This repository houses automation scripts, documentation, and datasets that support housing policy analysis projects. The workspace integrates with several external services (ChatGPT, Codex-based automations, Notion, GitHub, and Zotero) to manage research workflows and bibliographic data.
 
