@@ -11,10 +11,11 @@ This repository centralizes documentation, tooling plans, and integration guidel
    ```
 3. Configure your local `.env` file with scoped tokens for ChatGPT, Notion, GitHub, and Zotero.
 4. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
+5. Consult the [NYC Housing Subsidy Reform Ops Manual](docs/NYC_Housing_Subsidy_Reform_Ops_Manual.md) and the [Report Blueprint](docs/nyc-housing-subsidy-report-blueprint.md) when drafting deliverables.
 
 ## Repository Structure
 
-- `docs/` – Integration architecture, security controls, and task breakdown.
+- `docs/` – Integration architecture, security controls, ops manual, and report blueprint.
 - `SECURITY.md` – Security policy and responsible disclosure instructions.
 - `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
 
