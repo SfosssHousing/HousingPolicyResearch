@@ -61,7 +61,7 @@ This blueprint standardizes the research-to-publication workflow for the NYC Hou
 
 ## 9. Legal & Legislative Insertions
 - Align proposed statutes with placeholders in `NYC-Draft-Legislation.md` and track changes in a redline-friendly format.
-- Maintain a waiver request inventory (HUD MTW, state coop law updates) with status and owner.
+- Maintain a waiver request inventory (HUD MTW, state co-op law updates) with status and owner.
 - Standardize citation of NYC Administrative Code, NYS Real Property Law, and cooperative corporate law sections.
 
 ## 10. Task Breakdown for Generative Output
