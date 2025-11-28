@@ -31,7 +31,7 @@ This blueprint standardizes the research-to-publication workflow for the NYC Hou
 - **Municipal CFO / Policy Analyst:** Neutral budget tables, ROI projections, sensitivity charts, and funding source reallocations.
 - **Civil-Rights Attorney:** Statutory compliance memo, waiver inventory (HUD MTW, state co-op provisions), and fair housing risk log.
 
-## 5. Versioning & Filenaming
+## 5. Versioning & File Naming
 - Master report filename: `Housing_Subsidy_Reform_MASTER_v[VERSION]_[YYYYMMDD].docx`.
 - Increment version and tag in Git for each QA-approved draft; archive prior versions under `Archive/`.
 - Track citations in a centralized Works Cited file and mirror entries in Notion and Zotero.
