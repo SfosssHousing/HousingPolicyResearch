@@ -48,4 +48,15 @@ Use GitHub Projects or Issues to track the above workstreams. For each item, inc
 - Linked automation scripts and datasets.
 - Security review checklist reference.
 
+## 7. Immediate Next Steps
+
+Use this ordered list to close the remaining gaps before expanding generative output automation:
+
+1. Populate `.env` and GitHub Secrets with the variables in `.env.template`; verify using the [Environment Readiness Checklist](environment-readiness.md).
+2. Stand up placeholder scripts (`scripts/notion_ping.py`, `scripts/zotero_ping.py`, `scripts/zotero_to_github.py`) and capture their outputs in `logs/connection-checks/`.
+3. Create `docs/prompts/README.md` documenting the prompt frontmatter and review flow; seed with one sample prompt.
+4. Draft `docs/evaluation-matrix.md` with scoring criteria and thresholds; link it to CI requirements in `.github/workflows/`.
+5. Add a PR/issue template section for "Generative Output Review" with checkboxes for citation coverage and redaction.
+6. Schedule reverse-flow drills (GitHub→Notion, Notion→Zotero, ChatGPT/Codex→GitHub) and log evidence under `logs/generative/` with reviewer names.
+
 Following this breakdown keeps the generative AI roadmap transparent and tightly integrated with the repository's security and automation controls.
