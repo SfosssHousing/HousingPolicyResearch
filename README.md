@@ -6,7 +6,8 @@ This repository hosts documentation and tooling for collaborative research on ho
 
 1. Clone the repository and create a local development environment (see [Environment Setup](docs/environment-setup.md)).
 2. Review the [Project Roadmap](docs/project-roadmap.md) for outstanding tasks.
-3. Use GitHub issues to track progress and link commits to roadmap items.
+3. Read the [Repository Rulesets and Integration Controls](docs/rulesets.md) for security and connectivity requirements.
+4. Use GitHub issues to track progress and link commits to roadmap items.
 
 ## Tooling Overview
 
