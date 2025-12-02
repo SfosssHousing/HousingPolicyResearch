@@ -43,9 +43,25 @@ This document records the current understanding of the tools that support the Ho
 | ---- | ------------------ |
 | Authentication | Generate an OpenAI API key from https://platform.openai.com/account/api-keys. Store it in a secrets manager or in your shell profile as `OPENAI_API_KEY`. |
 | Secure Storage | Use environment variables or encrypted secrets (`gh secret set`)—never commit keys to the repository. |
-| Access | Confirm the repository uses `.gitignore` to block `.env` or credential files. |
+| Access | Ensure the repository has a `.gitignore` file that blocks `.env` or credential files. If it does not exist, create one as shown below. |
 | Reverse Connection | If the project requires feedback from ChatGPT to GitHub, use scripts or GitHub Actions that call the OpenAI API with stored secrets. Log responses in Markdown files committed to the repo. |
 
+**Sample `.gitignore` for sensitive files:**
+```gitignore
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variable files
+.env
+.env.*
+
+# API keys and credentials
+*.key
+*.pem
+
+# macOS and system files
+.DS_Store
 ## Notion Workspace
 
 1. **Create an integration** in Notion via **Settings & Members → Integrations → Develop your own integrations**.
