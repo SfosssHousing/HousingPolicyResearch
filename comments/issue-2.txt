@@ -1,0 +1,1 @@
+This issue seems closely related to issue #1. I propose we integrate a citations section directly into the CSV being created for the first issue. This would streamline efforts and consolidate related data in one place. Thoughts on combining these tasks?
