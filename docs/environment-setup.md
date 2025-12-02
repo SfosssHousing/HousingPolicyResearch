@@ -10,30 +10,64 @@ This document records the current understanding of the tools that support the Ho
 
 ## Repository Preparation (GitHub)
 
-1. **Clone the repository**
-   ```bash
-   git clone git@github.com:<ORG>/HousingPolicyResearch.git
-   cd HousingPolicyResearch
-   ```
-   Replace `<ORG>` with the organization or user namespace that hosts the repository.
+### 1. Clone the repository
 
-2. **Create a Python environment (recommended)**
-   If analysis notebooks or scripts are added later, create an isolated Python environment so dependencies do not conflict with global packages.
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   pip install --upgrade pip
-   ```
+```bash
+git clone https://github.com/SfosssHousing/HousingPolicyResearch.git
+cd HousingPolicyResearch
+```
 
-3. **Install tooling dependencies**
-   - `pre-commit` (for linting/formatting hooks) – `pip install pre-commit`
-   - `mkdocs` or `sphinx` if documentation will be generated – install only when needed.
+### 2. Run the automated setup script
 
-4. **Configure Git hooks**
-   ```bash
-   pre-commit install
-   ```
-   Hooks help enforce code quality checks before commits are pushed.
+The repository includes a setup script that automates the environment configuration:
+
+```bash
+./setup.sh
+```
+
+This script will:
+- Verify Python 3 is installed
+- Create a Python virtual environment (`.venv`)
+- Install all dependencies from `requirements.txt`
+- Create a `.env` file from `.env.template`
+- Install pre-commit hooks
+- Create necessary directories
+
+### 3. Configure environment variables
+
+After running setup, edit the `.env` file and add your API keys:
+
+```bash
+nano .env  # or use your preferred editor
+```
+
+Required variables:
+- `OPENAI_API_KEY` - For ChatGPT/Codex integration
+- `NOTION_API_KEY` - For Notion workspace integration (optional)
+- `NOTION_DATABASE_ID` - Target Notion database (optional)
+- `ZOTERO_API_KEY` - For reference management (optional)
+- `ZOTERO_LIBRARY_ID` - Zotero library identifier (optional)
+
+### 4. Activate the virtual environment
+
+```bash
+source .venv/bin/activate
+```
+
+For Windows:
+```bash
+.venv\Scripts\activate
+```
+
+### 5. Validate connections
+
+Run the connection validation script to ensure all integrations are working:
+
+```bash
+python scripts/validate_connections.py
+```
+
+This will test connectivity to OpenAI, Notion, and Zotero APIs and log results to `logs/connection-checks/`.
 
 ## ChatGPT / Codex Integration
 
@@ -86,9 +120,16 @@ This document records the current understanding of the tools that support the Ho
 
 ## Validation Checklist
 
-- [ ] All API keys stored outside of the repository.
-- [ ] GitHub Actions secrets configured for OpenAI, Notion, and Zotero.
-- [ ] Automated tests or scripts confirm that read/write operations succeed for each integration.
-- [ ] README links to this document.
-- [ ] Next steps documented in `docs/project-roadmap.md`.
+- [x] `.gitignore` created to exclude sensitive files and build artifacts
+- [x] `.env.template` provided with all required environment variables
+- [x] `requirements.txt` created with all Python dependencies
+- [x] Automated setup script (`setup.sh`) created
+- [x] Pre-commit hooks configured (`.pre-commit-config.yaml`)
+- [x] Directory structure created (logs, artifacts, docs/prompts, etc.)
+- [x] Connection validation script (`scripts/validate_connections.py`) created
+- [x] README updated with setup instructions
+- [ ] All API keys stored outside of the repository (user responsibility)
+- [ ] GitHub Actions secrets configured for CI/CD (user responsibility)
+- [ ] Automated tests or scripts confirm read/write operations (to be done after keys are added)
+- [ ] Next steps documented in `docs/project-roadmap.md`
 
