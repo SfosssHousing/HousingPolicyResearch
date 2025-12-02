@@ -48,4 +48,12 @@ Use GitHub Projects or Issues to track the above workstreams. For each item, inc
 - Linked automation scripts and datasets.
 - Security review checklist reference.
 
+## 7. Near-term next steps
+
+- Stand up `docs/prompts/` with at least two housing-policy exemplars and lint them with the planned `scripts/prompt_validator.py`.
+- Draft `docs/evaluation-matrix.md` to unlock the evaluation harness and add it to CI as a required check.
+- Configure `notion-sync.yml` and `zotero_to_github.py` dry-run jobs on a weekly schedule; store outputs in `logs/connection-checks/`.
+- Begin backfilling historic ChatGPT/Codex transcripts into `logs/generative/` using the metadata template from `logs/generative/README.md`.
+- Map GitHub issues to Notion pages and Zotero items within each transcript to enforce provenance before automation is enabled.
+
 Following this breakdown keeps the generative AI roadmap transparent and tightly integrated with the repository's security and automation controls.

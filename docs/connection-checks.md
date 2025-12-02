@@ -7,6 +7,7 @@ Use these procedures to confirm that ChatGPT, Codex, Notion, GitHub, and Zotero 
 1. Copy `.env.template` to `.env` and populate the required tokens.
 2. Run `scripts/connection-checks.sh` (placeholder) or the equivalent automation runner.
 3. Store logs in `logs/connection-checks/YYYY-MM-DD.md` with timestamps and command output.
+4. For sensitive environments, run checks from a hardened runner or VPN-backed network and redact tokens from stored logs.
 
 ## 2. Individual Connection Tests
 
@@ -43,6 +44,7 @@ Use these procedures to confirm that ChatGPT, Codex, Notion, GitHub, and Zotero 
 1. Archive the most recent session transcript into `logs/chatgpt/`.
 2. Run the lint workflow to ensure transcripts contain metadata headers (prompt, timestamp, model).
 3. Reference the archive from the related GitHub issue for traceability.
+4. Validate that any referenced Notion pages or Zotero items are linked in the transcript metadata for provenance.
 
 ## 4. Security Controls to Verify
 
@@ -50,6 +52,7 @@ Use these procedures to confirm that ChatGPT, Codex, Notion, GitHub, and Zotero 
 - GitHub Secrets mirror local variable names for CI.
 - Logs omit API keys and personally identifiable information.
 - Key rotation dates are tracked in Notion's security dashboard.
+- VPN/SSO usage is enforced for self-hosted runners executing the checks.
 
 ## 5. Reporting
 
