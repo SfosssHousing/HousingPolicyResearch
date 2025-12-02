@@ -11,7 +11,7 @@ This repository hosts documentation, resource management tools, and integration 
   - `resources-index.md` – Comprehensive catalog of research sources with annotations
   - `resources.csv` – Machine-readable resource database for automation
   - `generative-output-version-control.md` – Tracking and verification of AI-generated content
-- `.github/agents/` – Custom agent configurations (do not modify without explicit requirements)
+- `.github/agents/` – Custom agent configurations for specialized automation tasks (do not modify these files unless explicitly required by an issue)
 - `capstone/` – Structured capstone documentation
 - `comments/` – Project discussion artifacts and proposals
 - `SECURITY.md` – Security policy and responsible disclosure instructions
@@ -161,7 +161,7 @@ Required variables are documented in `.env.template`.
 
 When using ChatGPT, Codex, or similar tools:
 
-1. **Version control:** Follow `docs/generative-output-version-control.md`
+1. **Version control:** Follow `docs/generative-output-version-control.md` guidelines
 2. **Verification:** Human review required for all AI-generated content
 3. **Attribution:** Note when content is AI-assisted
 4. **Quality checks:** Verify facts, citations, and recommendations
@@ -199,8 +199,8 @@ When using ChatGPT, Codex, or similar tools:
 
 - **Documentation issues:** Open an issue with label `documentation`
 - **Security concerns:** Follow `SECURITY.md` reporting guidelines
-- **Integration problems:** Reference `docs/connection-checks.md`
-- **Style questions:** Consult `docs/STYLE-APA.md` or open issue
+- **Integration problems:** Reference `docs/connection-checks.md` for API connectivity troubleshooting
+- **Style questions:** Consult `docs/STYLE-APA.md` for citation formatting or open issue
 - **Roadmap updates:** Discuss in issues with label `roadmap`
 
 ## Version Information
