@@ -277,7 +277,7 @@ American Psychological Association. (2020). *Publication manual of the American 
 
 Purdue Online Writing Lab. (n.d.). *APA formatting and style guide (7th edition)*. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/index.html
 
-Scribbr. (n.d.). *Citing government documents in APA*. https://www.scribbr.com/apa-examples/goverment-document/
+Scribbr. (n.d.). *Citing government documents in APA*. https://www.scribbr.com/apa-examples/government-document/
 
 ---
 
