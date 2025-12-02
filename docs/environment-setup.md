@@ -86,7 +86,7 @@ venv/
 
 - **GitHub Actions:** Use repository secrets (`Settings → Secrets and variables → Actions`) for API keys. Reference them in workflow files using `${{ secrets.OPENAI_API_KEY }}` etc.
 - **Local scripts:** Read secrets from environment variables or encrypted `.env` files (`dotenv` library) excluded by `.gitignore`.
-- **Validation:** After configuration, run lightweight scripts to confirm each integration can authenticate and exchange data. Log the results in `docs/integration-status.md`.
+- **Validation:** After configuration, run lightweight scripts to confirm each integration can authenticate and exchange data. Create a new file at `docs/integration-status.md` (if it does not exist) and log the results there.
 
 ## Troubleshooting and Error Correction
 
