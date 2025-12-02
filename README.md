@@ -16,8 +16,13 @@ This repository centralizes documentation, tooling plans, and integration guidel
 ## Repository Structure
 
 - `docs/` – Integration architecture, security controls, universal linking guidance, and task breakdown.
+  - `STYLE-APA.md` – Citation standards based on APA 7th edition
+  - `resources-index.md` – Comprehensive catalog of research sources with annotations
+  - `resources.csv` – Machine-readable resource database for automation
+  - `generative-output-version-control.md` – Tracking and verification of AI-generated content
 - `SECURITY.md` – Security policy and responsible disclosure instructions.
 - `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
+- `comments/` – Project discussion artifacts and proposals.
 
 ## Contributing
 
@@ -27,3 +32,14 @@ This repository centralizes documentation, tooling plans, and integration guidel
 4. Run documentation linters and unit tests before submitting changes.
 
 For additional context on automation scripts, secret management, and cross-platform workflows, see [docs/integration-plan.md](docs/integration-plan.md) and the capstone notes in [`capstone/`](capstone/README.md).
+
+## Resources and Citations
+
+The project maintains a rigorous research database with APA-style citations:
+
+- **[Resources Index](docs/resources-index.md)** – Comprehensive catalog of all research sources, technical documentation, and datasets with annotations
+- **[Resources CSV](docs/resources.csv)** – Machine-readable database for automated bibliography generation and cross-referencing
+- **[APA Style Guide](docs/STYLE-APA.md)** – House citation standards based on APA 7th edition, tailored for housing policy research
+- **[Generative Output Tracking](docs/generative-output-version-control.md)** – Version control and verification system for AI-generated documentation
+
+When citing sources in project documentation, refer to the [APA Style Guide](docs/STYLE-APA.md) for formatting requirements. All new resources should be added to both the [Resources Index](docs/resources-index.md) and [Resources CSV](docs/resources.csv).
