@@ -27,7 +27,9 @@ This document records the current understanding of the tools that support the Ho
 
 3. **Install tooling dependencies**
    - `pre-commit` (for linting/formatting hooks) – `pip install pre-commit`
-   - `mkdocs` or `sphinx` if documentation will be generated – install only when needed.
+   - `mkdocs` (for Markdown-based documentation) – `pip install mkdocs`  
+   - `sphinx` (for reStructuredText-based documentation) – `pip install sphinx`  
+     *(Install only one, as needed, if documentation will be generated.)*
 
 4. **Configure Git hooks**
    ```bash
