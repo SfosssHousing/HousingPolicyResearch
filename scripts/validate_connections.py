@@ -160,8 +160,9 @@ def main():
     log_dir = Path("logs/connection-checks")
     log_dir.mkdir(parents=True, exist_ok=True)
 
-    timestamp = datetime.now().isoformat()
-    log_file = log_dir / f"check_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    now = datetime.now()
+    timestamp = now.isoformat()
+    log_file = log_dir / f"check_{now.strftime('%Y%m%d_%H%M%S')}.json"
 
     log_data = {"timestamp": timestamp, "checks": checks}
 
