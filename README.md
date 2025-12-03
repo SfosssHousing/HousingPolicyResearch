@@ -46,6 +46,8 @@ This repository centralizes documentation, tooling plans, and integration guidel
 /
 ├── Capstone/              # Capstone project materials and data indexes
 │   └── indexes/           # Cross-chat CSV files and data catalogs
+├── capstone/              # Structured capstone documentation
+├── comments/              # Project discussion artifacts and proposals
 ├── docs/                  # Project documentation and integration guides
 ├── scripts/               # Automation scripts for data and chat exports
 ├── references/            # Bibliography exports from Zotero (planned)
@@ -64,14 +66,15 @@ This repository centralizes documentation, tooling plans, and integration guidel
 
 ## Repository Structure
 
+- `Capstone/` – Capstone project materials and data indexes (specifically cross-chat CSV files in `indexes/` subdirectory).
+- `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
+- `comments/` – Project discussion artifacts and proposals.
 - `docs/` – Integration architecture, security controls, universal linking guidance, and task breakdown.
   - `STYLE-APA.md` – Citation standards based on APA 7th edition
   - `resources-index.md` – Comprehensive catalog of research sources with annotations
   - `resources.csv` – Machine-readable resource database for automation
   - `generative-output-version-control.md` – Tracking and verification of AI-generated content
 - `SECURITY.md` – Security policy and responsible disclosure instructions.
-- `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
-- `comments/` – Project discussion artifacts and proposals.
 
 > **Note:** Some directories are placeholders that will be populated as the integrations described in the documentation are implemented.
 
