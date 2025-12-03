@@ -44,8 +44,10 @@ This repository centralizes documentation, tooling plans, and integration guidel
 
 ```
 /
+├── Capstone/              # Capstone project materials and data indexes
+│   └── indexes/           # Cross-chat CSV files and data catalogs
 ├── docs/                  # Project documentation and integration guides
-├── scripts/               # Automation scripts for data and chat exports (planned)
+├── scripts/               # Automation scripts for data and chat exports
 ├── references/            # Bibliography exports from Zotero (planned)
 ├── data/                  # Research datasets (planned)
 ├── SECURITY.md            # Security baseline for the project
