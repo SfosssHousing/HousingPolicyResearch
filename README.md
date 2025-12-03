@@ -35,8 +35,22 @@ This repository hosts documentation and tooling for collaborative research on ho
 If you encounter configuration issues or discover missing documentation, open a GitHub issue with detailed context so the team can respond quickly.
 This repository centralizes documentation, tooling plans, and integration guidelines for the Housing Policy Research project.
 
-## Quick Start
+## Documentation
 
+- [Environment Integrations and Documentation](docs/environment-integrations.md): describes the end-to-end setup for secure, bidirectional connections between ChatGPT, Codex automations, Notion, GitHub, and Zotero, and outlines follow-up tasks for the project workspace.
+- `SECURITY.md`: organization-wide security policies.
+
+## Repository Structure
+
+```
+/
+├── docs/                  # Project documentation and integration guides
+├── scripts/               # Automation scripts for data and chat exports (planned)
+├── references/            # Bibliography exports from Zotero (planned)
+├── data/                  # Research datasets (planned)
+├── SECURITY.md            # Security baseline for the project
+└── README.md              # This overview
+```
 1. Review the [Environment Integration and Documentation Plan](docs/integration-plan.md) for platform-specific setup steps.
 2. Copy `.env.template` to `.env` and add the required secrets for ChatGPT, Codex, Notion, GitHub, and Zotero.
 3. Install the Codex CLI (requires Node.js):
@@ -57,12 +71,9 @@ This repository centralizes documentation, tooling plans, and integration guidel
 - `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
 - `comments/` – Project discussion artifacts and proposals.
 
-## Contributing
+> **Note:** Some directories are placeholders that will be populated as the integrations described in the documentation are implemented.
 
-1. Fork or clone the repository.
-2. Create feature branches for substantive changes.
-3. Open pull requests with detailed descriptions and link to relevant tasks or Notion pages.
-4. Run documentation linters and unit tests before submitting changes.
+## Getting Started
 
 For additional context on automation scripts, secret management, and cross-platform workflows, see [docs/integration-plan.md](docs/integration-plan.md) and the capstone notes in [`capstone/`](capstone/README.md).
 
