@@ -66,8 +66,8 @@ This repository centralizes documentation, tooling plans, and integration guidel
 
 ## Repository Structure
 
-- `Capstone/` – Capstone project materials and data indexes (specifically cross-chat CSV files in `indexes/` subdirectory).
-- `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
+- `Capstone/` – Data indexes and cross-chat CSV exports (automation target for `cross-chat-sync.sh`).
+- `capstone/` – Capstone documentation and narrative materials.
 - `comments/` – Project discussion artifacts and proposals.
 - `docs/` – Integration architecture, security controls, universal linking guidance, and task breakdown.
   - `STYLE-APA.md` – Citation standards based on APA 7th edition
