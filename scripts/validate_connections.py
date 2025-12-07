@@ -98,7 +98,7 @@ def main() -> None:
             level=logging.INFO,
             format="%(asctime)s %(levelname)s %(message)s",
         )
-    
+
     success = True
     for service in SERVICES:
         status, detail = service.run()
