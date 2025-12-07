@@ -17,12 +17,24 @@ USAGE
 }
 
 RUN_CI=false
-if [[ "${1-}" == "--help" ]]; then
-  usage
-  exit 0
-elif [[ "${1-}" == "--ci" ]]; then
-  RUN_CI=true
-fi
+case "${1-}" in
+  "" )
+    # No arguments: default interactive mode, RUN_CI remains false
+    ;;
+  --ci )
+    RUN_CI=true
+    ;;
+  --help )
+    usage
+    exit 0
+    ;;
+  * )
+    echo "Error: Unknown option: ${1-}" >&2
+    echo >&2
+    usage >&2
+    exit 1
+    ;;
+esac
 
 ensure_python() {
   if ! command -v python3 >/dev/null 2>&1; then
