@@ -28,6 +28,10 @@ from typing import Dict, List, Any, Optional
 
 VERSION = "0.3-macos-arm64"
 
+# Disk space thresholds (in GB)
+MIN_FREE_SPACE_GB = 2
+WARNING_FREE_SPACE_GB = 10
+
 
 class PreflightChecker:
     """Main preflight check orchestrator."""
@@ -164,8 +168,9 @@ class PreflightChecker:
         if check_result["is_arm64"]:
             rosetta_check = self.run_command(["pgrep", "-q", "oahd"])
             # Alternative check via sysctl
-            rosetta_sysctl = self.run_command(["sysctl", "-n", "sysctl.proc_translated"])
-            if rosetta_check is not None or rosetta_sysctl is not None:
+            rosetta_sysctl = self.run_command(["sysctl", "-n", "kern.proc_translated"])
+            if (rosetta_check and rosetta_check.returncode == 0) or \
+               (rosetta_sysctl and rosetta_sysctl.returncode == 0):
                 check_result["rosetta2"] = True
             else:
                 # Rosetta may not be running if no x86 apps are active
@@ -302,17 +307,17 @@ class PreflightChecker:
             check_result["free_gb"] = round(stat.free / (1024**3), 2)
             check_result["percent_used"] = round((stat.used / stat.total) * 100, 1)
 
-            # Warn if less than 10GB free
-            if stat.free < 10 * 1024**3:
-                check_result["status"] = "warn"
-                self.warnings.append(
-                    f"Low disk space: only {check_result['free_gb']}GB free"
-                )
-            # Error if less than 2GB free
-            elif stat.free < 2 * 1024**3:
+            # Error if less than 2GB free (check critical condition first)
+            if stat.free < MIN_FREE_SPACE_GB * 1024**3:
                 check_result["status"] = "fail"
                 self.errors.append(
                     f"Critical disk space: only {check_result['free_gb']}GB free"
+                )
+            # Warn if less than 10GB free
+            elif stat.free < WARNING_FREE_SPACE_GB * 1024**3:
+                check_result["status"] = "warn"
+                self.warnings.append(
+                    f"Low disk space: only {check_result['free_gb']}GB free"
                 )
 
         except Exception as e:
