@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 from dataclasses import dataclass
 from typing import Callable, Dict, Iterable, Tuple
 
@@ -65,8 +66,10 @@ def zotero_headers() -> Dict[str, str]:
 
 def zotero_url() -> str:
     library_id = os.getenv("ZOTERO_LIBRARY_ID", "")
-    if not library_id or not library_id.isalnum():
-        return "https://api.zotero.org/"
+    # Validate library ID contains only safe characters (alphanumeric, underscore, hyphen)
+    if not library_id or not re.match(r'^[a-zA-Z0-9_-]+$', library_id):
+        # Return invalid URL to properly indicate configuration error
+        return "https://invalid-zotero-library-id.local/"
     return f"https://api.zotero.org/users/{library_id}/items?limit=1"
 
 
