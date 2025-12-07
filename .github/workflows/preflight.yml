@@ -17,6 +17,8 @@ jobs:
   preflight-macos:
     name: Preflight Checks (macOS arm64)
     runs-on: macos-latest
+    permissions:
+      contents: read
     
     steps:
       - name: Checkout repository
@@ -107,6 +109,8 @@ jobs:
   preflight-linux:
     name: Preflight Checks (Linux)
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     
     steps:
       - name: Checkout repository
@@ -162,6 +166,8 @@ jobs:
   preflight-windows:
     name: Preflight Checks (Windows)
     runs-on: windows-latest
+    permissions:
+      contents: read
     
     steps:
       - name: Checkout repository
