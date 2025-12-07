@@ -63,6 +63,13 @@ def zotero_headers() -> Dict[str, str]:
     }
 
 
+def zotero_url() -> str:
+    library_id = os.getenv("ZOTERO_LIBRARY_ID", "")
+    if not library_id or not library_id.isalnum():
+        return "https://api.zotero.org/"
+    return f"https://api.zotero.org/users/{library_id}/items?limit=1"
+
+
 SERVICES: Iterable[ServiceCheck] = (
     ServiceCheck(
         name="OpenAI",
@@ -78,7 +85,7 @@ SERVICES: Iterable[ServiceCheck] = (
     ),
     ServiceCheck(
         name="Zotero",
-        url=f"https://api.zotero.org/users/{os.getenv('ZOTERO_LIBRARY_ID', '')}/items?limit=1",
+        url=zotero_url(),
         headers=zotero_headers(),
         enabled=lambda: env_present("ZOTERO_API_KEY", "ZOTERO_LIBRARY_ID"),
     ),
@@ -86,10 +93,11 @@ SERVICES: Iterable[ServiceCheck] = (
 
 
 def main() -> None:
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s %(levelname)s %(message)s",
-    )
+    if not logging.getLogger().hasHandlers():
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s %(levelname)s %(message)s",
+        )
     
     success = True
     for service in SERVICES:
