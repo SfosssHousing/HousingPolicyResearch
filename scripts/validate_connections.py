@@ -10,11 +10,6 @@ from typing import Callable, Dict, Iterable, Tuple
 import requests
 from dotenv import load_dotenv
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s %(levelname)s %(message)s",
-)
-
 load_dotenv()
 
 
@@ -61,6 +56,13 @@ def notion_headers() -> Dict[str, str]:
     }
 
 
+def zotero_headers() -> Dict[str, str]:
+    api_key = os.getenv("ZOTERO_API_KEY", "")
+    return {
+        "Zotero-API-Key": api_key,
+    }
+
+
 SERVICES: Iterable[ServiceCheck] = (
     ServiceCheck(
         name="OpenAI",
@@ -76,14 +78,19 @@ SERVICES: Iterable[ServiceCheck] = (
     ),
     ServiceCheck(
         name="Zotero",
-        url="https://api.zotero.org/",
-        headers=None,
+        url=f"https://api.zotero.org/users/{os.getenv('ZOTERO_LIBRARY_ID', '')}/items?limit=1",
+        headers=zotero_headers(),
         enabled=lambda: env_present("ZOTERO_API_KEY", "ZOTERO_LIBRARY_ID"),
     ),
 )
 
 
 def main() -> None:
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(message)s",
+    )
+    
     success = True
     for service in SERVICES:
         status, detail = service.run()
