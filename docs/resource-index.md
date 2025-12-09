@@ -10,8 +10,9 @@ Use this index to quickly locate documentation across the repository and to stan
 | `docs/integration-plan.md` | End-to-end environment plan for ChatGPT, Codex, Notion, GitHub, and Zotero. | Includes prerequisites, security controls, and roadmap items. |
 | `docs/connection-checks.md` | Checklists for verifying connectivity and reverse data flows. | Reference when running periodic audits. |
 | `docs/environment-readiness.md` | End-to-end readiness checklist for secrets, connections, and reverse flows. | Run before automation or CI jobs. |
-| `docs/generative-output-tasks.md` | Detailed breakdown of the generative AI workstreams (prompt library, evaluation, governance). | Aligns with Section 9 of the integration plan. |
+| `docs/generative-output-tasks.md` | Detailed breakdown of the generative AI workstreams (prompt library, evaluation, governance). | Aligns with Section 8 of the integration plan. |
 | `docs/universal-linking-guide.md` | Guidance for deep links across mobile and web clients. | Useful when wiring PRs or briefs to external apps. |
+| `logs/generative/README.md` | Canonical guide for archived generative outputs. | Defines naming, metadata, and version control process. |
 | `capstone/README.md` | Migration notes and next steps for the capstone documentation track. | Track capstone milestones and recovered artifacts here. |
 | `comments/` | Recorded issue-level discussions that inform integration decisions. | Cross-link to related docs when migrating content. |
 

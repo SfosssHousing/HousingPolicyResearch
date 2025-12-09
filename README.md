@@ -5,8 +5,8 @@ This repository centralizes documentation, tooling plans, and integration guidel
 ## Quick Start
 
 1. Review the [Environment Integration and Documentation Plan](docs/integration-plan.md) for platform-specific setup steps.
-2. Walk through the [Environment Readiness Checklist](docs/environment-readiness.md) to validate secrets and both connection directions before running automation.
-3. Copy `.env.template` to `.env` and add the required secrets for ChatGPT, Codex, Notion, GitHub, and Zotero.
+2. Copy `.env.template` to `.env` and add the required secrets for ChatGPT, Codex, Notion, GitHub, and Zotero.
+3. Walk through the [Environment Readiness Checklist](docs/environment-readiness.md) to validate secrets and both connection directions before running automation.
 4. Install the Codex CLI (requires Node.js):
    ```bash
    npm install -g @openai/codex
