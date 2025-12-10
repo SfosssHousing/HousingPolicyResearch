@@ -67,6 +67,7 @@ This repository centralizes documentation, tooling plans, and integration guidel
   - `resources-index.md` – Comprehensive catalog of research sources with annotations
   - `resources.csv` – Machine-readable resource database for automation
   - `generative-output-version-control.md` – Tracking and verification of AI-generated content
+  - `github-actions-maintenance.md` – Workflow maintenance and action version management
 - `SECURITY.md` – Security policy and responsible disclosure instructions.
 - `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
 - `comments/` – Project discussion artifacts and proposals.
