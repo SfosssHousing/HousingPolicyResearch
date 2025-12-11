@@ -11,8 +11,11 @@ This repository houses automation scripts, documentation, and datasets that supp
 
 ```
 /
+├── Capstone/              # Automation target directory
+│   └── indexes/           # Cross-chat CSV exports and data indexes
+├── capstone/              # Capstone project documentation
 ├── docs/                  # Project documentation and integration guides
-├── scripts/               # Automation scripts for data and chat exports (planned)
+├── scripts/               # Automation scripts for data and chat exports
 ├── references/            # Bibliography exports from Zotero (planned)
 ├── data/                  # Research datasets (planned)
 ├── SECURITY.md            # Security baseline for the project
