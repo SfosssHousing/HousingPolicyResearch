@@ -11,13 +11,17 @@ This repository houses automation scripts, documentation, and datasets that supp
 
 ```
 /
+├── .devcontainer/         # Development container configuration
+├── .github/               # GitHub workflows and configuration
+│   └── workflows/         # CI/CD workflow definitions
 ├── Capstone/              # Automation target directory
 │   └── indexes/           # Cross-chat CSV exports and data indexes
 ├── capstone/              # Capstone project documentation
-├── docs/                  # Project documentation and integration guides
-├── scripts/               # Automation scripts for data and chat exports
-├── references/            # Bibliography exports from Zotero (planned)
+├── comments/              # Issue comments and discussion archives
 ├── data/                  # Research datasets (planned)
+├── docs/                  # Project documentation and integration guides
+├── references/            # Bibliography exports from Zotero (planned)
+├── scripts/               # Automation scripts for data and chat exports
 ├── SECURITY.md            # Security baseline for the project
 └── README.md              # This overview
 ```
