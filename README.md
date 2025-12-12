@@ -38,6 +38,7 @@ This repository centralizes documentation, tooling plans, and integration guidel
 ## Documentation
 
 - [Environment Integrations and Documentation](docs/environment-integrations.md): describes the end-to-end setup for secure, bidirectional connections between ChatGPT, Codex automations, Notion, GitHub, and Zotero, and outlines follow-up tasks for the project workspace.
+- [Repository Merge Plan](docs/repository-merge-plan.md): detailed plan and instructions for merging the `sfosss/Housing` repository into this repository.
 - `SECURITY.md`: organization-wide security policies.
 
 ## Repository Structure
@@ -67,6 +68,9 @@ This repository centralizes documentation, tooling plans, and integration guidel
   - `resources-index.md` – Comprehensive catalog of research sources with annotations
   - `resources.csv` – Machine-readable resource database for automation
   - `generative-output-version-control.md` – Tracking and verification of AI-generated content
+  - `repository-merge-plan.md` – Plan for merging sfosss/Housing repository
+- `scripts/` – Automation scripts for repository management and data processing.
+  - `merge-housing-repository.sh` – Script to merge sfosss/Housing repository into housing/ subdirectory
 - `SECURITY.md` – Security policy and responsible disclosure instructions.
 - `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
 - `comments/` – Project discussion artifacts and proposals.
