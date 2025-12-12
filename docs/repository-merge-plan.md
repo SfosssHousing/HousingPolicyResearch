@@ -240,6 +240,7 @@ For questions about this merge process:
 
 - [Git Subtree Documentation](https://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging)
 - [GitHub: About Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
+- [Repository Merge Troubleshooting Guide](repository-merge-troubleshooting.md)
 - [Project Roadmap](project-roadmap.md)
 - [Environment Setup](environment-setup.md)
 

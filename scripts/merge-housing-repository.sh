@@ -2,6 +2,11 @@
 # Repository Merge Script: sfosss/Housing → SfosssHousing/HousingPolicyResearch
 # This script automates the process of merging the sfosss/Housing repository
 # into the housing/ subdirectory while preserving full commit history.
+#
+# Documentation:
+#   - Merge Plan: docs/repository-merge-plan.md
+#   - Troubleshooting: docs/repository-merge-troubleshooting.md
+#   - Script Documentation: scripts/README.md
 
 set -e  # Exit on any error
 
@@ -96,6 +101,9 @@ else
     echo "- You have access to $SOURCE_REPO"
     echo "- Your git credentials are configured correctly"
     echo "- You can access GitHub"
+    echo ""
+    echo "For detailed troubleshooting steps, see:"
+    echo "  docs/repository-merge-troubleshooting.md"
     exit 1
 fi
 
