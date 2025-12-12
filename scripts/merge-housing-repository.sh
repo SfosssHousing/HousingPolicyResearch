@@ -171,8 +171,8 @@ print_status "Imported $FILE_COUNT files into $TARGET_SUBDIR/"
 
 # Show summary of what was imported
 echo ""
-echo "Top-level contents of $TARGET_SUBDIR/:"
-ls -la "$TARGET_SUBDIR/" | head -20
+echo "Top-level contents of $TARGET_SUBDIR/ (first 10 items):"
+ls -la "$TARGET_SUBDIR/" | head -11  # 11 to account for total line
 
 # Check for merge conflicts
 if git ls-files -u | grep -q .; then
@@ -197,8 +197,9 @@ git log -1 --oneline
 echo ""
 
 # Show how many commits were imported
-COMMIT_COUNT=$(git rev-list --count HEAD ^origin/main 2>/dev/null || echo "unknown")
-print_status "Imported $COMMIT_COUNT new commit(s)"
+# Compare against the commit before this merge
+COMMIT_COUNT=$(git rev-list --count HEAD ^HEAD~1 2>/dev/null || echo "1")
+print_status "Imported $COMMIT_COUNT new commit(s) in this merge"
 
 # Final status
 echo ""

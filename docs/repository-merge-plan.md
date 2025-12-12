@@ -92,10 +92,11 @@ git fetch housing-src
 ```bash
 # Import the entire repository into the housing/ subdirectory
 # This preserves full commit history
-git subtree add --prefix=housing housing-src main --squash=false
+git subtree add --prefix=housing housing-src main
 
-# Note: Omit --squash to preserve individual commits
+# Note: To preserve individual commits, omit the --squash flag (default behavior)
 # Use --squash only if the history is very large and causes performance issues
+# Example with squash: git subtree add --prefix=housing housing-src main --squash
 ```
 
 ### Step 4: Verify the Import

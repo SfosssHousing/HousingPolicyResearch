@@ -27,11 +27,18 @@ fatal: Authentication failed for 'https://github.com/sfosss/Housing/'
 2. Under "Workflow permissions", ensure read access is granted
 3. Or create a Personal Access Token (PAT) with `repo` scope
 4. Add the token to GitHub Secrets
-5. Configure git to use the token:
+5. Configure git to use the token securely:
    ```bash
-   git config --global credential.helper store
-   echo "https://<username>:<token>@github.com" > ~/.git-credentials
+   # Recommended: Use Git Credential Manager (secure storage)
+   git config --global credential.helper manager
+   
+   # Alternative: Use OS-specific secure storage
+   # macOS: git config --global credential.helper osxkeychain
+   # Linux: git config --global credential.helper libsecret
+   # Windows: git config --global credential.helper wincred
    ```
+
+**Security Warning:** Avoid using `credential.helper store` as it saves credentials in plaintext. Use platform-specific credential managers instead.
 
 ### Solution 2: Use SSH Instead of HTTPS
 
