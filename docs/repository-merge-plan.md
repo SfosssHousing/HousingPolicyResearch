@@ -4,6 +4,8 @@
 **Created:** 2025-12-12  
 **Last Updated:** 2025-12-12
 
+> **Quick Start:** For a condensed version of this plan, see [repository-merge-quickstart.md](repository-merge-quickstart.md)
+
 ## Objective
 
 Merge the contents and full commit history of the `sfosss/Housing` repository into `SfosssHousing/HousingPolicyResearch` while:
@@ -238,6 +240,7 @@ For questions about this merge process:
 
 ## Related Resources
 
+- [Repository Merge Quick Start Guide](repository-merge-quickstart.md)
 - [Git Subtree Documentation](https://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging)
 - [GitHub: About Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
 - [Repository Merge Troubleshooting Guide](repository-merge-troubleshooting.md)
