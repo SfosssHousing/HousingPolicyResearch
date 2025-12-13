@@ -8,7 +8,6 @@
 Thumbs.db
 *.swp
 *.swo
-*~
 
 # IDE and editor files
 .vscode/
@@ -53,8 +52,6 @@ yarn-debug.log*
 yarn-error.log*
 .npm
 .yarn-integrity
-package-lock.json
-yarn.lock
 
 # Logs and temporary files
 *.log
