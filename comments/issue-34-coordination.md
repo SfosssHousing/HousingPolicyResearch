@@ -103,7 +103,7 @@ This coordination effort will be considered complete when:
 
 - This document follows the repository's documentation standards as outlined in `.github/copilot-instructions.md`
 - Updates should be made as new information becomes available
-- Cross-reference related issues, PRs, and documentation using absolute paths or GitHub permalinks
+- Cross-reference related documentation using relative paths; use GitHub URLs for external issues and PRs
 - Maintain chronological order in the Status Log section
 
 ---
