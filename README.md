@@ -69,7 +69,7 @@ This repository centralizes documentation, tooling plans, and integration guidel
   - `generative-output-version-control.md` – Tracking and verification of AI-generated content
 - `SECURITY.md` – Security policy and responsible disclosure instructions.
 - `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
-- `comments/` – Project discussion artifacts and proposals.
+- `comments/` – Project discussion artifacts, proposals, and issue coordination documents.
 
 > **Note:** Some directories are placeholders that will be populated as the integrations described in the documentation are implemented.
 
