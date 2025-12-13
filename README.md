@@ -38,6 +38,7 @@ This repository centralizes documentation, tooling plans, and integration guidel
 ## Documentation
 
 - [Environment Integrations and Documentation](docs/environment-integrations.md): describes the end-to-end setup for secure, bidirectional connections between ChatGPT, Codex automations, Notion, GitHub, and Zotero, and outlines follow-up tasks for the project workspace.
+- [Workspace Readiness and Outstanding Setup](docs/workspace-readiness.md): actionable checklist for finishing the Raycast extension build, Quarto/APA installation, secrets configuration, and shortcut automation.
 - `SECURITY.md`: organization-wide security policies.
 
 ## Repository Structure
