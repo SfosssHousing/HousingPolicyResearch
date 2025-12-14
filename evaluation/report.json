@@ -1,0 +1,74 @@
+{
+  "runs": [
+    {
+      "prompt_name": "base",
+      "run_index": 1,
+      "filename": "evaluation/results/base_1_20251115T170927Z.md",
+      "metrics": {
+        "word_count": 295,
+        "has_title": true,
+        "has_executive_summary": true,
+        "has_background": true,
+        "has_proposed_policy_actions": false,
+        "has_estimated_fiscal_impact": false,
+        "has_implementation_timeline": false,
+        "has_metrics_to_track_success": false,
+        "kw_equity": 3,
+        "kw_subsidy": 7,
+        "kw_eligibility": 0,
+        "kw_data": 2,
+        "kw_timeline": 1,
+        "kw_cost": 2,
+        "kw_implementation": 0
+      }
+    },
+    {
+      "prompt_name": "equity_focus",
+      "run_index": 1,
+      "filename": "evaluation/results/equity_focus_1_20251115T170931Z.md",
+      "metrics": {
+        "word_count": 366,
+        "has_title": true,
+        "has_executive_summary": true,
+        "has_background": true,
+        "has_proposed_policy_actions": false,
+        "has_estimated_fiscal_impact": false,
+        "has_implementation_timeline": false,
+        "has_metrics_to_track_success": false,
+        "kw_equity": 4,
+        "kw_subsidy": 7,
+        "kw_eligibility": 0,
+        "kw_data": 0,
+        "kw_timeline": 1,
+        "kw_cost": 1,
+        "kw_implementation": 1
+      }
+    },
+    {
+      "prompt_name": "operational_focus",
+      "run_index": 1,
+      "filename": "evaluation/results/operational_focus_1_20251115T170935Z.md",
+      "metrics": {
+        "word_count": 431,
+        "has_title": true,
+        "has_executive_summary": false,
+        "has_background": false,
+        "has_proposed_policy_actions": false,
+        "has_estimated_fiscal_impact": false,
+        "has_implementation_timeline": false,
+        "has_metrics_to_track_success": false,
+        "kw_equity": 0,
+        "kw_subsidy": 8,
+        "kw_eligibility": 8,
+        "kw_data": 8,
+        "kw_timeline": 0,
+        "kw_cost": 0,
+        "kw_implementation": 2
+      }
+    }
+  ],
+  "summary": {
+    "total_runs": 3,
+    "avg_word_count": 364.0
+  }
+}

@@ -1,0 +1,135 @@
+# Housing Policy Research Environment Setup
+
+This document records the current understanding of the tools that support the Housing Policy Research project and describes how to configure them securely.
+
+## Goals
+
+- Maintain a reproducible research workspace for the project repository.
+- Connect writing and analysis tools (ChatGPT/Codex, Notion, GitHub, and Zotero) while keeping API credentials and personal data secure.
+- Provide guidance for validating the links between systems.
+
+## Repository Preparation (GitHub)
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SfosssHousing/HousingPolicyResearch.git
+cd HousingPolicyResearch
+```
+
+### 2. Run the automated setup script
+
+The repository includes a setup script that automates the environment configuration:
+
+```bash
+./setup.sh
+```
+
+This script will:
+- Verify Python 3 is installed
+- Create a Python virtual environment (`.venv`)
+- Install all dependencies from `requirements.txt`
+- Create a `.env` file from `.env.template`
+- Install pre-commit hooks
+- Create necessary directories
+
+### 3. Configure environment variables
+
+After running setup, edit the `.env` file and add your API keys:
+
+```bash
+nano .env  # or use your preferred editor
+```
+
+Required variables:
+- `OPENAI_API_KEY` - For ChatGPT/Codex integration
+- `NOTION_API_KEY` - For Notion workspace integration (optional)
+- `NOTION_DATABASE_ID` - Target Notion database (optional)
+- `ZOTERO_API_KEY` - For reference management (optional)
+- `ZOTERO_LIBRARY_ID` - Zotero library identifier (optional)
+
+### 4. Activate the virtual environment
+
+```bash
+source .venv/bin/activate
+```
+
+For Windows:
+```bash
+.venv\Scripts\activate
+```
+
+### 5. Validate connections
+
+Run the connection validation script to ensure all integrations are working:
+
+```bash
+python scripts/validate_connections.py
+```
+
+This will test connectivity to OpenAI, Notion, and Zotero APIs and log results to `logs/connection-checks/`.
+
+## ChatGPT / Codex Integration
+
+| Task | Recommended Action |
+| ---- | ------------------ |
+| Authentication | Generate an OpenAI API key from https://platform.openai.com/account/api-keys. Store it in a secrets manager or in your shell profile as `OPENAI_API_KEY`. |
+| Secure Storage | Use environment variables or encrypted secrets (`gh secret set`)—never commit keys to the repository. |
+| Access | Confirm the repository uses `.gitignore` to block `.env` or credential files. |
+| Reverse Connection | If the project requires feedback from ChatGPT to GitHub, use scripts or GitHub Actions that call the OpenAI API with stored secrets. Log responses in Markdown files committed to the repo. |
+
+## Notion Workspace
+
+1. **Create an integration** in Notion via **Settings & Members → Integrations → Develop your own integrations**.
+2. **Store the Notion secret** in a password manager or GitHub secret such as `NOTION_API_KEY`.
+3. **Share target pages or databases** with the integration to grant access.
+4. **Automate sync**
+   - Use a scheduled script (Python + `notion-client`) or an automation service (Zapier/Make) to push updates from GitHub documentation into Notion.
+   - For reverse sync (Notion → GitHub), export structured data (Markdown/CSV) and commit changes via a bot account or GitHub Action.
+5. **Security checklist**
+   - Rotate the integration token quarterly.
+   - Limit page/database sharing to only what the integration needs.
+
+## Zotero Library
+
+1. Install the [Zotero desktop application](https://www.zotero.org/).
+2. Create a private group library for the project.
+3. Generate an API key from **Settings → Feeds/API** with read/write permissions for the project group only.
+4. Use the `pyzotero` library (Python) or the Zotero web API to export bibliographies into this repository (for example, `docs/references.bib`).
+5. Store the key securely and rotate annually. Do not commit the key.
+
+## Automation and Continuous Integration
+
+- **GitHub Actions:** Use repository secrets (`Settings → Secrets and variables → Actions`) for API keys. Reference them in workflow files using `${{ secrets.OPENAI_API_KEY }}` etc.
+- **Local scripts:** Read secrets from environment variables or encrypted `.env` files (`dotenv` library) excluded by `.gitignore`.
+- **Validation:** After configuration, run lightweight scripts to confirm each integration can authenticate and exchange data. Log the results in `docs/integration-status.md`.
+
+## Troubleshooting and Error Correction
+
+| Issue | Resolution Steps |
+| ----- | ---------------- |
+| Missing API keys | Generate new keys and update your secrets manager and GitHub Actions secrets. |
+| Unauthorized errors | Ensure the integration has access to the correct Notion pages or Zotero libraries. |
+| Sync conflicts | Adopt a single source of truth per content type (e.g., Zotero for citations, GitHub for documentation) and automate one-way exports with manual review for the reverse direction. |
+
+## Documentation Maintenance
+
+- Update this document whenever new tools are added or access procedures change.
+- Document any scripts used to push/pull data between systems.
+- Track secret rotation dates in a secure, shared password manager.
+
+## Validation Checklist
+
+- [x] `.gitignore` created to exclude sensitive files and build artifacts
+- [x] `.env.template` provided with all required environment variables
+- [x] `requirements.txt` created with all Python dependencies
+- [x] Automated setup script (`setup.sh`) created
+- [x] Pre-commit hooks configured (`.pre-commit-config.yaml`)
+- [x] Directory structure created (logs, artifacts, docs/prompts, etc.)
+- [x] Connection validation script (`scripts/validate_connections.py`) created
+- [x] README updated with setup instructions
+- [ ] All API keys stored outside of the repository (user responsibility)
+- [ ] GitHub Actions secrets configured for CI/CD (user responsibility)
+- [ ] Automated tests or scripts confirm read/write operations (to be done after keys are added)
+- [ ] Next steps documented in `docs/project-roadmap.md`
+

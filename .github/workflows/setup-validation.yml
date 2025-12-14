@@ -1,0 +1,57 @@
+name: Setup Validation
+
+on:
+  push:
+    branches: [ "main", "copilot/**" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  validate-setup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run pre-commit checks
+        run: |
+          pre-commit run --all-files || true
+      
+      - name: Validate Python scripts
+        run: |
+          python -m py_compile scripts/*.py
+          python -m py_compile evaluation/*.py
+      
+      - name: Check directory structure
+        run: |
+          test -f .env.template || exit 1
+          test -f .gitignore || exit 1
+          test -f requirements.txt || exit 1
+          test -f setup.sh || exit 1
+          test -d logs || exit 1
+          test -d artifacts || exit 1
+          test -d docs/prompts || exit 1
+          echo "✓ All required files and directories exist"
+      
+      - name: Test connection validation script
+        env:
+          # These are dummy values for testing that the script runs
+          OPENAI_API_KEY: "sk-test-dummy"
+          NOTION_API_KEY: "secret-test-dummy"
+          ZOTERO_API_KEY: "test-dummy"
+        run: |
+          python scripts/validate_connections.py || echo "Connection validation completed (failures expected without real credentials)"

@@ -9,10 +9,16 @@ from datetime import datetime
 import textwrap
 
 try:
-    import openai
+    # Prefer the new OpenAI client when available
+    from openai import OpenAI
+    _OPENAI_NEW = True
 except Exception:
-    print("Missing dependency 'openai'. Install with: pip install openai")
-    raise
+    try:
+        import openai  # type: ignore
+        _OPENAI_NEW = False
+    except Exception:
+        print("Missing dependency 'openai'. Install with: pip install openai")
+        raise
 
 import requests
 
@@ -42,21 +48,34 @@ def call_openai(prompt: str) -> str:
         print("OPENAI_API_KEY not set in environment. Exiting.")
         sys.exit(1)
 
-    # Use the widely-available chat model
-    openai.api_key = api_key
-
-    try:
-        resp = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=1600,
-            temperature=0.6,
-        )
-        text = resp["choices"][0]["message"]["content"]
-        return text
-    except Exception as e:
-        print(f"OpenAI request failed: {e}")
-        raise
+    # Use new client if available
+    if globals().get("_OPENAI_NEW"):
+        client = OpenAI(api_key=api_key)
+        try:
+            resp = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=1600,
+                temperature=0.6,
+            )
+            return resp.choices[0].message.content
+        except Exception as e:
+            print(f"OpenAI request failed (new client): {e}")
+            raise
+    else:
+        openai.api_key = api_key
+        try:
+            resp = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=1600,
+                temperature=0.6,
+            )
+            text = resp["choices"][0]["message"]["content"]
+            return text
+        except Exception as e:
+            print(f"OpenAI request failed (legacy client): {e}")
+            raise
 
 
 def write_markdown(content: str, outpath: str):

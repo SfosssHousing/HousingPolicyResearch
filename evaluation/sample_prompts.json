@@ -1,0 +1,14 @@
+[
+  {
+    "name": "base",
+    "prompt": "Generate a concise, actionable housing policy proposal for New York City focused on improving housing subsidy efficiency and equity. Include title, executive summary, background (bullets), proposed actions (numbered), fiscal impact estimate, timeline (quarterly milestones for 2 years), and success metrics."
+  },
+  {
+    "name": "equity_focus",
+    "prompt": "As a policymaker prioritizing racial equity, produce a housing subsidy policy proposal for NYC that reduces disparities and improves access. Include the same sections: title, exec summary, background, actions, fiscal impact, timeline, and metrics."
+  },
+  {
+    "name": "operational_focus",
+    "prompt": "Produce an operationally-focused proposal to streamline subsidy delivery in NYC: emphasize data systems, eligibility accuracy, fraud reduction, and administrative simplification. Include required sections."
+  }
+]
