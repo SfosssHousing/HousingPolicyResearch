@@ -205,15 +205,7 @@ When using ChatGPT, Codex, or similar tools:
 
 ## Version Information
 
-**Version:** 1.1  
-**Last Updated:** 2025-12-13  
+**Version:** 1.0  
+**Last Updated:** 2025-12-02  
 **Maintained by:** Housing Policy Research team  
 **Review cadence:** Quarterly or when major changes occur
-
-## Related Files
-
-This configuration is supported by:
-- [CONTRIBUTING.md](../CONTRIBUTING.md) – Detailed contribution guidelines
-- [.gitignore](../.gitignore) – Prevents unwanted files from being committed
-- [Pull Request Template](PULL_REQUEST_TEMPLATE.md) – Structured PR submissions
-- [Issue Templates](ISSUE_TEMPLATE/) – Streamlined issue creation
