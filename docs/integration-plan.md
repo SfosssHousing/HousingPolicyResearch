@@ -1,6 +1,6 @@
 # Environment Integration and Documentation Plan
 
-This document captures the setup guidance and project tasks required to connect ChatGPT, Codex, Notion, GitHub, and Zotero securely for the Housing Policy Research environment.
+This document captures the setup guidance and project tasks required to connect ChatGPT, Codex, Notion, GitHub, and Zotero securely for the Housing Policy Research environment. It also tracks reverse-connection validation so every platform exchange is auditable and repeatable.
 
 ## 1. Prerequisites
 
@@ -55,6 +55,8 @@ The recommended pattern is:
    ```
 
 4. Document standard prompts, rate limits, and logging practices in the team wiki.
+
+**Reverse check:** Archive prompt/response pairs into `logs/chatgpt/` (or a Notion page) after each milestone so GitHub reflects AI-assisted decisions.
 
 ### 3.2 Notion Integration
 
@@ -138,7 +140,17 @@ Automate each pipeline with CI jobs or scheduled tasks that authenticate using s
    - Establish ownership for each integration and define SLAs.
    - Schedule monthly review meetings; log decisions in Notion.
 
-## 9. Generative Output Roadmap
+7. **Reverse-Connection Validation**
+   - Stand up `logs/connection-checks/` with dated subfolders for each dry run.
+   - Capture ChatGPT→GitHub, GitHub→Notion, Notion→Zotero, and Zotero→GitHub test evidence and rotate keys after completion.
+   - Add a short runbook in `docs/connection-check-runbook.md` describing how to re-run the checks when tokens change.
+
+8. **Generative Output Hardening**
+   - Align prompt libraries to the pattern matrix in `docs/NYC_Housing_Subsidy_Reform_Ops_Manual.md` and the report blueprint.
+   - Configure evaluation harness thresholds (citation coverage, accuracy, scope adherence) and record results in Notion.
+   - Tag Git commits with the report version string (`Housing_Subsidy_Reform_MASTER_v[VERSION]_[YYYYMMDD]`) for traceability.
+
+## 8. Generative Output Roadmap
 
 To coordinate automation and AI-assisted deliverables, track the following workstreams in GitHub Projects and reference them from the `capstone/` documentation:
 
@@ -148,7 +160,7 @@ To coordinate automation and AI-assisted deliverables, track the following works
 4. **Data Governance** – Map data sources, retention policies, and redaction requirements before automating publication workflows.
 5. **Reporting Automation** – Combine data from GitHub issues, Notion databases, and Zotero annotations into scheduled briefs or dashboards.
 
-## 8. References
+## 9. References
 
 - [OpenAI API Documentation](https://platform.openai.com/docs/)
 - [Notion API Reference](https://developers.notion.com/reference/intro)
