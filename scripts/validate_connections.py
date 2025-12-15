@@ -4,16 +4,12 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 from dataclasses import dataclass
 from typing import Callable, Dict, Iterable, Tuple
 
 import requests
 from dotenv import load_dotenv
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s %(levelname)s %(message)s",
-)
 
 load_dotenv()
 
@@ -61,6 +57,22 @@ def notion_headers() -> Dict[str, str]:
     }
 
 
+def zotero_headers() -> Dict[str, str]:
+    api_key = os.getenv("ZOTERO_API_KEY", "")
+    return {
+        "Zotero-API-Key": api_key,
+    }
+
+
+def zotero_url() -> str:
+    library_id = os.getenv("ZOTERO_LIBRARY_ID", "")
+    # Validate library ID contains only safe characters (alphanumeric, underscore, hyphen)
+    if not library_id or not re.match(r'^[a-zA-Z0-9_-]+$', library_id):
+        # Return invalid URL to properly indicate configuration error
+        return "https://invalid-zotero-library-id.local/"
+    return f"https://api.zotero.org/users/{library_id}/items?limit=1"
+
+
 SERVICES: Iterable[ServiceCheck] = (
     ServiceCheck(
         name="OpenAI",
@@ -76,14 +88,20 @@ SERVICES: Iterable[ServiceCheck] = (
     ),
     ServiceCheck(
         name="Zotero",
-        url="https://api.zotero.org/",
-        headers=None,
+        url=zotero_url(),
+        headers=zotero_headers(),
         enabled=lambda: env_present("ZOTERO_API_KEY", "ZOTERO_LIBRARY_ID"),
     ),
 )
 
 
 def main() -> None:
+    if not logging.getLogger().hasHandlers():
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s %(levelname)s %(message)s",
+        )
+
     success = True
     for service in SERVICES:
         status, detail = service.run()
