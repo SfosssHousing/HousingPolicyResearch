@@ -52,9 +52,9 @@ create_venv() {
 }
 
 install_dependencies() {
-  python -m pip install --upgrade pip
+  python3 -m pip install --upgrade pip
   if [[ -f "${REQUIREMENTS_FILE}" ]]; then
-    python -m pip install -r "${REQUIREMENTS_FILE}"
+    python3 -m pip install -r "${REQUIREMENTS_FILE}"
   fi
 }
 
