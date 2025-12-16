@@ -93,9 +93,9 @@ Automate each pipeline with CI jobs or scheduled tasks that authenticate using s
 
 ### Verification Steps for Secure Connections
 
-1. **Credential Audit** – Confirm each platform token (ChatGPT, Codex CLI, Notion, GitHub, Zotero) is present in both the local `.env` file and the GitHub Secrets store with matching scopes.
-2. **Connection Tests** – Run a dry-run command or API call for every integration, capturing success logs in the repository (e.g., `logs/connection-checks/`).
-3. **Reverse Flow Validation** – Execute the reverse synchronization paths (GitHub→Notion, Notion→Zotero, Zotero→GitHub) in a staging environment and review audit logs for unauthorized access attempts.
+1. **Credential Audit** – Confirm each platform token (ChatGPT, Codex CLI, Notion, GitHub, Zotero) is present in both the local `.env` file (generated from `.env.template`) and the GitHub Secrets store with matching scopes.
+2. **Connection Tests** – Follow the commands listed in [`docs/connection-checks.md`](docs/connection-checks.md) and capture success logs in `logs/connection-checks/`.
+3. **Reverse Flow Validation** – Execute the reverse synchronization paths (GitHub→Notion, Notion→Zotero, Zotero→GitHub, ChatGPT/Codex→GitHub) using the same checklist.
 4. **Security Review** – Verify that logs exclude sensitive payloads, rotate tokens post-test, and document findings in the capstone tracker within `capstone/`.
 
 ## 5. Security Controls
@@ -152,7 +152,7 @@ Automate each pipeline with CI jobs or scheduled tasks that authenticate using s
 
 ## 8. Generative Output Roadmap
 
-To coordinate automation and AI-assisted deliverables, track the following workstreams in GitHub Projects and reference them from the `capstone/` documentation:
+For the actionable steps, see [`docs/generative-output-tasks.md`](docs/generative-output-tasks.md). Track the summarized workstreams in GitHub Projects and reference them from the `capstone/` documentation:
 
 1. **Prompt Library** – Curate reusable ChatGPT and Codex prompts aligned to housing policy research goals; version them in `docs/prompts/`.
 2. **Evaluation Harness** – Implement scripts that score generative outputs against acceptance criteria (accuracy, citation coverage, compliance).

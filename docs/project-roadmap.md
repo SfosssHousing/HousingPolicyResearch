@@ -2,6 +2,7 @@
 
 This roadmap captures actionable follow-up work for the Housing Policy Research project. Update the checklist as milestones are completed.
 
+<<<<<<< HEAD
 ## 0. Project Setup (Completed)
 
 - [x] Create `.gitignore` file to exclude sensitive data and build artifacts
@@ -19,6 +20,14 @@ This roadmap captures actionable follow-up work for the Housing Policy Research 
 
 - [ ] Convert the legacy `Capstone alias` document into structured Markdown (determine whether to archive or reformat).
 - [ ] Populate `README.md` with a project overview, research goals, and pointers to relevant datasets.
+=======
+## 1. Documentation Enhancements
+
+- [ ] Convert the legacy `Capstone alias` document (see `docs/capstone-alias.docx`, a summary of prior project milestones and terminology) into structured Markdown (determine whether to archive or reformat).
+- [ ] Add a project overview to `README.md`.
+- [ ] Add research goals to `README.md`.
+- [ ] Add pointers to relevant datasets in `README.md`.
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
 - [ ] Draft a citation management guide linking Zotero collections to repository outputs.
 
 ## 2. Data and Analysis Pipeline
@@ -35,10 +44,16 @@ This roadmap captures actionable follow-up work for the Housing Policy Research 
 
 ## 4. Quality Assurance
 
+<<<<<<< HEAD
 - [x] Add pre-commit hooks for linting Markdown and Python code (`markdownlint`, `flake8`, `black`)
 - [ ] Configure continuous integration tests to run analytical notebooks or scripts when added
 - [ ] Establish a data validation checklist ensuring reproducibility of published results
 - [ ] Add unit tests for core scripts (generate_policy_proposal.py, evaluate_policy_proposal.py)
+=======
+- [ ] Add pre-commit hooks for linting Markdown and Python code (`markdownlint`, `flake8`, `black`).
+- [ ] Configure continuous integration tests to run analytical notebooks or scripts when added.
+- [ ] Establish a data validation checklist ensuring reproducibility of published results.
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
 
 ## 5. Governance and Security
 
@@ -48,6 +63,7 @@ This roadmap captures actionable follow-up work for the Housing Policy Research 
 
 ---
 
+<<<<<<< HEAD
 **Last updated:** 2025-12-02
 
 ## Next Immediate Steps
@@ -56,3 +72,6 @@ This roadmap captures actionable follow-up work for the Housing Policy Research 
 2. **Test Automated Workflows**: Verify GitHub Actions workflows run successfully with configured secrets
 3. **Begin Data Analysis**: Start prototyping ETL workflows for housing policy datasets
 4. **Populate Prompts Library**: Document reusable ChatGPT/Codex prompts in `docs/prompts/`
+=======
+**Last updated:** 2025-12-01
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks

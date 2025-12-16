@@ -10,6 +10,7 @@ This document records the current understanding of the tools that support the Ho
 
 ## Repository Preparation (GitHub)
 
+<<<<<<< HEAD
 ### 1. Clone the repository
 
 ```bash
@@ -68,6 +69,34 @@ python scripts/validate_connections.py
 ```
 
 This will test connectivity to OpenAI, Notion, and Zotero APIs and log results to `logs/connection-checks/`.
+=======
+1. **Clone the repository**
+   ```bash
+   git clone git@github.com:<ORG>/HousingPolicyResearch.git
+   cd HousingPolicyResearch
+   ```
+   Replace `<ORG>` with the organization or user namespace that hosts the repository.
+
+2. **Create a Python environment (recommended)**
+   If analysis notebooks or scripts are added later, create an isolated Python environment so dependencies do not conflict with global packages.
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   pip install --upgrade pip
+   ```
+
+3. **Install tooling dependencies**
+   - `pre-commit` (for linting/formatting hooks) – `pip install pre-commit`
+   - `mkdocs` (for Markdown-based documentation) – `pip install mkdocs`  
+   - `sphinx` (for reStructuredText-based documentation) – `pip install sphinx`  
+     *(Install only one, as needed, if documentation will be generated.)*
+
+4. **Configure Git hooks**
+   ```bash
+   pre-commit install
+   ```
+   Hooks help enforce code quality checks before commits are pushed.
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
 
 ## ChatGPT / Codex Integration
 
@@ -75,9 +104,31 @@ This will test connectivity to OpenAI, Notion, and Zotero APIs and log results t
 | ---- | ------------------ |
 | Authentication | Generate an OpenAI API key from https://platform.openai.com/account/api-keys. Store it in a secrets manager or in your shell profile as `OPENAI_API_KEY`. |
 | Secure Storage | Use environment variables or encrypted secrets (`gh secret set`)—never commit keys to the repository. |
+<<<<<<< HEAD
 | Access | Confirm the repository uses `.gitignore` to block `.env` or credential files. |
 | Reverse Connection | If the project requires feedback from ChatGPT to GitHub, use scripts or GitHub Actions that call the OpenAI API with stored secrets. Log responses in Markdown files committed to the repo. |
 
+=======
+| Access | Ensure the repository has a `.gitignore` file that blocks `.env` or credential files. If it does not exist, create one as shown below. |
+| Reverse Connection | If the project requires feedback from ChatGPT to GitHub, use scripts or GitHub Actions that call the OpenAI API with stored secrets. Log responses in Markdown files committed to the repo. |
+
+**Sample `.gitignore` for sensitive files:**
+```gitignore
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variable files
+.env
+.env.*
+
+# API keys and credentials
+*.key
+*.pem
+
+# macOS and system files
+.DS_Store
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
 ## Notion Workspace
 
 1. **Create an integration** in Notion via **Settings & Members → Integrations → Develop your own integrations**.
@@ -102,7 +153,11 @@ This will test connectivity to OpenAI, Notion, and Zotero APIs and log results t
 
 - **GitHub Actions:** Use repository secrets (`Settings → Secrets and variables → Actions`) for API keys. Reference them in workflow files using `${{ secrets.OPENAI_API_KEY }}` etc.
 - **Local scripts:** Read secrets from environment variables or encrypted `.env` files (`dotenv` library) excluded by `.gitignore`.
+<<<<<<< HEAD
 - **Validation:** After configuration, run lightweight scripts to confirm each integration can authenticate and exchange data. Log the results in `docs/integration-status.md`.
+=======
+- **Validation:** After configuration, run lightweight scripts to confirm each integration can authenticate and exchange data. Create a new file at `docs/integration-status.md` (if it does not exist) and log the results there.
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
 
 ## Troubleshooting and Error Correction
 
@@ -120,6 +175,7 @@ This will test connectivity to OpenAI, Notion, and Zotero APIs and log results t
 
 ## Validation Checklist
 
+<<<<<<< HEAD
 - [x] `.gitignore` created to exclude sensitive files and build artifacts
 - [x] `.env.template` provided with all required environment variables
 - [x] `requirements.txt` created with all Python dependencies
@@ -132,4 +188,11 @@ This will test connectivity to OpenAI, Notion, and Zotero APIs and log results t
 - [ ] GitHub Actions secrets configured for CI/CD (user responsibility)
 - [ ] Automated tests or scripts confirm read/write operations (to be done after keys are added)
 - [ ] Next steps documented in `docs/project-roadmap.md`
+=======
+- [ ] All API keys stored outside of the repository.
+- [ ] GitHub Actions secrets configured for OpenAI, Notion, and Zotero.
+- [ ] Automated tests or scripts confirm that read/write operations succeed for each integration.
+- [ ] README links to this document.
+- [ ] Next steps documented in `docs/project-roadmap.md`.
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
 

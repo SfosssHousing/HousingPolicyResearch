@@ -24,6 +24,7 @@ share/python-wheels/
 MANIFEST
 
 # Virtual environments
+<<<<<<< HEAD
 .env
 .venv
 env/
@@ -33,11 +34,25 @@ env.bak/
 venv.bak/
 
 # IDEs
+=======
+venv/
+ENV/
+env/
+.venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+<<<<<<< HEAD
 .DS_Store
 
 # Jupyter Notebook
@@ -75,16 +90,40 @@ temp/
 docs/_build/
 docs/.doctrees/
 site/
+=======
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
 
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
+<<<<<<< HEAD
+=======
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Reports
+capstone/reports/*.json
+capstone/reports/*.md
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
 
 # Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+<<<<<<< HEAD
 
 # Node.js (if any JS tooling is added)
 node_modules/
@@ -121,3 +160,9 @@ notion_exports/
 *.zip
 *.tar.gz
 *.rar
+=======
+$RECYCLE.BIN/
+
+# Logs
+*.log
+>>>>>>> origin/copilot/add-auto-sync-preflight-checks
