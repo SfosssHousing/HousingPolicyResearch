@@ -12,6 +12,7 @@ This document records the current understanding of the tools that support the Ho
 - [Zotero Library](#zotero-library)
 - [GitHub Integration](#github-integration)
 - [Automation and Continuous Integration](#automation-and-continuous-integration)
+- [Verifying Your Setup](#verifying-your-setup)
 - [Troubleshooting and Error Correction](#troubleshooting-and-error-correction)
 - [Documentation Maintenance](#documentation-maintenance)
 - [Validation Checklist](#validation-checklist)
@@ -27,23 +28,35 @@ For a rapid setup, follow these steps:
    cd HousingPolicyResearch
    ```
 
-2. **Set up Python environment:**
+2. **Run the automated setup script:**
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
+   ./setup.sh
    ```
-
+   This script will:
+   - Create a Python virtual environment (`.venv`)
+   - Install all dependencies from `requirements.txt`
+   - Copy `.env.template` to `.env`
+   - Set up pre-commit hooks
+   
 3. **Configure environment variables:**
    ```bash
-   cp .env.template .env
    # Edit .env and add your API keys (see sections below for obtaining keys)
+   nano .env  # or use your preferred editor
    ```
 
-4. **Install pre-commit hooks:**
+4. **Activate the virtual environment:**
    ```bash
-   pre-commit install
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
+
+**Alternative manual setup:**
+If you prefer manual steps or need more control:
+
+1. Create Python environment: `python -m venv .venv`
+2. Activate it: `source .venv/bin/activate`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Copy environment template: `cp .env.template .env`
+5. Install pre-commit hooks: `pre-commit install`
 
 For detailed setup instructions and integration configuration, continue reading the sections below.
 
@@ -54,6 +67,8 @@ For detailed setup instructions and integration configuration, continue reading 
 - Provide guidance for validating the links between systems.
 
 ## Repository Preparation (GitHub)
+
+**Note:** For automated setup, you can use the provided `setup.sh` script (see [Quick Start](#quick-start)). The steps below provide detailed manual instructions.
 
 1. **Clone the repository**
    ```bash
@@ -194,6 +209,32 @@ For automation scripts that interact with GitHub (such as creating issues, updat
 **Additional environment variables:**
 - `LOG_LEVEL` – Logging verbosity (default: `info`)
 - `SYNC_CHECKPOINT_DIR` – Directory for storing sync state (default: `.sync-state`)
+
+## Verifying Your Setup
+
+After completing the setup, verify that everything is configured correctly:
+
+1. **Check Python environment:**
+   ```bash
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   python --version  # Should show Python 3.x
+   pip list  # Should show installed packages
+   ```
+
+2. **Verify environment variables:**
+   ```bash
+   python -c "from dotenv import load_dotenv; import os; load_dotenv(); print('✓ .env loaded' if os.getenv('OPENAI_API_KEY') else '✗ Missing OPENAI_API_KEY')"
+   ```
+
+3. **Test pre-commit hooks:**
+   ```bash
+   pre-commit run --all-files
+   ```
+
+4. **Validate API connections** (optional):
+   See [Connection Checks](connection-checks.md) for detailed validation procedures for each integration.
+
+If any step fails, consult the [Troubleshooting](#troubleshooting-and-error-correction) section below.
 
 ## Troubleshooting and Error Correction
 
