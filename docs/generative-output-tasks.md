@@ -48,4 +48,14 @@ Use GitHub Projects or Issues to track the above workstreams. For each item, inc
 - Linked automation scripts and datasets.
 - Security review checklist reference.
 
+## 7. Immediate Readiness Actions
+
+Use these concrete steps to unblock the next generative deliverables:
+
+1. Run the Raycast extension using `ray run .` to bypass TypeScript React type conflicts; capture build notes in `docs/logs/raycast-build.md`.
+2. Install Quarto with APA support (`quarto add wjschne/apaquarto`) and update the policy brief and bill-drafting templates with current project metadata.
+3. Populate `00_admin/settings.yaml` with API endpoints and keys (kept out of Git) so ChatGPT/Codex prompts can reach the backend.
+4. Export the **Add Source**, **Draft Section**, and **Bill Sweep** Shortcuts into a new `shortcuts/` folder to document triggers and data flows.
+5. Record validation results for ChatGPT/Codex, Notion, GitHub, and Zotero connections in `logs/connection-checks/` to prove round-trip sync works before publishing generated outputs.
+
 Following this breakdown keeps the generative AI roadmap transparent and tightly integrated with the repository's security and automation controls.
