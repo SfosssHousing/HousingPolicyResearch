@@ -34,6 +34,6 @@ This roadmap captures actionable follow-up work for the Housing Policy Research 
 - [ ] Set up a secrets rotation calendar for OpenAI, Notion, and Zotero integrations.
 - [ ] Draft an incident response plan for data or credential exposure.
 
----
+______________________________________________________________________
 
 **Last updated:** 2025-12-01

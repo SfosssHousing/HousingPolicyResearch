@@ -2,7 +2,7 @@
 
 ## Complete Bibliography in APA 7th Edition Format
 
----
+______________________________________________________________________
 
 ## A. FEDERAL HOUSING LAW & POLICY
 
@@ -20,7 +20,7 @@ HUD Exchange. (2025). *Community development block grant programs*. Retrieved fr
 
 National Housing Law Project. (2023). *Strategies to increase flexibility in housing choice voucher programs*. Retrieved from https://www.huduser.gov/portal/periodicals/cityscape/vol26num2/ch14.pdf
 
----
+______________________________________________________________________
 
 ## B. NEW YORK STATE & NYC HOUSING LEGISLATION (2024–2025)
 
@@ -30,7 +30,7 @@ New Economy Project. (2025, November 4). *Community opportunity to purchase act 
 
 New Economy Project. (2025, March 30). *Could a proposed bill to help New York tenants buy their building finally pass?* Retrieved from https://www.neweconomynyc.org/2025/03/brick-underground-could-a-proposed-bill-to-help-new-york-tenants-buy-their-building-finall
 
-New York City Assembly. (2025, February 26). *TOPA NEP budget testimony 2025 [Assembly testimony]*. Retrieved from https://nyassembly.gov/write/upload/publichearing/001452/005983.pdf
+New York City Assembly. (2025, February 26). *TOPA NEP budget testimony 2025 \[Assembly testimony\]*. Retrieved from https://nyassembly.gov/write/upload/publichearing/001452/005983.pdf
 
 New York City Community Land Initiative. (2024, May). *NYCCLI COPA FAQ*. Retrieved from https://nyccli.org/wp-content/uploads/2024/05/nyccli_copa_faq_2024.pdf
 
@@ -38,13 +38,13 @@ New York City Community Land Initiative. (2025, September 9). *Tenant opportunit
 
 New York City Council. (2024). *Int 0902-2024: Giving qualified entities a first opportunity to purchase certain residential buildings or lots zoned for residential use when offered for sale*. Retrieved from https://intro.nyc/0902-2024+
 
-New York City Department of Housing Preservation and Development. (2024). *Appendix 6 – Anti-displacement plan [2024 update]*. Retrieved from https://www.nyc.gov/assets/consolidatedplan/downloads/pdf/Appendix-6-Anti-Displacement-Plan--2024-Update-FINAL.pdf
+New York City Department of Housing Preservation and Development. (2024). *Appendix 6 – Anti-displacement plan \[2024 update\]*. Retrieved from https://www.nyc.gov/assets/consolidatedplan/downloads/pdf/Appendix-6-Anti-Displacement-Plan--2024-Update-FINAL.pdf
 
-New York State Assembly. (2025, February 26). *Tenant opportunity to purchase act budget testimony* [Testimony to Housing Committee]. Retrieved from https://nyassembly.gov/write/upload/publichearing/001452/005983.pdf
+New York State Assembly. (2025, February 26). *Tenant opportunity to purchase act budget testimony* \[Testimony to Housing Committee\]. Retrieved from https://nyassembly.gov/write/upload/publichearing/001452/005983.pdf
 
 New York State Senate. (2025). *S401: An act to establish a tenant opportunity to purchase act providing tenants a first right to purchase their buildings to prevent displacement and preserve affordable housing*. Retrieved from https://www.nysenate.gov/legislation/bills/2025/S401
 
----
+______________________________________________________________________
 
 ## C. COOPERATIVE HOUSING & LIMITED-EQUITY MODELS
 
@@ -62,7 +62,7 @@ PolicyLink. (2024). *Tenant and community opportunity to purchase policies*. Ret
 
 Shelterforce. (2023, September 7). *How it's working: Laws that help tenants and nonprofits buy buildings*. Retrieved from https://shelterforce.org/2023/09/07/how-its-working-laws-that-help-tenants-and-nonprofits-buy-buildings/
 
----
+______________________________________________________________________
 
 ## D. RACIAL EQUITY & WEALTH-BUILDING IN HOUSING
 
@@ -72,7 +72,7 @@ PolicyLink. (2024). *Building our future: Social housing and grassroots reflecti
 
 PolicyLink. (2024). *Housing and anti-displacement: Policy resources and tools*. Retrieved from https://www.policylink.org/resources/tools/housing-anti-displacement
 
----
+______________________________________________________________________
 
 ## E. HOUSING SUBSIDY PROGRAMS & REFORM
 
@@ -92,7 +92,7 @@ Housing and Urban Development. (2024, March 28). *HOME program*. Retrieved from 
 
 Housing Opportunity Through Modernization Act (HOTMA), Public Law 114-201 (2016). Retrieved from https://www.congress.gov/
 
----
+______________________________________________________________________
 
 ## F. NEW YORK STATE TAX CREDITS & HOUSING PROGRAMS
 
@@ -104,7 +104,7 @@ New York State Homes and Community Renewal. (2024, March 28). *Community develop
 
 SP Law Group. (2025, October 5). *New York State FY 2025 budget includes significant housing and environmental programs*. Retrieved from https://sprlaw.com/new-york-state-fy-2025-budget-includes-significant-housing-environmental-programs/
 
----
+______________________________________________________________________
 
 ## G. FAIR HOUSING & ANTI-DISCRIMINATION
 
@@ -116,7 +116,7 @@ New York Executive Law § 290 et seq. (1948). Retrieved from https://www.ny.gov/
 
 The Real Estate Board of New York. (2022, August 29). *REBNY testimony to the City Council committees on housing and cooperatives*. Retrieved from https://www.rebny.com/testimonies/REBNY-to-the-city-council-committees-on-housing-coop/
 
----
+______________________________________________________________________
 
 ## H. HOUSING FINANCE & ECONOMICS
 
@@ -126,7 +126,7 @@ Furman Center for Real Estate and Urban Policy. (2024). *New York City housing s
 
 National League of Cities. (2017, April 18). *Federal housing block grant programs*. Retrieved from https://nhc.org/policy-guide/federal-rental-and-homeownership-programs/federal-housing-block-grant-programs/
 
----
+______________________________________________________________________
 
 ## I. WASHINGTON, DC TOPA & COMPARATIVE MODELS
 
@@ -136,7 +136,7 @@ Pollakowski, H., & Fidel, L. (2023). *TOPA's promise and pitfalls: Balancing ten
 
 Policy Center on New Media and Society. (2025, May 20). *TOPA in comparative perspective: Implementation outcomes across US jurisdictions*. Retrieved from https://www.dcpolicycenter.org/publications/topas-promise-and-pitfalls-in-dc/
 
----
+______________________________________________________________________
 
 ## J. GENERAL HOUSING POLICY & RESEARCH
 
@@ -146,7 +146,7 @@ Desmond, M. (2016). *Evicted: Poverty and profit in the American city*. Crown Pu
 
 Joint Center for Housing Studies. (2024). *America's housing challenge: The nation's housing supply deficit*. Harvard University. Retrieved from https://www.jchs.harvard.edu/
 
----
+______________________________________________________________________
 
 ## K. GOVERNANCE, MEMBER PARTICIPATION & COOPERATIVE ECONOMICS
 
@@ -156,7 +156,7 @@ International Cooperative Alliance. (2023). *Cooperatives and sustainable develo
 
 Sandfort, J., & Milkman, R. (2024). *Worker power and workplace democracy: Lessons from cooperative enterprises*. American Sociological Review, 89(2), 201–225.
 
----
+______________________________________________________________________
 
 ## L. TECHNICAL & LEGAL RESOURCES
 
@@ -164,32 +164,33 @@ American Law Institute. (2024). *Restatement (third) of property: Covenants and 
 
 New York State Department of State. (2024). *New York Cooperative Law § 1801–2000: Incorporating and operating housing cooperatives*. Retrieved from https://www.dos.ny.gov/
 
----
+______________________________________________________________________
 
 ## Citation Key
 
-**Total Primary Sources:** 50+  
-**Publication Years:** 2016–2025 (emphasis on 2024–2025 for current legislative status)  
+**Total Primary Sources:** 50+\
+**Publication Years:** 2016–2025 (emphasis on 2024–2025 for current legislative status)\
 **Source Types:**
+
 - Federal legislation & regulations: 8
 - NYC/NYS legislation & policy: 15
 - Case law, policy briefs, & research reports: 27
 
----
+______________________________________________________________________
 
 ## How to Use This Bibliography
 
 1. **In-text citations** in PART V and all legislative documents use author-date format (e.g., "Matthews, 2025; New York City Council, 2024").
 
-2. **When citing multiple works by same author in same year**, use letters (e.g., "Housing and Urban Development, 2024a" vs. "Housing and Urban Development, 2024b").
+1. **When citing multiple works by same author in same year**, use letters (e.g., "Housing and Urban Development, 2024a" vs. "Housing and Urban Development, 2024b").
 
-3. **For statutes**, use statute citation in text (e.g., "42 U.S.C. § 1437f") and include in Works Cited as shown.
+1. **For statutes**, use statute citation in text (e.g., "42 U.S.C. § 1437f") and include in Works Cited as shown.
 
-4. **For legislative bills**, cite as shown (e.g., "New York City Council, 2024").
+1. **For legislative bills**, cite as shown (e.g., "New York City Council, 2024").
 
-5. **For URLs**, retrieve dates are current as of December 15, 2025.
+1. **For URLs**, retrieve dates are current as of December 15, 2025.
 
----
+______________________________________________________________________
 
 ## APA 7th Edition Format Notes
 
@@ -200,9 +201,8 @@ New York State Department of State. (2024). *New York Cooperative Law § 1801–
 - **DOI/URL** provided when available
 - **Retrieval dates** included for websites accessed in 2025
 
----
+______________________________________________________________________
 
-**Master Works Cited Document Created:** December 16, 2025  
-**Total Words:** 2,500+ (bibliography entries and guidance)  
+**Master Works Cited Document Created:** December 16, 2025\
+**Total Words:** 2,500+ (bibliography entries and guidance)\
 **Format:** APA 7th Edition (American Psychological Association, 2020)
-

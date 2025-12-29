@@ -10,22 +10,22 @@ scheduled to run automatically (e.g., daily at 8 AM) or invoked manually.
    - Add an **Ask for Input** action with the prompt "Since (YYYY‑MM‑DD)".  If
      left blank, the sweep will include all bills.  Save the result as
      `Since`.
-2. **Choose Jurisdictions:**
+1. **Choose Jurisdictions:**
    - Add a **Choose from List** action with the prompt "Select jurisdictions" and
      provide options such as "NYC", "NY State", "US Federal", "International".
      Allow multiple selections and save to `Jurisdictions`.  If the user cancels,
      you can default to all jurisdictions.
-3. **Build JSON:**
+1. **Build JSON:**
    - Add a **Dictionary** action with keys `since` and `jurisdictions`.
    - For `since`, assign the `Since` variable.  For `jurisdictions`, assign the
      `Jurisdictions` variable.
    - Convert the dictionary to JSON using **Get Dictionary Value** set to JSON.
-4. **Send to API:**
+1. **Send to API:**
    - Add a **URL** action pointing to
      `https://your-server.example.com/sweep_bills`.
    - Add a **Get Contents of URL** action.  Set method to **POST**, body to
      the JSON and the header `Content‑Type` to `application/json`.
-5. **Show Results:**
+1. **Show Results:**
    - Use a **Show Result** or **Quick Look** action to display the returned
      summary of bills.  You might also choose to save the results as a Markdown
      file in your notes directory.

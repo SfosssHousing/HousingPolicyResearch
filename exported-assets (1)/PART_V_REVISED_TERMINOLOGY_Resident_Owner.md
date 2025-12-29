@@ -1,12 +1,13 @@
 # PART V: LEGAL FRAMEWORK & STATUTORY LANGUAGE (REVISED TERMINOLOGY)
 
 ## Statutory Architecture, Enforcement Mechanisms, and Integration with NYC/NYS Housing Law
+
 ### "Member" → "Resident-Owner" Terminology Updated
 
-**Word Count:** 15,742 words  
+**Word Count:** 15,742 words\
 **Depth:** COPA integration, cooperative formation, affordability covenants, interagency MOUs, anti-discrimination, enforcement procedures, federal funding alignment
 
----
+______________________________________________________________________
 
 ## 5.1 Legal Foundations: Current TOPA/COPA Landscape
 
@@ -19,6 +20,7 @@ On the cusp of enactment, NYC's Community Opportunity to Purchase Act (Intro 902
 - **Covered Properties:** Four or more-unit buildings, or vacant lots that can accommodate four or more-unit buildings, plus buildings where affordability restrictions have expired or are set to expire within two years, including 421-a, 485-g, 485-x, and Affordable NY buildings (Matthews, 2025).
 
 - **Notice & Timeline:**
+
   - Owner must provide written notice to the New York City Department of Housing Preservation and Development (HPD) at least 5 days before taking any action that would result in the sale of the property (Matthews, 2025).
   - Qualified entities have 45 days to submit a statement of interest in the property (New York City Council, 2024).
   - Qualified entities then have an exclusive 90-day period to submit a competitive offer to purchase (New York City Council, 2024).
@@ -31,7 +33,7 @@ On the cusp of enactment, NYC's Community Opportunity to Purchase Act (Intro 902
 **TCAP Integration Point:**
 TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized in HPD's "Qualified Entity" rulemaking under Intro 902-A, allowing tenant associations and TCAP-ready cooperatives to receive first-purchase rights. This positions TCAP as a natural vehicle for COPA acquisitions, rather than as a separate legal track (New York City Council, 2024; New York City Community Land Initiative, 2024).
 
----
+______________________________________________________________________
 
 ## 5.2 TCAP Core Statutory Codification: Local Law A (REVISED)
 
@@ -69,7 +71,7 @@ TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized 
 
 - **"Area Median Income" (AMI)**: As calculated annually by the U.S. Department of Housing and Urban Development for the New York City metropolitan area, adjusted for family size; 50% AMI is the primary target for resident-owner eligibility.
 
----
+______________________________________________________________________
 
 ### 5.2.2 Subsidy Conversion and Resident-Owner Equity Mandates (§§ 26-1803 to 26-1806)
 
@@ -100,9 +102,10 @@ TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized 
 "(a) **Establishment**: Upon resident-owner certification and admission to a TCAP cooperative, each resident-owner shall have an individual equity account established and registered with the cooperative and HPD, showing opening balance and monthly accretion.
 
 (b) **Funding Sources**:
-  - (1) Subsidy redirection: 20% of monthly housing subsidy (minimum $360/month for a $1,800 subsidy).
-  - (2) Principal paydown: Resident-owner's pro-rata share of cooperative mortgage principal paid down monthly.
-  - (3) Initial contribution: Resident-owner's down-payment contribution at entry, typically $8,000 per resident-owner, funded via savings match and subsidy advance.
+
+- (1) Subsidy redirection: 20% of monthly housing subsidy (minimum $360/month for a $1,800 subsidy).
+- (2) Principal paydown: Resident-owner's pro-rata share of cooperative mortgage principal paid down monthly.
+- (3) Initial contribution: Resident-owner's down-payment contribution at entry, typically $8,000 per resident-owner, funded via savings match and subsidy advance.
 
 (c) **Ownership**: The equity account is the property of the individual resident-owner. The cooperative holds it in trust and may not pledge it to secure cooperative debt.
 
@@ -112,7 +115,7 @@ TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized 
 
 (f) **Annual Verification**: HPD shall verify equity accounting annually through independent audit."
 
----
+______________________________________________________________________
 
 ## 5.3 Affordability Covenant and Duration (§§ 26-1807 to 26-1809) (REVISED)
 
@@ -121,13 +124,14 @@ TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized 
 "(a) **Recordation and Binding Effect**: Every TCAP cooperative property shall have a TCAP Affordability Covenant recorded as a deed restriction on the property, running with the land in perpetuity or for a minimum of 30 years, binding current and future cooperative resident-owners, boards, and any successor entity.
 
 (b) **Covenant Terms**: The covenant shall provide that:
-  - (1) All units in the building shall be and remain permanently affordable, serving households at or below 50% of Area Median Income (or, for households initially income-eligible at entry, at adjusted affordability levels for households earning up to 80% AMI).
-  - (2) Carrying charges shall not exceed 15% of resident-owner household income, indexed annually.
-  - (3) Resident-owner resale rights shall be governed by an HPD-approved formula limiting resident-owner sales to formula prices (typically 90–110% of original resident-owner purchase price adjusted for inflation), preventing speculation while allowing moderate appreciation.
-  - (4) No unit may be converted to market-rate occupancy, sold to a non-resident-owner, or removed from affordability without HPD and City Council approval.
-  - (5) Democratic governance structures (resident-owner assembly voting, board representation, annual meetings) shall be maintained in perpetuity."
 
----
+- (1) All units in the building shall be and remain permanently affordable, serving households at or below 50% of Area Median Income (or, for households initially income-eligible at entry, at adjusted affordability levels for households earning up to 80% AMI).
+- (2) Carrying charges shall not exceed 15% of resident-owner household income, indexed annually.
+- (3) Resident-owner resale rights shall be governed by an HPD-approved formula limiting resident-owner sales to formula prices (typically 90–110% of original resident-owner purchase price adjusted for inflation), preventing speculation while allowing moderate appreciation.
+- (4) No unit may be converted to market-rate occupancy, sold to a non-resident-owner, or removed from affordability without HPD and City Council approval.
+- (5) Democratic governance structures (resident-owner assembly voting, board representation, annual meetings) shall be maintained in perpetuity."
+
+______________________________________________________________________
 
 ## 5.4 Resident-Owner Rights and Protections (§ 26-1810 to 26-1812) (REVISED)
 
@@ -144,19 +148,20 @@ TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized 
 **Anti-Retaliation Protections (§ 26-1811) (REVISED):**
 
 "(a) **Prohibited Retaliation**: A cooperative, its board, or any officer shall not retaliate against a resident-owner for:
-  - (1) Asserting or enforcing resident-owner rights under this chapter or cooperative bylaws.
-  - (2) Requesting carrying charge reduction for hardship.
-  - (3) Reporting building code violations to DOB or HPD.
-  - (4) Voting in board elections or advocating for board changes.
-  - (5) Requesting financial information or transparency.
-  - (6) Organizing resident-owners for governance changes or advocacy.
-  - (7) Filing a complaint with HPD, the Commission on Human Rights, or other agency.
+
+- (1) Asserting or enforcing resident-owner rights under this chapter or cooperative bylaws.
+- (2) Requesting carrying charge reduction for hardship.
+- (3) Reporting building code violations to DOB or HPD.
+- (4) Voting in board elections or advocating for board changes.
+- (5) Requesting financial information or transparency.
+- (6) Organizing resident-owners for governance changes or advocacy.
+- (7) Filing a complaint with HPD, the Commission on Human Rights, or other agency.
 
 (b) **Presumption of Retaliation**: If a resident-owner is evicted, assessed a special charge, or subject to other adverse action within 90 days of asserting a protected right, a rebuttable presumption of retaliation arises.
 
 (c) **Remedies**: A resident-owner subjected to retaliation shall be entitled to reversal of the adverse action, actual damages (including lost carrying charge credits and legal fees), attorney's fees and court costs, and punitive damages if retaliation was willful."
 
----
+______________________________________________________________________
 
 ## 5.5 Federal and State Funding Alignment (Key Sections)
 
@@ -172,7 +177,7 @@ TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized 
 
 (c) **Direct-to-Cooperative Payments**: Structuring subsidy payments to flow directly to the cooperative's account for processing per the 80/20 equity split (HUD Exchange, 2020)."
 
----
+______________________________________________________________________
 
 ## 5.6 Interagency Memoranda of Understanding (MOUs) (REVISED)
 
@@ -186,17 +191,17 @@ TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized 
 
 1. **Subsidy Eligibility**: DSS shall continue to issue CityFHEPS or equivalent rental assistance to TCAP resident-owners at the standard rate.
 
-2. **80/20 Allocation**: HPD shall instruct DSS to allocate subsidy payments to cooperatives with 80% directed to operating account and 20% to individual resident-owner equity accounts.
+1. **80/20 Allocation**: HPD shall instruct DSS to allocate subsidy payments to cooperatives with 80% directed to operating account and 20% to individual resident-owner equity accounts.
 
-3. **Annual Indexing**: HPD and DSS shall jointly determine whether the subsidy rate should be adjusted annually to maintain carrying-charge adequacy and the 15% resident-owner affordability cap.
+1. **Annual Indexing**: HPD and DSS shall jointly determine whether the subsidy rate should be adjusted annually to maintain carrying-charge adequacy and the 15% resident-owner affordability cap.
 
-4. **Income Verification**: DSS shall conduct annual income verifications for all TCAP resident-owners using its Asset Verification System (AVS); results shall be shared with HPD and the cooperative.
+1. **Income Verification**: DSS shall conduct annual income verifications for all TCAP resident-owners using its Asset Verification System (AVS); results shall be shared with HPD and the cooperative.
 
-5. **Recertification Timing**: TCAP resident-owner recertifications shall be coordinated with cooperative ownership anniversaries.
+1. **Recertification Timing**: TCAP resident-owner recertifications shall be coordinated with cooperative ownership anniversaries.
 
-6. **Resident-Owner Support**: DSS shall provide accessible income verification and application support; language access and digital access accommodations shall be available.
+1. **Resident-Owner Support**: DSS shall provide accessible income verification and application support; language access and digital access accommodations shall be available.
 
----
+______________________________________________________________________
 
 ## Works Cited (APA 7th Edition)
 
@@ -216,20 +221,20 @@ New York City Council. (2024). *Int 0902-2024: Giving qualified entities a first
 
 ROC USA. (2022, January 12). *Market-rate and limited-equity co-ops explained*. https://rocusa.org/blog/market-rate-and-limited-equity-co-ops-explained/
 
----
+______________________________________________________________________
 
 ## Summary
 
 **PART V establishes the statutory and regulatory foundation for TCAP with revised terminology emphasizing "resident-owner" (ownership/control) rather than "member" (membership/club).**
 
 Key updates:
+
 - All "member" references → "resident-owner"
 - All "membership" → "residency" or "ownership" (context-dependent)
 - Emphasizes homeownership with democratic control
 - Maintains legal precision and cooperative standards
 - Aligns with National Cooperative Housing Federation terminology standards
 
----
+______________________________________________________________________
 
 **WORD COUNT:** 15,742 words | **SOURCES:** 12 primary sources (APA 7th edition) | **TERMINOLOGY:** Updated to "resident-owner" | **STATUS:** Revised and ready
-

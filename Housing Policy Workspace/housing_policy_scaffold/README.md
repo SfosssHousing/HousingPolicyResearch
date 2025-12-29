@@ -9,6 +9,3 @@ recommendation and can be safely synced to iCloud or another cloud service for
 easy access on macOS and iOS devices.
 
 ## Directory layout
-
-
-
