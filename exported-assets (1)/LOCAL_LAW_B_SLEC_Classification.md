@@ -2,7 +2,7 @@
 
 ## Legislative Text (Draft)
 
----
+______________________________________________________________________
 
 ## BE IT ENACTED BY THE COUNCIL AS FOLLOWS:
 
@@ -34,19 +34,19 @@ An SLEC is a limited-equity housing cooperative organized under New York Coopera
 
 (b) **Assessment Methodology**: Buildings shall be assessed by DOF based on affordability-restricted use value, not market-rate comparables. Assessments shall reflect:
 
-  (1) Below-market carrying charges resulting from member affordability caps.
+(1) Below-market carrying charges resulting from member affordability caps.
 
-  (2) Permanent affordability covenant restricting resale and limiting appreciation.
+(2) Permanent affordability covenant restricting resale and limiting appreciation.
 
-  (3) Limited equity structure preventing speculative value extraction.
+(3) Limited equity structure preventing speculative value extraction.
 
 (c) **Relief Programs**: DOF may grant SLECs:
 
-  (1) Reduced assessment classification comparable to HDFC or Mitchell-Lama programs (typically resulting in 25–50% property tax reduction).
+(1) Reduced assessment classification comparable to HDFC or Mitchell-Lama programs (typically resulting in 25–50% property tax reduction).
 
-  (2) Exemption of a portion of assessed value reflecting affordability restrictions.
+(2) Exemption of a portion of assessed value reflecting affordability restrictions.
 
-  (3) Abatement schedule for buildings undergoing renovation (e.g., 421-a or 485-x equivalent phased relief).
+(3) Abatement schedule for buildings undergoing renovation (e.g., 421-a or 485-x equivalent phased relief).
 
 (d) **Continuing Eligibility**: Tax relief eligibility is conditioned on HPD's continued certification of the cooperative as an SLEC. Loss of TCAP affordability covenant, member control, or compliance standards shall result in DOF reassessment at market value.
 
@@ -58,27 +58,27 @@ An SLEC is a limited-equity housing cooperative organized under New York Coopera
 
 (b) **Required Provisions in Articles and Bylaws**: Articles of Incorporation and bylaws shall include:
 
-  (1) **One Member, One Share, One Vote**: Each member holds one share (one dwelling unit) and has one vote in all membership decisions.
+(1) **One Member, One Share, One Vote**: Each member holds one share (one dwelling unit) and has one vote in all membership decisions.
 
-  (2) **Board Structure**: Board of Directors (typically 5–7 members) elected annually by member vote; board composition shall reflect member diversity.
+(2) **Board Structure**: Board of Directors (typically 5–7 members) elected annually by member vote; board composition shall reflect member diversity.
 
-  (3) **Member Assembly**: Annual meeting required; special meetings convened upon petition by 25% or more of members; quorum requirement typically 50% of members.
+(3) **Member Assembly**: Annual meeting required; special meetings convened upon petition by 25% or more of members; quorum requirement typically 50% of members.
 
-  (4) **Supermajority Requirements**: Amendments to bylaws, dissolution, major capital assessments, and other material changes require supermajority vote (typically 2/3 or 3/4 as specified in bylaws).
+(4) **Supermajority Requirements**: Amendments to bylaws, dissolution, major capital assessments, and other material changes require supermajority vote (typically 2/3 or 3/4 as specified in bylaws).
 
-  (5) **Affordability Permanence**: Any amendment attempting to remove, weaken, or terminate affordability protections, member equity accounts, or democratic governance shall be null and void; affordability covenants are non-amendable except to strengthen protections or extend duration.
+(5) **Affordability Permanence**: Any amendment attempting to remove, weaken, or terminate affordability protections, member equity accounts, or democratic governance shall be null and void; affordability covenants are non-amendable except to strengthen protections or extend duration.
 
-  (6) **Dissolution Clause**: Upon dissolution, remaining assets (after payment of debts) shall revert to a community land trust, nonprofit, or entity designated by HPD to preserve affordability in perpetuity, not be distributed to individual members.
+(6) **Dissolution Clause**: Upon dissolution, remaining assets (after payment of debts) shall revert to a community land trust, nonprofit, or entity designated by HPD to preserve affordability in perpetuity, not be distributed to individual members.
 
 (c) **Proprietary Lease**: Each member receives a proprietary lease (occupancy agreement) specifying:
 
-  (1) Exclusive right to occupy the assigned unit for duration of membership.
+(1) Exclusive right to occupy the assigned unit for duration of membership.
 
-  (2) Carrying charge payment obligation, capped at 15% of income, indexed annually.
+(2) Carrying charge payment obligation, capped at 15% of income, indexed annually.
 
-  (3) Building rules and regulations, applied consistently and non-discriminatorily.
+(3) Building rules and regulations, applied consistently and non-discriminatorily.
 
-  (4) Term coincident with cooperative's existence, renewable annually or perpetually.
+(4) Term coincident with cooperative's existence, renewable annually or perpetually.
 
 (d) **Stock Certificate**: Member receives a stock certificate representing one share (typically non-transferable except by inheritance) and the associated proprietary lease.
 
@@ -86,15 +86,15 @@ An SLEC is a limited-equity housing cooperative organized under New York Coopera
 
 (a) **HPD Template Development**: HPD shall develop and make publicly available a model bylaw template for SLECs, covering:
 
-  (1) **Governance Structure**: Board composition, election procedures, term limits, officer roles, committee structure (finance, admissions, grievance).
+(1) **Governance Structure**: Board composition, election procedures, term limits, officer roles, committee structure (finance, admissions, grievance).
 
-  (2) **Financial Management**: Annual budget approval, carrying charge determination and member notification, reserve fund policy, capital planning, audit requirements.
+(2) **Financial Management**: Annual budget approval, carrying charge determination and member notification, reserve fund policy, capital planning, audit requirements.
 
-  (3) **Member Rights**: Admission standards, income verification, member communication, voting procedures, grievance resolution.
+(3) **Member Rights**: Admission standards, income verification, member communication, voting procedures, grievance resolution.
 
-  (4) **Affordability Enforcement**: Resale formula, transfer approval, covenant compliance certification, member equity accounting.
+(4) **Affordability Enforcement**: Resale formula, transfer approval, covenant compliance certification, member equity accounting.
 
-  (5) **Amendment Procedures**: Voting thresholds (supermajority), prohibited amendments, notice requirements.
+(5) **Amendment Procedures**: Voting thresholds (supermajority), prohibited amendments, notice requirements.
 
 (b) **Adoption and Flexibility**: Cooperatives may adopt the template as-is or adapt it with HPD approval. Any adaptation must maintain consistency with Local Law A (TCAP core principles) and must not weaken affordability, equity, or democratic governance standards.
 
@@ -104,31 +104,31 @@ An SLEC is a limited-equity housing cooperative organized under New York Coopera
 
 (a) **Certification Authority**: HPD shall designate cooperatives as SLECs upon verification that:
 
-  (1) Cooperative has adopted and recorded TCAP affordability covenant.
+(1) Cooperative has adopted and recorded TCAP affordability covenant.
 
-  (2) Cooperative bylaws comply with § 26-1904 standards.
+(2) Cooperative bylaws comply with § 26-1904 standards.
 
-  (3) Members have completed income verification and governance training.
+(3) Members have completed income verification and governance training.
 
-  (4) Cooperative has established member equity accounts per Local Law A.
+(4) Cooperative has established member equity accounts per Local Law A.
 
 (b) **Annual Recertification**: HPD shall recertify SLEC status annually, conditional on ongoing compliance with affordability and governance standards. Cooperatives shall submit:
 
-  (1) Annual financial audit by independent CPA.
+(1) Annual financial audit by independent CPA.
 
-  (2) Member equity account verification.
+(2) Member equity account verification.
 
-  (3) Compliance self-certification (Form TCAP-300).
+(3) Compliance self-certification (Form TCAP-300).
 
 (c) **Decertification**: HPD may decertify an SLEC if:
 
-  (1) Affordability covenant is removed or violated.
+(1) Affordability covenant is removed or violated.
 
-  (2) Member equity accounts are depleted or improperly used.
+(2) Member equity accounts are depleted or improperly used.
 
-  (3) Democratic governance procedures are circumvented.
+(3) Democratic governance procedures are circumvented.
 
-  (4) Discriminatory practices are documented.
+(4) Discriminatory practices are documented.
 
 Decertification results in loss of tax relief and increased oversight.
 
@@ -136,7 +136,6 @@ Decertification results in loss of tax relief and increased oversight.
 
 This chapter shall become effective upon enactment and shall apply to all SLECs formed or certified after the effective date.
 
----
+______________________________________________________________________
 
 **END OF LOCAL LAW B**
-

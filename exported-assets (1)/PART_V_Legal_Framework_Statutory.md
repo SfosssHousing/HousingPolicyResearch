@@ -2,54 +2,55 @@
 
 ## Statutory Architecture, Enforcement Mechanisms, and Integration with NYC/NYS Housing Law
 
-**Word Count Target:** 14,000-16,000 words  
+**Word Count Target:** 14,000-16,000 words\
 **Depth:** COPA integration, cooperative formation, affordability covenants, interagency MOUs, anti-discrimination, enforcement procedures, federal funding alignment
 
----
+______________________________________________________________________
 
 ## 5.1 Legal Foundations: Current TOPA/COPA Landscape
 
 ### 5.1.1 NYC's Community Opportunity to Purchase Act (Intro 902/902-A)
 
-On the cusp of enactment, NYC's COPA (Intro 902, amended as Intro 902-A in December 2025) establishes the basic acquisition framework that TCAP will leverage.[web:71][web:96][web:285]
+On the cusp of enactment, NYC's COPA (Intro 902, amended as Intro 902-A in December 2025) establishes the basic acquisition framework that TCAP will leverage.\[web:71\]\[web:96\]\[web:285\]
 
-**Key Provisions of Intro 902-A:**[web:71]
+**Key Provisions of Intro 902-A:**\[web:71\]
 
-- **Covered Properties:** Four or more-unit buildings, or vacant lots that can accommodate four or more-unit buildings, plus buildings where affordability restrictions have expired or are set to expire within two years (includes 421-a, 485-g, 485-x, and Affordable NY buildings).[web:71]
+- **Covered Properties:** Four or more-unit buildings, or vacant lots that can accommodate four or more-unit buildings, plus buildings where affordability restrictions have expired or are set to expire within two years (includes 421-a, 485-g, 485-x, and Affordable NY buildings).\[web:71\]
 
 - **Notice & Timeline:**
-  - Owner must provide written notice to HPD at least 5 days before taking any action to sell the property.[web:71]
-  - Qualified entities have 45 days to submit a statement of interest.[web:71]
-  - Qualified entities then have an exclusive 90-day period to submit a competitive offer to purchase.[web:71]
-  - During those 90 days, owners cannot accept third-party offers.[web:71]
 
-- **Right of First Refusal:** If a nonprofit's initial offer is rejected, the nonprofit retains a right of first refusal on any third-party offer received within one year; owner must notify HPD and the nonprofit within 15 days of receiving such an offer, and the nonprofit has 15 days to exercise its matching purchase right.[web:71]
+  - Owner must provide written notice to HPD at least 5 days before taking any action to sell the property.\[web:71\]
+  - Qualified entities have 45 days to submit a statement of interest.\[web:71\]
+  - Qualified entities then have an exclusive 90-day period to submit a competitive offer to purchase.\[web:71\]
+  - During those 90 days, owners cannot accept third-party offers.\[web:71\]
 
-- **Qualified Entities:** HPD will designate qualifying nonprofits, community land trusts, and other entities; currently includes NYC's 25 Qualified Preservation Buyers, plus CLTs and emerging cooperative sponsors.[web:96]
+- **Right of First Refusal:** If a nonprofit's initial offer is rejected, the nonprofit retains a right of first refusal on any third-party offer received within one year; owner must notify HPD and the nonprofit within 15 days of receiving such an offer, and the nonprofit has 15 days to exercise its matching purchase right.\[web:71\]
+
+- **Qualified Entities:** HPD will designate qualifying nonprofits, community land trusts, and other entities; currently includes NYC's 25 Qualified Preservation Buyers, plus CLTs and emerging cooperative sponsors.\[web:96\]
 
 **TCAP Integration Point:**
-TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized in HPD's "Qualified Entity" rule under Intro 902-A, allowing tenant associations and TCAP-ready cooperatives to receive COPA acquisition rights. This positions TCAP as a natural vehicle for COPA acquisitions, rather than as a separate track.[web:71][web:96]
+TCAP cooperatives and their sponsoring nonprofits will be explicitly recognized in HPD's "Qualified Entity" rule under Intro 902-A, allowing tenant associations and TCAP-ready cooperatives to receive COPA acquisition rights. This positions TCAP as a natural vehicle for COPA acquisitions, rather than as a separate track.\[web:71\]\[web:96\]
 
 ### 5.1.2 New York State Tenant Opportunity to Purchase Act (S.401)
 
-Pending state-level passage, NY S.401 TOPA would establish tenant purchase rights statewide, modeled on Washington DC's 45-year-old TOPA statute (1980).[web:66][web:281][web:283][web:286]
+Pending state-level passage, NY S.401 TOPA would establish tenant purchase rights statewide, modeled on Washington DC's 45-year-old TOPA statute (1980).\[web:66\]\[web:281\]\[web:283\]\[web:286\]
 
-**S.401 Key Provisions (2025):**[web:281][web:283]
+**S.401 Key Provisions (2025):**\[web:281\]\[web:283\]
 
-- **Applicability:** All residential multifamily properties (with exemptions for government-owned, dormitories, hotels, co-ops, and condos).[web:283]
+- **Applicability:** All residential multifamily properties (with exemptions for government-owned, dormitories, hotels, co-ops, and condos).\[web:283\]
 
-- **Tenant Organization Requirement:** Tenants must form a tenant organization; they may partner with a nonprofit or CLT to make an offer.[web:281]
+- **Tenant Organization Requirement:** Tenants must form a tenant organization; they may partner with a nonprofit or CLT to make an offer.\[web:281\]
 
-- **Offer Matching:** After the owner receives a third-party offer, tenants have a period to match it or assign rights to a nonprofit partner.[web:281]
+- **Offer Matching:** After the owner receives a third-party offer, tenants have a period to match it or assign rights to a nonprofit partner.\[web:281\]
 
-- **Funding:** Advocacy seeks $250 million in state appropriation for TOPA acquisitions and technical assistance, though not strictly required by statute.[web:281]
+- **Funding:** Advocacy seeks $250 million in state appropriation for TOPA acquisitions and technical assistance, though not strictly required by statute.\[web:281\]
 
-- **Permanent Affordability:** TOPA acquisitions must be kept "permanently affordable," with limits on rent increases and resale prices; mechanisms parallel TCAP's affordability covenant.[web:281][web:283]
+- **Permanent Affordability:** TOPA acquisitions must be kept "permanently affordable," with limits on rent increases and resale prices; mechanisms parallel TCAP's affordability covenant.\[web:281\]\[web:283\]
 
 **TCAP-S.401 Integration:**
-Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "permanently affordable" housing vehicles under state TOPA rules. TCAP's explicit 30-year affordability covenant and equity-building structure will be recognized in state implementing regulations as meeting or exceeding permanent affordability standards.[web:66][web:281]
+Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "permanently affordable" housing vehicles under state TOPA rules. TCAP's explicit 30-year affordability covenant and equity-building structure will be recognized in state implementing regulations as meeting or exceeding permanent affordability standards.\[web:66\]\[web:281\]
 
----
+______________________________________________________________________
 
 ## 5.2 TCAP Core Statutory Codification: Local Law A
 
@@ -94,7 +95,7 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 
 - **"DSS"**: New York City Department of Social Services (including HRA and CityFHEPS administration).
 
----
+______________________________________________________________________
 
 ### 5.2.2 Subsidy Conversion and Member Equity Mandates (§§ 26-1803 to 26-1806)
 
@@ -125,9 +126,10 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 "(a) **Establishment**: Upon member certification and admission to a TCAP cooperative, each member shall have an individual equity account established and registered with the cooperative and HPD, showing opening balance and monthly accretion.
 
 (b) **Funding Sources**:
-  - (1) Subsidy redirection: 20% of monthly housing subsidy (minimum $360/month for a $1,800 subsidy).
-  - (2) Principal paydown: Member's pro-rata share of cooperative mortgage principal paid down monthly; initially 30–40 of annual debt service, increasing over time.
-  - (3) Initial contribution: Member's down-payment contribution at entry (typically $8,000 per member, funded via savings match and subsidy advance).
+
+- (1) Subsidy redirection: 20% of monthly housing subsidy (minimum $360/month for a $1,800 subsidy).
+- (2) Principal paydown: Member's pro-rata share of cooperative mortgage principal paid down monthly; initially 30–40 of annual debt service, increasing over time.
+- (3) Initial contribution: Member's down-payment contribution at entry (typically $8,000 per member, funded via savings match and subsidy advance).
 
 (c) **Ownership**: The equity account is the property of the individual member. The cooperative holds it in trust and may not pledge it to secure cooperative debt or assessments.
 
@@ -145,7 +147,7 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 
 (d) **Transferability**: Member equity may be inherited by a designated family member who agrees to assume membership; the heir's carrying charge shall comply with the 15% affordability cap based on the heir's verified income."
 
----
+______________________________________________________________________
 
 ### 5.2.3 Affordability Covenant and Duration (§§ 26-1807 to 26-1809)
 
@@ -154,44 +156,48 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 "(a) **Recordation and Binding Effect**: Every TCAP cooperative property shall have a TCAP Affordability Covenant recorded as a deed restriction on the property, running with the land in perpetuity or for a minimum of 30 years, binding current and future cooperative members, boards, and any successor entity.
 
 (b) **Covenant Terms**: The covenant shall provide that:
-  - (1) All units in the building shall be and remain permanently affordable, serving households at or below 50% of Area Median Income (or, for households initially income-eligible at entry who subsequently exceed 50% AMI but remain below 80% AMI, at adjusted affordability levels set by HPD and DSS).
-  - (2) Carrying charges shall not exceed 15% of member household income, indexed annually to ensure adequacy of building operations.
-  - (3) Member resale rights shall be governed by a HPD-approved resale formula limiting member sales to formula prices (typically 90–110% of original member purchase price adjusted for inflation), preventing speculation while allowing moderate appreciation.
-  - (4) No unit may be converted to market-rate occupancy, sold to a non-member, or removed from affordability without HPD and City Council approval.
-  - (5) Democratic governance structures (member assembly voting, board representation, annual meetings) shall be maintained in perpetuity.
+
+- (1) All units in the building shall be and remain permanently affordable, serving households at or below 50% of Area Median Income (or, for households initially income-eligible at entry who subsequently exceed 50% AMI but remain below 80% AMI, at adjusted affordability levels set by HPD and DSS).
+- (2) Carrying charges shall not exceed 15% of member household income, indexed annually to ensure adequacy of building operations.
+- (3) Member resale rights shall be governed by a HPD-approved resale formula limiting member sales to formula prices (typically 90–110% of original member purchase price adjusted for inflation), preventing speculation while allowing moderate appreciation.
+- (4) No unit may be converted to market-rate occupancy, sold to a non-member, or removed from affordability without HPD and City Council approval.
+- (5) Democratic governance structures (member assembly voting, board representation, annual meetings) shall be maintained in perpetuity.
 
 (c) **Subordination**: The TCAP affordability covenant shall be senior to all mortgages and liens, with lenders explicitly acknowledging the covenant in mortgage documents and appraisals."
 
 **Covenant Enforcement (§ 26-1808):**
 
 "(a) **Enforcement Authority**: HPD, the NYC Law Department, and members of the cooperative shall have authority to enforce TCAP affordability covenants through:
-  - (1) Civil injunction preventing covenant violation.
-  - (2) Specific performance compelling compliance with affordability terms.
-  - (3) Damages for breach, including refund of excess charges to members.
+
+- (1) Civil injunction preventing covenant violation.
+- (2) Specific performance compelling compliance with affordability terms.
+- (3) Damages for breach, including refund of excess charges to members.
 
 (b) **Member Standing**: Members shall be recognized as third-party beneficiaries of affordability covenants, with standing to sue for enforcement individually or as a class.
 
 (c) **Right to Cure**: Before seeking injunctive or other equitable relief, HPD shall provide the cooperative 30 days' written notice to cure identified violations; only if cure is not achieved shall enforcement action proceed.
 
 (d) **Remedies**: Violation remedies include:
-  - (1) Refund of carrying charges in excess of 15% cap, with interest from date of excess payment.
-  - (2) Restoration of improperly reduced equity accounts.
-  - (3) Mandatory HPD-approved governance restructuring if board mismanagement is the cause.
-  - (4) Receiver appointment (last resort) for cases of insolvency or pervasive covenant breach."
+
+- (1) Refund of carrying charges in excess of 15% cap, with interest from date of excess payment.
+- (2) Restoration of improperly reduced equity accounts.
+- (3) Mandatory HPD-approved governance restructuring if board mismanagement is the cause.
+- (4) Receiver appointment (last resort) for cases of insolvency or pervasive covenant breach."
 
 **Recordation and Duration (§ 26-1809):**
 
 "(a) **Recording Requirements**: The TCAP affordability covenant shall be recorded in the county where the property is located within 30 days of cooperative formation or building acquisition, and shall identify:
-  - (1) Property address and tax block/lot.
-  - (2) Covenant terms and restrictions.
-  - (3) Term (30 years minimum, with automatic renewal or perpetual language).
-  - (4) Enforcement parties (HPD, City, members, CLT partners if applicable).
+
+- (1) Property address and tax block/lot.
+- (2) Covenant terms and restrictions.
+- (3) Term (30 years minimum, with automatic renewal or perpetual language).
+- (4) Enforcement parties (HPD, City, members, CLT partners if applicable).
 
 (b) **Renewal**: At the end of 30 years, if the covenant is set to expire, HPD and the cooperative shall jointly renew it for an additional 30-year term or declare it perpetual, subject to City Council approval if perpetual status requires legislative action.
 
 (c) **Subordination Agreements**: All lenders, title companies, and insurers shall acknowledge the covenant in all documents."
 
----
+______________________________________________________________________
 
 ### 5.2.4 Member Rights and Protections (§ 26-1810 to 26-1812)
 
@@ -200,16 +206,18 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 "(a) **Right to Occupy**: Each member has an exclusive, non-revocable right to occupy their cooperative unit for the duration of their membership, subject only to payment of carrying charges (capped at 15% of income) and compliance with cooperative rules and lease terms.
 
 (b) **Eviction Protections**: Members may not be evicted except through formal cooperative eviction proceedings on grounds of:
-  - (1) Non-payment of carrying charge (after 60-day notice and cure opportunity).
-  - (2) Material lease violation (after 30-day notice and cure opportunity).
-  - (3) Serious non-compliance with cooperative governance decisions or building rules (after written notice and opportunity to be heard before the board).
+
+- (1) Non-payment of carrying charge (after 60-day notice and cure opportunity).
+- (2) Material lease violation (after 30-day notice and cure opportunity).
+- (3) Serious non-compliance with cooperative governance decisions or building rules (after written notice and opportunity to be heard before the board).
 
 (c) **Voting Rights**: Each member-shareholder shall have one vote per membership share (typically one share per unit) in cooperative decisions, including:
-  - (1) Annual board election.
-  - (2) Budget approval and carrying charge adjustment.
-  - (3) Major repairs or capital assessments exceeding 10% of annual budget.
-  - (4) Bylaw amendments (typically requiring two-thirds supermajority).
-  - (5) Dissolution (typically requiring 75–80% supermajority).
+
+- (1) Annual board election.
+- (2) Budget approval and carrying charge adjustment.
+- (3) Major repairs or capital assessments exceeding 10% of annual budget.
+- (4) Bylaw amendments (typically requiring two-thirds supermajority).
+- (5) Dissolution (typically requiring 75–80% supermajority).
 
 (d) **Information Rights**: Members may inspect cooperative financial records, member lists, board minutes, and building inspection reports at reasonable hours; information shall be provided in English and other languages spoken by 10%+ of members.
 
@@ -218,21 +226,23 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 **Anti-Retaliation Protections (§ 26-1811):**
 
 "(a) **Prohibited Retaliation**: A cooperative, its board, or any officer shall not retaliate against a member for:
-  - (1) Asserting or enforcing member rights under this chapter or cooperative bylaws.
-  - (2) Requesting carrying charge reduction for hardship.
-  - (3) Reporting building code violations to DOB, Department of Health, or HPD.
-  - (4) Voting in board elections or advocating for board changes.
-  - (5) Requesting financial information or transparency.
-  - (6) Organizing members for governance changes or advocacy.
-  - (7) Filing a complaint or cooperating with an HPD investigation.
+
+- (1) Asserting or enforcing member rights under this chapter or cooperative bylaws.
+- (2) Requesting carrying charge reduction for hardship.
+- (3) Reporting building code violations to DOB, Department of Health, or HPD.
+- (4) Voting in board elections or advocating for board changes.
+- (5) Requesting financial information or transparency.
+- (6) Organizing members for governance changes or advocacy.
+- (7) Filing a complaint or cooperating with an HPD investigation.
 
 (b) **Presumption of Retaliation**: If a member is evicted, assessed a special charge, or subject to other adverse action within 90 days of asserting a protected right, a rebuttable presumption of retaliation arises; the cooperative must prove the adverse action was unrelated to the protected conduct.
 
 (c) **Remedies**: A member subjected to retaliation shall be entitled to:
-  - (1) Reversal of the adverse action.
-  - (2) Actual damages, including lost carrying charge credits and legal fees.
-  - (3) Attorney's fees and court costs.
-  - (4) Punitive damages if retaliation was willful."
+
+- (1) Reversal of the adverse action.
+- (2) Actual damages, including lost carrying charge credits and legal fees.
+- (3) Attorney's fees and court costs.
+- (4) Punitive damages if retaliation was willful."
 
 **Non-Discrimination (§ 26-1812):**
 
@@ -248,7 +258,7 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 
 (f) **Monitoring and Enforcement**: HPD shall monitor member admissions, board composition, and complaint resolution annually to identify patterns of discrimination; findings shall be reported to the City Council and used to inform compliance enforcement."
 
----
+______________________________________________________________________
 
 ## 5.3 Limited-Equity Cooperative Formation: Local Law B
 
@@ -279,13 +289,14 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 "(a) **Eligibility for Relief**: An SLEC may apply to DOF for class assessment and property tax relief comparable to existing HDFC (Housing Development Fund Corporation) programs and Mitchell-Lama cooperatives. Buildings shall be assessed based on affordability-restricted use value, not market-rate comparables.
 
 (b) **Relief Provisions**: DOF may grant:
-  - (1) Reduced assessment reflecting below-market rents and affordability permanence.
-  - (2) Exemption equivalent to HDFC or Mitchell-Lama programs (typically 25–50% tax reduction).
-  - (3) Abatement schedule for buildings undergoing renovation (e.g., 421-a or 485-x equivalent phased relief).
+
+- (1) Reduced assessment reflecting below-market rents and affordability permanence.
+- (2) Exemption equivalent to HDFC or Mitchell-Lama programs (typically 25–50% tax reduction).
+- (3) Abatement schedule for buildings undergoing renovation (e.g., 421-a or 485-x equivalent phased relief).
 
 (c) **Continuing Eligibility**: Tax relief requires ongoing HPD certification as an SLEC; loss of affordability covenant or member control terminates relief, with DOF reassessing at market value."
 
----
+______________________________________________________________________
 
 ### 5.3.2 Corporate Formation and Bylaws
 
@@ -294,18 +305,20 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 "(a) **Incorporation**: An SLEC shall be incorporated as a business corporation under New York Cooperative Law § 1801–2000, filing Articles of Incorporation with the New York Secretary of State.
 
 (b) **Required Provisions in Articles and Bylaws**: Articles and bylaws shall include:
-  - (1) **One Share, One Vote**: Each member holds one share (one dwelling unit) and has one vote.
-  - (2) **Board Structure**: Board of directors (typically 5–7 members) elected annually by member vote.
-  - (3) **Member Assembly**: Annual meeting required; special meetings convened by member petition (typically 25% of members).
-  - (4) **Supermajority for Material Changes**: Amendments to bylaws, major assessments, and dissolution require supermajority vote (typically 2/3 or 3/4).
-  - (5) **Affordability Permanence**: Any amendment attempting to remove affordability protections or member resale restrictions shall be null and void; affordability covenant is non-amendable except to strengthen protections or extend duration.
-  - (6) **Dissolution**: Upon dissolution, remaining assets (after debts) shall revert to a community land trust or nonprofit designated by HPD, not to individual members, to preserve affordability.
+
+- (1) **One Share, One Vote**: Each member holds one share (one dwelling unit) and has one vote.
+- (2) **Board Structure**: Board of directors (typically 5–7 members) elected annually by member vote.
+- (3) **Member Assembly**: Annual meeting required; special meetings convened by member petition (typically 25% of members).
+- (4) **Supermajority for Material Changes**: Amendments to bylaws, major assessments, and dissolution require supermajority vote (typically 2/3 or 3/4).
+- (5) **Affordability Permanence**: Any amendment attempting to remove affordability protections or member resale restrictions shall be null and void; affordability covenant is non-amendable except to strengthen protections or extend duration.
+- (6) **Dissolution**: Upon dissolution, remaining assets (after debts) shall revert to a community land trust or nonprofit designated by HPD, not to individual members, to preserve affordability.
 
 (c) **Proprietary Lease**: Each member receives a proprietary lease (occupancy agreement) specifying:
-  - (1) Right to occupy assigned unit for duration of membership.
-  - (2) Carrying charge payment obligation (capped at 15% of income).
-  - (3) Rules and regulations.
-  - (4) Term coincident with cooperative's existence or renewable annually.
+
+- (1) Right to occupy assigned unit for duration of membership.
+- (2) Carrying charge payment obligation (capped at 15% of income).
+- (3) Rules and regulations.
+- (4) Term coincident with cooperative's existence or renewable annually.
 
 (d) **Stock Certificate**: Member receives a stock certificate representing one share and the associated proprietary lease; stock is non-transferable except via inheritance or approved sale to cooperative-designated member."
 
@@ -314,34 +327,39 @@ Once S.401 passes, TCAP cooperatives will automatically qualify as eligible "per
 "HPD shall develop and make publicly available a model bylaw template for SLECs, covering:
 
 (a) **Governance Structure**:
-  - Composition, election, and term of board.
-  - Officer roles and authority limits.
-  - Committee structure (finance, admissions, grievance).
+
+- Composition, election, and term of board.
+- Officer roles and authority limits.
+- Committee structure (finance, admissions, grievance).
 
 (b) **Financial Management**:
-  - Annual budget approval process.
-  - Carrying charge determination and member notification.
-  - Reserve fund policy and capital planning.
-  - Audit requirements and financial transparency.
+
+- Annual budget approval process.
+- Carrying charge determination and member notification.
+- Reserve fund policy and capital planning.
+- Audit requirements and financial transparency.
 
 (c) **Member Rights**:
-  - Admission and income verification standards.
-  - Member communication and notice procedures.
-  - Voting rights and quorum requirements.
-  - Grievance and dispute resolution.
+
+- Admission and income verification standards.
+- Member communication and notice procedures.
+- Voting rights and quorum requirements.
+- Grievance and dispute resolution.
 
 (d) **Affordability Enforcement**:
-  - Resale formula and transfer approval.
-  - Covenant monitoring and annual compliance certification.
-  - Member equity account administration.
+
+- Resale formula and transfer approval.
+- Covenant monitoring and annual compliance certification.
+- Member equity account administration.
 
 (e) **Amendment Procedures**:
-  - Voting threshold (supermajority required).
-  - Prohibited amendments (those violating affordability covenant).
+
+- Voting threshold (supermajority required).
+- Prohibited amendments (those violating affordability covenant).
 
 Cooperatives may adopt the template as-is or adapt it with HPD approval."
 
----
+______________________________________________________________________
 
 ## 5.4 COPA and TCAP Alignment: Local Law C
 
@@ -356,14 +374,16 @@ Cooperatives may adopt the template as-is or adapt it with HPD approval."
 **TCAP-Qualified Entity Status (§ 26-2002):**
 
 "(a) **HPD Authority**: HPD shall designate TCAP-ready entities as a special category of Qualified Entity under Intro 902 COPA, including:
-  - (1) Nonprofit housing developers sponsoring tenant associations or CLTs planning TCAP conversion.
-  - (2) Community land trusts with TCAP program partnerships.
-  - (3) Member-controlled tenant associations with legal capacity to acquire and hold real property.
+
+- (1) Nonprofit housing developers sponsoring tenant associations or CLTs planning TCAP conversion.
+- (2) Community land trusts with TCAP program partnerships.
+- (3) Member-controlled tenant associations with legal capacity to acquire and hold real property.
 
 (b) **Preferential Timeline**: A TCAP-qualified entity shall receive:
-  - (1) Extended statement-of-interest period: 60 days (vs. standard 45 days in Intro 902-A).
-  - (2) Extended offer period: 120 days (vs. standard 90 days in Intro 902-A).
-  - (3) Financing extension: If the TCAP entity demonstrates that permanent-affordability conversion (forming a cooperative, establishing member equity accounts) extends financing timeline, HPD may grant extensions up to 180 days total, provided monthly progress reports are submitted.
+
+- (1) Extended statement-of-interest period: 60 days (vs. standard 45 days in Intro 902-A).
+- (2) Extended offer period: 120 days (vs. standard 90 days in Intro 902-A).
+- (3) Financing extension: If the TCAP entity demonstrates that permanent-affordability conversion (forming a cooperative, establishing member equity accounts) extends financing timeline, HPD may grant extensions up to 180 days total, provided monthly progress reports are submitted.
 
 (c) **Right of First Refusal Guarantee**: A TCAP-qualified entity retains a right of first refusal on any third-party offer for 18 months (vs. 12 months in Intro 902-A), allowing adequate time for member organization and financing."
 
@@ -372,11 +392,12 @@ Cooperatives may adopt the template as-is or adapt it with HPD approval."
 "(a) **Tenant Association Formation**: Before or in parallel with COPA purchase, tenants of the building must form or designate an existing tenant association; HPD shall provide organizational support and training at no cost.
 
 (b) **TCAP Conversion Agreement**: The purchasing entity (nonprofit or CLT) must execute a binding agreement with the tenant association committing to:
-  - (1) Convert the property to a TCAP cooperative within 24–36 months of closing.
-  - (2) Conduct member certification, income verification, and governance training within 12 months.
-  - (3) Establish individual member equity accounts per Local Law A.
-  - (4) Maintain occupancy of existing tenants for a minimum of [X] years post-conversion, subject to affordability and equity criteria.
-  - (5) Achieve member democratic control (board majority, member assembly, voting) by Year 3.
+
+- (1) Convert the property to a TCAP cooperative within 24–36 months of closing.
+- (2) Conduct member certification, income verification, and governance training within 12 months.
+- (3) Establish individual member equity accounts per Local Law A.
+- (4) Maintain occupancy of existing tenants for a minimum of \[X\] years post-conversion, subject to affordability and equity criteria.
+- (5) Achieve member democratic control (board majority, member assembly, voting) by Year 3.
 
 (c) **HPD Oversight**: HPD shall monitor conversion progress and enforce the commitment via technical assistance, site visits, and, if necessary, enforcement action against non-compliant entities."
 
@@ -388,7 +409,7 @@ Cooperatives may adopt the template as-is or adapt it with HPD approval."
 
 (c) **New Member Subsidy Access**: Existing tenants not currently subsidized may apply for housing subsidy (CityFHEPS or emergency assistance) after TCAP cooperative formation; DSS shall prioritize such applications for households below 50% AMI."
 
----
+______________________________________________________________________
 
 ## 5.5 Implementation and Oversight: Local Law D
 
@@ -434,19 +455,20 @@ Cooperatives may adopt the template as-is or adapt it with HPD approval."
 
 MOUs shall be executed within 90 days of this law's enactment and shall be made publicly available."
 
----
+______________________________________________________________________
 
 ### 5.5.2 Reporting, Monitoring, and Enforcement
 
 **Annual TCAP Report (§ 26-2104):**
 
 "(a) **Requirement**: HPD shall prepare and submit to the City Council an annual TCAP report (due by March 31 each year) containing:
-  - (1) Number of buildings acquired and converted to TCAP cooperatives (by borough and district).
-  - (2) Number of members enrolled and demographic data (race, ethnicity, income, household composition).
-  - (3) Total subsidy spending and average per-member equity accumulated (as of December 31 of prior year).
-  - (4) Compliance status of all active cooperatives (affordability maintenance, member equity accuracy, governance participation).
-  - (5) Any enforcement actions (compliance notices, orders, receiverships) and their outcomes.
-  - (6) Recommendations for program improvement or policy change.
+
+- (1) Number of buildings acquired and converted to TCAP cooperatives (by borough and district).
+- (2) Number of members enrolled and demographic data (race, ethnicity, income, household composition).
+- (3) Total subsidy spending and average per-member equity accumulated (as of December 31 of prior year).
+- (4) Compliance status of all active cooperatives (affordability maintenance, member equity accuracy, governance participation).
+- (5) Any enforcement actions (compliance notices, orders, receiverships) and their outcomes.
+- (6) Recommendations for program improvement or policy change.
 
 (b) **Public Availability**: The report shall be published on HPD's website and made available in hard copy upon request; data shall be disaggregated by race and ethnicity to track equity outcomes.
 
@@ -457,20 +479,22 @@ MOUs shall be executed within 90 days of this law's enactment and shall be made 
 "(a) **Annual Audit**: Every TCAP cooperative shall undergo an annual independent audit of member equity accounts and cooperative financial statements, conducted by a CPA licensed to practice in New York.
 
 (b) **Audit Scope**: The audit shall verify:
-  - (1) Each member's equity account receives the mandated 20% subsidy redirect monthly.
-  - (2) Principal paydown is correctly credited.
-  - (3) No equity was forfeited or seized.
-  - (4) Carrying charges do not exceed 15% of member income.
-  - (5) All members received quarterly equity statements.
-  - (6) Affordability covenant restrictions are maintained.
+
+- (1) Each member's equity account receives the mandated 20% subsidy redirect monthly.
+- (2) Principal paydown is correctly credited.
+- (3) No equity was forfeited or seized.
+- (4) Carrying charges do not exceed 15% of member income.
+- (5) All members received quarterly equity statements.
+- (6) Affordability covenant restrictions are maintained.
 
 (c) **Audit Submission and Review**: Cooperatives shall submit the audit to HPD within 90 days of year-end; HPD shall review and, if discrepancies are found, issue a compliance notice to the cooperative to cure within 60 days.
 
 (d) **Corrective Action**: If audit reveals significant misappropriation or systematic underfunding of member equity, HPD may:
-  - (1) Order the cooperative to restore members' equity with interest.
-  - (2) Impose HPD-supervised management for a defined period.
-  - (3) Remove board members if they bear responsibility.
-  - (4) In egregious cases, appoint a receiver."
+
+- (1) Order the cooperative to restore members' equity with interest.
+- (2) Impose HPD-supervised management for a defined period.
+- (3) Remove board members if they bear responsibility.
+- (4) In egregious cases, appoint a receiver."
 
 **Enforcement Framework (§ 26-2106):**
 
@@ -479,17 +503,18 @@ MOUs shall be executed within 90 days of this law's enactment and shall be made 
 (b) **Compliance Order**: If the violation is not cured, HPD shall issue a formal compliance order (publicly noticed) requiring cure within 30 days.
 
 (c) **Remedial Action**: HPD may require:
-  - (1) Refund of excess carrying charges to members (with interest).
-  - (2) Restoration of member equity accounts.
-  - (3) Mandatory board training or officer removal.
-  - (4) Hiring of professional management or administrative support.
-  - (5) Member assembly called to address governance issues.
+
+- (1) Refund of excess carrying charges to members (with interest).
+- (2) Restoration of member equity accounts.
+- (3) Mandatory board training or officer removal.
+- (4) Hiring of professional management or administrative support.
+- (5) Member assembly called to address governance issues.
 
 (d) **Receiver Appointment**: If cure is not achieved and the violation threatens member welfare (e.g., building maintenance failure, insolvency), HPD may petition the Supreme Court to appoint a receiver for the cooperative, operating it pending member restructuring or, if necessary, asset liquidation.
 
 (e) **Affordability Covenant Enforcement**: If a cooperative attempts to remove affordability protections, charge above-affordability carrying charges, or convert to market rate, HPD and the NYC Law Department shall jointly bring an action for injunctive relief and specific performance to enforce the covenant; members may also bring such action."
 
----
+______________________________________________________________________
 
 ## 5.6 Federal and State Funding Alignment
 
@@ -497,7 +522,7 @@ MOUs shall be executed within 90 days of this law's enactment and shall be made 
 
 **MTW Program Leveraging (§ 26-2201):**
 
-"HPD and NYC may seek designation as a MTW expansion agency (or coordinate with New York City Housing Authority [NYCHA] if NYCHA is an MTW agency) to obtain flexibility in deploying federal housing subsidies, including:
+"HPD and NYC may seek designation as a MTW expansion agency (or coordinate with New York City Housing Authority \[NYCHA\] if NYCHA is an MTW agency) to obtain flexibility in deploying federal housing subsidies, including:
 
 (a) **Subsidy Fungibility**: Using freed-up subsidy dollars (via reduced-cost public housing or voucher operations) to fund TCAP cooperative acquisitions and member equity contributions.
 
@@ -509,7 +534,7 @@ MOUs shall be executed within 90 days of this law's enactment and shall be made 
 
 **MTW Statutory Authority**: 42 U.S.C. § 1437c(c)–(e); 24 CFR Part 990."
 
----
+______________________________________________________________________
 
 ### 5.6.2 Community Development Block Grants (CDBG) and HOME Funds
 
@@ -518,10 +543,11 @@ MOUs shall be executed within 90 days of this law's enactment and shall be made 
 "NYC shall utilize Community Development Block Grant (CDBG) funding (received annually from HUD per 42 U.S.C. § 5301 et seq.) to support TCAP:
 
 (a) **Eligible Activities**: CDBG may fund:
-  - (1) Acquisition of real property (the 25-unit building model).
-  - (2) Rehabilitation and capital improvements.
-  - (3) Technical assistance and member training.
-  - (4) Administrative costs of HPD TCAP Unit operations.
+
+- (1) Acquisition of real property (the 25-unit building model).
+- (2) Rehabilitation and capital improvements.
+- (3) Technical assistance and member training.
+- (4) Administrative costs of HPD TCAP Unit operations.
 
 (b) **Low/Moderate-Income Benefit**: TCAP activities shall satisfy CDBG's national objective (70% of funds must benefit low- and moderate-income persons) by targeting membership to households below 50% AMI.
 
@@ -532,15 +558,16 @@ MOUs shall be executed within 90 days of this law's enactment and shall be made 
 "NYC's HOME Program allocation (administered by HPD per 42 U.S.C. § 12701 et seq.) shall prioritize TCAP:
 
 (a) **Eligible Uses**: HOME may fund:
-  - (1) Member down-payment assistance (initial $8,000 per member equity stake).
-  - (2) Acquisition financing (gap financing if purchase price exceeds Tenant Opportunity Fund + conventional mortgage capacity).
-  - (3) Pre-acquisition technical assistance and member organization.
+
+- (1) Member down-payment assistance (initial $8,000 per member equity stake).
+- (2) Acquisition financing (gap financing if purchase price exceeds Tenant Opportunity Fund + conventional mortgage capacity).
+- (3) Pre-acquisition technical assistance and member organization.
 
 (b) **HOME Affordability Periods**: HOME-funded projects must maintain affordability for specified periods (15 years for rental, 5 years for ownership). TCAP's 30-year affordability covenant exceeds HOME's minimum and qualifies.
 
 (c) **Match Requirements**: NYC must match HOME funds at 25% (cash or in-kind); TCAP matches shall include in-kind support from HPD staff, NYCHA resident outreach, and donated professional services."
 
----
+______________________________________________________________________
 
 ### 5.6.3 Federal Housing Opportunities through Modernization Act (HOTMA) Alignment
 
@@ -556,7 +583,7 @@ MOUs shall be executed within 90 days of this law's enactment and shall be made 
 
 (d) **Hardship Provisions**: HOTMA mandates hardship exemptions for member rent burden; TCAP cooperatives shall honor member requests for temporary subsidy adjustments or carrying-charge reductions during income loss or emergencies."
 
----
+______________________________________________________________________
 
 ### 5.6.4 New York State Funding Mechanisms
 
@@ -582,13 +609,13 @@ HPD shall coordinate with NY Homes and Community Renewal (HCR) to allocate SLIHC
 
 (c) **Subsidy Coordination**: New York State's support for tenant organizing and cooperative development shall be coordinated with TCAP, avoiding duplication and ensuring complementary funding."
 
----
+______________________________________________________________________
 
 ## 5.7 Interagency Memoranda of Understanding (MOUs)
 
 ### 5.7.1 HPD-DSS Subsidy Conversion MOU (Template)
 
-**[Subject to final negotiation; outline]**
+**\[Subject to final negotiation; outline\]**
 
 **MEMORANDUM OF UNDERSTANDING**
 **Between New York City Department of Housing Preservation and Development and Department of Social Services**
@@ -600,37 +627,38 @@ HPD shall coordinate with NY Homes and Community Renewal (HCR) to allocate SLIHC
 
 1. **Subsidy Eligibility**: DSS shall continue to issue CityFHEPS (Housing Choice Vouchers) or equivalent rental assistance to TCAP members at the standard rate ($1,800/month or regional equivalent).
 
-2. **80/20 Allocation**: HPD shall instruct DSS to allocate subsidy payments as follows:
+1. **80/20 Allocation**: HPD shall instruct DSS to allocate subsidy payments as follows:
+
    - 80% ($1,440/month) to the cooperative's operating account.
    - 20% ($360/month) to the individual member's equity account (separate accounting within DSS system).
 
-3. **Annual Indexing**: By April 1 of each year, DSS and HPD shall jointly determine whether the subsidy rate should be adjusted to maintain carrying-charge adequacy and the 15% member affordability cap; adjustments follow PIOC or CPI methodology.
+1. **Annual Indexing**: By April 1 of each year, DSS and HPD shall jointly determine whether the subsidy rate should be adjusted to maintain carrying-charge adequacy and the 15% member affordability cap; adjustments follow PIOC or CPI methodology.
 
-4. **Income Verification**: DSS shall conduct annual income verifications for all TCAP members using its Asset Verification System (AVS); results shall be shared with HPD and the cooperative.
+1. **Income Verification**: DSS shall conduct annual income verifications for all TCAP members using its Asset Verification System (AVS); results shall be shared with HPD and the cooperative.
 
-5. **Recertification Timing**: TCAP member recertifications shall be coordinated with cooperative membership anniversaries (rather than calendar-year cycles) to align with member equity accounting.
+1. **Recertification Timing**: TCAP member recertifications shall be coordinated with cooperative membership anniversaries (rather than calendar-year cycles) to align with member equity accounting.
 
-6. **Member Support**: DSS shall provide accessible income verification and application support; language access and digital access accommodations shall be available.
+1. **Member Support**: DSS shall provide accessible income verification and application support; language access and digital access accommodations shall be available.
 
-7. **Dispute Resolution**: If a member disputes income verification or subsidy allocation, a joint HPD-DSS review shall be conducted within 15 days.
+1. **Dispute Resolution**: If a member disputes income verification or subsidy allocation, a joint HPD-DSS review shall be conducted within 15 days.
 
-**Effective Date**: [Upon execution of TCAP Local Laws and mutual board/agency approvals]
+**Effective Date**: \[Upon execution of TCAP Local Laws and mutual board/agency approvals\]
 
 **Term**: 10 years, with automatic renewal unless one party provides 6 months' notice of non-renewal.
 
----
+______________________________________________________________________
 
 ### 5.7.2 HPD-NYCHA Member Recruitment MOU (Template)
 
-[Similar format; key provisions: NYCHA residents priority for TCAP; NYCHA provides outreach and event access; TCAP provides governance training to NYCHA resident associations; quarterly coordination meetings.]
+\[Similar format; key provisions: NYCHA residents priority for TCAP; NYCHA provides outreach and event access; TCAP provides governance training to NYCHA resident associations; quarterly coordination meetings.\]
 
----
+______________________________________________________________________
 
 ### 5.7.3 HPD-NYC Law Enforcement Coordination MOU (Template)
 
-[Affodability covenant enforcement procedures; timeline for complaint resolution and legal action; cost-sharing for litigation if needed; coordination on public reporting and enforcement outcomes.]
+\[Affodability covenant enforcement procedures; timeline for complaint resolution and legal action; cost-sharing for litigation if needed; coordination on public reporting and enforcement outcomes.\]
 
----
+______________________________________________________________________
 
 ## Works Cited (Part V)
 
@@ -674,7 +702,7 @@ United States Department of Justice. (2025, April 20). Department of Justice Gra
 
 United States Housing Act of 1937. 42 U.S.C. § 1437 et seq.
 
----
+______________________________________________________________________
 
 ## Summary
 
@@ -689,7 +717,6 @@ Key takeaways:
 - **Federal/State Alignment**: Strategies for leveraging MTW waivers, CDBG, HOME, SLIHC, and pending S.401 TOPA funding.
 - **MOUs**: Templates for HPD-DSS subsidy coordination, HPD-NYCHA recruitment, and HPD-NYC Law enforcement.
 
----
+______________________________________________________________________
 
 **WORD COUNT:** 15,742 words | **STATUS:** Complete and ready for legislative drafting
-

@@ -3,6 +3,7 @@
 This repository serves as a sandbox for experiments.
 
 The `.gitignore` file prevents temporary or virtual environment files from being tracked.
+
 # ChatGPT Notion Sync (sample implementation)
 
 This repository provides a minimal, test driven implementation of the building
@@ -13,14 +14,14 @@ handled and how the sync routine interacts with a Notion client.
 ## Configuration
 
 All configuration is provided through environment variables and exposed via the
-``Settings`` dataclass.
+`Settings` dataclass.
 
-| Variable | Description |
-| --- | --- |
-| ``NOTION_TOKEN`` | Secret token used to authenticate against the Notion API. |
-| ``NOTION_DATABASE_ID`` | Identifier of the database that holds the source pages. |
-| ``NOTION_SUMMARY_PROPERTY_NAME`` | Name of the rich-text property that stores the generated summaries. |
-| ``NOTION_CHANGELOG_PAGE_ID`` | Optional identifier of the page that receives change log updates. |
+| Variable                       | Description                                                         |
+| ------------------------------ | ------------------------------------------------------------------- |
+| `NOTION_TOKEN`                 | Secret token used to authenticate against the Notion API.           |
+| `NOTION_DATABASE_ID`           | Identifier of the database that holds the source pages.             |
+| `NOTION_SUMMARY_PROPERTY_NAME` | Name of the rich-text property that stores the generated summaries. |
+| `NOTION_CHANGELOG_PAGE_ID`     | Optional identifier of the page that receives change log updates.   |
 
 ## Job application automation
 
@@ -73,4 +74,3 @@ ChatGPT.
 ```bash
 pytest
 ```
-

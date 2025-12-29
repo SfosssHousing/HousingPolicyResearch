@@ -16,9 +16,11 @@ repos:
       - id: mdformat
         additional_dependencies:
           - mdformat-gfm
+        exclude: 'node_modules/'
 
   - repo: https://github.com/Yelp/detect-secrets
     rev: v1.4.0
     hooks:
       - id: detect-secrets
         args: ["--baseline", ".secrets.baseline"]
+        exclude: '(node_modules/|package-lock\.json|settings\.yaml)'

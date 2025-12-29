@@ -6,19 +6,15 @@ manual and the commentary on legislative drafting practices【847248757977671†
 this file as a starting point and replace the bracketed placeholders with
 your own language.
 
----
-title: "A Local Law to [short description of subject]"
-sponsor: "Council Member [Name]"
-committee: "[Committee name, if applicable]"
-session: "2025"
-bill_number: "Int. [####]"
----
+______________________________________________________________________
+
+## title: "A Local Law to \[short description of subject\]" sponsor: "Council Member \[Name\]" committee: "\[Committee name, if applicable\]" session: "2025" bill_number: "Int. \[####\]"
 
 ## Title
 
 **A Local Law**
 
-In relation to [describe the principal subject of the bill].  The title
+In relation to \[describe the principal subject of the bill\].  The title
 should be a single sentence that clearly identifies the subject of the bill.  It
 should avoid technical jargon and should not include parentheses or numbered
 sections.
@@ -54,7 +50,7 @@ using “takes effect” rather than “shall take effect,” and “after it be
 law” rather than “after its enactment”【847248757977671†L104-L110】.  For example:
 
 > This local law takes effect 120 days after it becomes law, except that the
-> commissioner of [agency] may promulgate rules necessary to implement this
+> commissioner of \[agency\] may promulgate rules necessary to implement this
 > local law before such date.
 
 ## Notes

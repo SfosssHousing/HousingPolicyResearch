@@ -214,7 +214,10 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         "--output-dir",
         type=Path,
         default=DEFAULT_TASKS_DIR,
-        help="Directory to write the <Tasks> CSV into (defaults to ChatGPT/Projects/Tasks)",
+        help=(
+            "Directory to write the <Tasks> CSV into "
+            "(defaults to ChatGPT/Projects/Tasks)"
+        ),
     )
     parser.add_argument(
         "--filename", default=DEFAULT_TASKS_FILE, help="Name of the generated CSV file"

@@ -32,3 +32,5 @@ htmlcov/
 *.log
 *.tmp
 
+# Dependencies
+node_modules/

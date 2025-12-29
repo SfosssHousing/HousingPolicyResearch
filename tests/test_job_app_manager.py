@@ -3,8 +3,6 @@ import json
 import csv
 from datetime import date
 
-import pytest
-
 from chatgpt_notion_sync import job_app_manager as jam
 
 

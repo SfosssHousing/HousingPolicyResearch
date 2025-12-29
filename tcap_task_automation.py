@@ -5,10 +5,8 @@ Fixed version - preserves exact CSV structure
 """
 
 import csv
-import json
 from datetime import datetime
 from collections import defaultdict
-import sys
 import argparse
 
 
@@ -129,7 +127,7 @@ class TCAPTaskManager:
                             overdue.append(
                                 (task.get("Task", ""), due_str, (today - due).days)
                             )
-                    except:
+                    except Exception:
                         pass
 
             if overdue:
@@ -190,9 +188,8 @@ def main():
         for risk_type, score in risk.items():
             print(f"  {risk_type.upper():<20} {score:>3} / 60")
     elif args.action == "dependencies":
-        print(
-            f"\nDEPENDENCY GRAPH: {len([d for d in manager.dependencies.values() if d])} tasks with blockers"
-        )
+        num_blocked = len([d for d in manager.dependencies.values() if d])
+        print(f"\nDEPENDENCY GRAPH: {num_blocked} tasks with blockers")
     elif args.action == "update":
         if args.task_id is not None and args.status:
             manager.update_task_status(args.task_id, args.status)
