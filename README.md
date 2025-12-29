@@ -80,14 +80,19 @@ This repository centralizes documentation, tooling plans, and integration guidel
 
 ## Repository Structure
 
+- `Capstone/` – Data indexes and cross-chat CSV exports (automation target for `cross-chat-sync.sh`).
+- `capstone/` – Capstone documentation and narrative materials.
+- `comments/` – Project discussion artifacts and proposals.
+- `data/` – Research datasets (planned).
 - `docs/` – Integration architecture, security controls, universal linking guidance, and task breakdown.
   - `STYLE-APA.md` – Citation standards based on APA 7th edition
   - `resources-index.md` – Comprehensive catalog of research sources with annotations
   - `resources.csv` – Machine-readable resource database for automation
   - `generative-output-version-control.md` – Tracking and verification of AI-generated content
+- `references/` – Bibliography exports from Zotero (planned).
+- `scripts/` – Automation scripts for data and chat exports.
 - `SECURITY.md` – Security policy and responsible disclosure instructions.
-- `capstone/` – Structured capstone documentation that replaces the legacy `Capstone alias` export.
-- `comments/` – Project discussion artifacts and proposals.
+- `README.md` – This overview.
 
 > **Note:** Some directories are placeholders that will be populated as the integrations described in the documentation are implemented.
 
