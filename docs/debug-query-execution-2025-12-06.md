@@ -251,7 +251,7 @@ For future testing of Copilot review functionality:
 
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [GitHub Actions Workflow Syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
-- [Repository Contributing Guidelines](../CONTRIBUTING.md)
+- [Repository Contributing Guidelines](../SECURITY.md)
 
 ### Contact Information
 
