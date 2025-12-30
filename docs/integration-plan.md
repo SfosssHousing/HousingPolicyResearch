@@ -92,9 +92,10 @@ Automate each pipeline with CI jobs or scheduled tasks that authenticate using s
 ### Verification Steps for Secure Connections
 
 1. **Credential Audit** – Confirm each platform token (ChatGPT, Codex CLI, Notion, GitHub, Zotero) is present in both the local `.env` file (generated from `.env.template`) and the GitHub Secrets store with matching scopes.
-2. **Connection Tests** – Follow the commands listed in [`docs/connection-checks.md`](docs/connection-checks.md) and capture success logs in `logs/connection-checks/`.
+2. **Connection Tests** – Follow the commands listed in [docs/connection-checks.md](connection-checks.md) and capture success logs in `logs/connection-checks/`.
 3. **Reverse Flow Validation** – Execute the reverse synchronization paths (GitHub→Notion, Notion→Zotero, Zotero→GitHub, ChatGPT/Codex→GitHub) using the same checklist.
 4. **Security Review** – Verify that logs exclude sensitive payloads, rotate tokens post-test, and document findings in the capstone tracker within `capstone/`.
+5. **Readiness Sign-off** – Run through the [Environment Readiness Checklist](environment-readiness.md) before enabling CI jobs or scheduled syncs.
 
 ## 5. Security Controls
 
@@ -138,7 +139,7 @@ Automate each pipeline with CI jobs or scheduled tasks that authenticate using s
    - Establish ownership for each integration and define SLAs.
    - Schedule monthly review meetings; log decisions in Notion.
 
-## 9. Generative Output Roadmap
+## 8. Generative Output Roadmap
 
 For the actionable steps, see [`docs/generative-output-tasks.md`](docs/generative-output-tasks.md). Track the summarized workstreams in GitHub Projects and reference them from the `capstone/` documentation:
 
@@ -148,7 +149,7 @@ For the actionable steps, see [`docs/generative-output-tasks.md`](docs/generativ
 4. **Data Governance** – Map data sources, retention policies, and redaction requirements before automating publication workflows.
 5. **Reporting Automation** – Combine data from GitHub issues, Notion databases, and Zotero annotations into scheduled briefs or dashboards.
 
-## 8. References
+## 9. References
 
 - [OpenAI API Documentation](https://platform.openai.com/docs/)
 - [Notion API Reference](https://developers.notion.com/reference/intro)
