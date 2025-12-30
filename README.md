@@ -33,7 +33,6 @@ This repository hosts documentation and tooling for collaborative research on ho
 ## Support
 
 If you encounter configuration issues or discover missing documentation, open a GitHub issue with detailed context so the team can respond quickly.
-This repository centralizes documentation, tooling plans, and integration guidelines for the Housing Policy Research project.
 
 ## Documentation
 
@@ -41,25 +40,8 @@ This repository centralizes documentation, tooling plans, and integration guidel
 - [Workspace Readiness and Outstanding Setup](docs/workspace-readiness.md): actionable checklist for finishing the Raycast extension build, Quarto/APA installation, secrets configuration, and shortcut automation.
 - `SECURITY.md`: organization-wide security policies.
 
-1. Run the automated setup script (creates a virtual environment and installs dependencies):
-## Repository Structure
+## Quick Start
 
-```
-/
-├── .devcontainer/         # Development container configuration
-├── .github/               # GitHub workflows and configuration
-│   └── workflows/         # CI/CD workflow definitions
-├── Capstone/              # Automation target directory
-│   └── indexes/           # Cross-chat CSV exports and data indexes
-├── capstone/              # Capstone project documentation
-├── comments/              # Issue comments and discussion archives
-├── data/                  # Research datasets (planned)
-├── docs/                  # Project documentation and integration guides
-├── references/            # Bibliography exports from Zotero (planned)
-├── scripts/               # Automation scripts for data and chat exports
-├── SECURITY.md            # Security baseline for the project
-└── README.md              # This overview
-```
 1. Review the [Environment Integration and Documentation Plan](docs/integration-plan.md) for platform-specific setup steps.
 2. Copy `.env.template` to `.env` and add the required secrets for ChatGPT, Codex, Notion, GitHub, and Zotero.
 3. Walk through the [Environment Readiness Checklist](docs/environment-readiness.md) to validate secrets and both connection directions before running automation.
@@ -67,17 +49,16 @@ This repository centralizes documentation, tooling plans, and integration guidel
    ```bash
    ./setup.sh
    ```
-2. Copy `.env.template` to `.env` and add the required secrets for OpenAI, Notion, GitHub, and Zotero.
-3. Activate the virtual environment:
+5. Activate the virtual environment:
    ```bash
    source .venv/bin/activate
    ```
-4. Validate third-party connections (requires configured environment variables):
+6. Validate third-party connections (requires configured environment variables):
    ```bash
    python scripts/validate_connections.py
    ```
-5. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
-6. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
+7. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
+8. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
 
 ## Repository Structure
 
@@ -93,7 +74,7 @@ This repository centralizes documentation, tooling plans, and integration guidel
 
 > **Note:** Some directories are placeholders that will be populated as the integrations described in the documentation are implemented.
 
-## Getting Started
+## Additional Resources
 
 For additional context on automation scripts, secret management, and cross-platform workflows, see [docs/integration-plan.md](docs/integration-plan.md) and the capstone notes in [`capstone/`](capstone/README.md).
 
