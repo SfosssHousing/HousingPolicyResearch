@@ -11,42 +11,49 @@ This document records the current understanding of the tools that support the Ho
 ## Repository Preparation (GitHub)
 
 1. **Clone the repository**
+
    ```bash
    git clone git@github.com:<ORG>/HousingPolicyResearch.git
    cd HousingPolicyResearch
    ```
+
    Replace `<ORG>` with the organization or user namespace that hosts the repository.
 
-2. **Create a Python environment (recommended)**
+1. **Create a Python environment (recommended)**
    If analysis notebooks or scripts are added later, create an isolated Python environment so dependencies do not conflict with global packages.
+
    ```bash
    python -m venv .venv
    source .venv/bin/activate
    pip install --upgrade pip
    ```
 
-3. **Install tooling dependencies**
+1. **Install tooling dependencies**
+
    - `pre-commit` (for linting/formatting hooks) – `pip install pre-commit`
-   - `mkdocs` (for Markdown-based documentation) – `pip install mkdocs`  
-   - `sphinx` (for reStructuredText-based documentation) – `pip install sphinx`  
+   - `mkdocs` (for Markdown-based documentation) – `pip install mkdocs`
+   - `sphinx` (for reStructuredText-based documentation) – `pip install sphinx`\
      *(Install only one, as needed, if documentation will be generated.)*
 
-4. **Configure Git hooks**
+1. **Configure Git hooks**
+
    ```bash
    pre-commit install
    ```
+
    Hooks help enforce code quality checks before commits are pushed.
 
 ## ChatGPT / Codex Integration
 
-| Task | Recommended Action |
-| ---- | ------------------ |
-| Authentication | Generate an OpenAI API key from https://platform.openai.com/account/api-keys. Store it in a secrets manager or in your shell profile as `OPENAI_API_KEY`. |
-| Secure Storage | Use environment variables or encrypted secrets (`gh secret set`)—never commit keys to the repository. |
-| Access | Ensure the repository has a `.gitignore` file that blocks `.env` or credential files. If it does not exist, create one as shown below. |
+| Task               | Recommended Action                                                                                                                                                                          |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authentication     | Generate an OpenAI API key from https://platform.openai.com/account/api-keys. Store it in a secrets manager or in your shell profile as `OPENAI_API_KEY`.                                   |
+| Secure Storage     | Use environment variables or encrypted secrets (`gh secret set`)—never commit keys to the repository.                                                                                       |
+| Access             | Ensure the repository has a `.gitignore` file that blocks `.env` or credential files. If it does not exist, create one as shown below.                                                      |
 | Reverse Connection | If the project requires feedback from ChatGPT to GitHub, use scripts or GitHub Actions that call the OpenAI API with stored secrets. Log responses in Markdown files committed to the repo. |
 
 **Sample `.gitignore` for sensitive files:**
+
 ```gitignore
 # Python virtual environments
 .venv/
@@ -110,3 +117,4 @@ venv/
 - [ ] README links to this document.
 - [ ] Next steps documented in `docs/project-roadmap.md`.
 
+```
