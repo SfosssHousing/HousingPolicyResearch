@@ -1,6 +1,6 @@
 # Environment Integration and Documentation Plan
 
-This document captures the setup guidance and project tasks required to connect ChatGPT, Codex, Notion, GitHub, and Zotero securely for the Housing Policy Research environment.
+This document captures the setup guidance and project tasks required to connect ChatGPT, Codex, Notion, GitHub, and Zotero securely for the Housing Policy Research environment. It also tracks reverse-connection validation so every platform exchange is auditable and repeatable.
 
 ## 1. Prerequisites
 
@@ -92,9 +92,9 @@ Automate each pipeline with CI jobs or scheduled tasks that authenticate using s
 
 ### Verification Steps for Secure Connections
 
-1. **Credential Audit** – Confirm each platform token (ChatGPT, Codex CLI, Notion, GitHub, Zotero) is present in both the local `.env` file (generated from `.env.template`) and the GitHub Secrets store with matching scopes.
-1. **Connection Tests** – Follow the commands listed in [`docs/connection-checks.md`](docs/connection-checks.md) and capture success logs in `logs/connection-checks/`.
-1. **Reverse Flow Validation** – Execute the reverse synchronization paths (GitHub→Notion, Notion→Zotero, Zotero→GitHub, ChatGPT/Codex→GitHub) using the same checklist.
+1. **Credential Audit** – Confirm each platform token (ChatGPT, Codex CLI, Notion, GitHub, Zotero) is present in both the local `.env` file and the GitHub Secrets store with matching scopes.
+1. **Connection Tests** – Run a dry-run command or API call for every integration, capturing success logs in the repository (e.g., `logs/connection-checks/`).
+1. **Reverse Flow Validation** – Execute the reverse synchronization paths (GitHub→Notion, Notion→Zotero, Zotero→GitHub) in a staging environment and review audit logs for unauthorized access attempts.
 1. **Security Review** – Verify that logs exclude sensitive payloads, rotate tokens post-test, and document findings in the capstone tracker within `capstone/`.
 
 ## 5. Security Controls
@@ -147,7 +147,7 @@ Automate each pipeline with CI jobs or scheduled tasks that authenticate using s
 
 ## 9. Generative Output Roadmap
 
-For the actionable steps, see [`docs/generative-output-tasks.md`](docs/generative-output-tasks.md). Track the summarized workstreams in GitHub Projects and reference them from the `capstone/` documentation:
+To coordinate automation and AI-assisted deliverables, track the following workstreams in GitHub Projects and reference them from the `capstone/` documentation:
 
 1. **Prompt Library** – Curate reusable ChatGPT and Codex prompts aligned to housing policy research goals; version them in `docs/prompts/`.
 1. **Evaluation Harness** – Implement scripts that score generative outputs against acceptance criteria (accuracy, citation coverage, compliance).
@@ -155,7 +155,7 @@ For the actionable steps, see [`docs/generative-output-tasks.md`](docs/generativ
 1. **Data Governance** – Map data sources, retention policies, and redaction requirements before automating publication workflows.
 1. **Reporting Automation** – Combine data from GitHub issues, Notion databases, and Zotero annotations into scheduled briefs or dashboards.
 
-## 8. References
+## 9. References
 
 - [OpenAI API Documentation](https://platform.openai.com/docs/)
 - [Notion API Reference](https://developers.notion.com/reference/intro)

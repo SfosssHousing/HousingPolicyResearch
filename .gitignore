@@ -32,3 +32,6 @@ htmlcov/
 *.log
 *.tmp
 
+# Node
+node_modules/
+workspace/housing_policy_scaffold/raycast-extension/node_modules/

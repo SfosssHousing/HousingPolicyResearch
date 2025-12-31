@@ -23,7 +23,7 @@ This repository hosts documentation and tooling for collaborative research on ho
 - Store sensitive configuration values in a password manager or as GitHub Actions secrets.
 - Rotate integration tokens (OpenAI, Notion, Zotero) on a regular cadence.
 
-## Contributing
+> **Note:** Some directories are placeholders that will be populated as the integrations described in the documentation are implemented.
 
 1. Create a branch for your change.
 1. Make updates and add tests or documentation as needed.
