@@ -2,135 +2,256 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Seth Foss - Housing Policy Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Housing Subsidy Reform | Seth Foss</title>
+  <meta name="description" content="Decision-ready housing subsidy reform deliverables: transition memo, pitch deck, works cited, and model legal set." />
+
   <style>
-    body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
-      margin: 0; padding: 0;
-      background: #fff; color: #111;
-      max-width: 900px; margin: auto; padding: 24px;
+    :root{
+      --bg:#0b0f17;
+      --panel:#111827;
+      --panel2:#0f172a;
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+      --accent:#60a5fa;
+      --accent2:#34d399;
+      --border:rgba(255,255,255,0.10);
+      --shadow: 0 12px 30px rgba(0,0,0,0.35);
+      --radius:16px;
+      --max: 980px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
     }
-    h1 { font-size: 32px; margin-bottom: 8px; }
-    h2 { margin-top: 28px; font-size: 22px; }
-    p { margin: 12px 0; line-height: 1.5; }
-    a { color: #0072e3; text-decoration: none; }
-    .btn {
-      display: inline-block;
-      margin: 8px 8px 0 0;
-      padding: 10px 14px;
-      background: #0072e3;
-      color: #fff; border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      background: radial-gradient(1200px 800px at 20% 0%, rgba(96,165,250,0.15), transparent 55%),
+                  radial-gradient(900px 600px at 90% 10%, rgba(52,211,153,0.12), transparent 50%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.45;
     }
-    .section { margin-top: 32px; }
+    a{color:inherit}
+    .wrap{max-width:var(--max); margin:0 auto; padding:32px 18px 60px;}
+    header{
+      display:flex; gap:16px; align-items:flex-start; justify-content:space-between;
+      margin-bottom:22px;
+    }
+    .brand{display:flex; flex-direction:column; gap:6px;}
+    .kicker{font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted);}
+    h1{margin:0; font-size:28px; letter-spacing:-0.02em;}
+    .sub{margin:0; color:var(--muted); max-width:72ch;}
+    .toplinks{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;}
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:10px 12px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      background: rgba(255,255,255,0.03);
+      text-decoration:none;
+      transition:transform .1s ease, border-color .1s ease;
+      font-size:14px;
+    }
+    .pill:hover{transform:translateY(-1px); border-color:rgba(96,165,250,.55);}
+    main{display:flex; flex-direction:column; gap:16px;}
+    .panel{
+      border:1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow:var(--shadow);
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap:12px;
+    }
+    .col-8{grid-column: span 8;}
+    .col-4{grid-column: span 4;}
+    @media (max-width: 900px){
+      .col-8,.col-4{grid-column: span 12;}
+      header{flex-direction:column;}
+      .toplinks{justify-content:flex-start;}
+    }
+    h2{margin:0 0 10px; font-size:16px; letter-spacing:.01em;}
+    .muted{color:var(--muted); font-size:14px;}
+    .tagrow{display:flex; gap:8px; flex-wrap:wrap; margin-top:10px;}
+    .tag{
+      font-family:var(--mono);
+      font-size:12px;
+      padding:6px 8px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background: rgba(15, 23, 42, 0.6);
+      color: #cbd5e1;
+    }
+    .cards{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:12px;
+    }
+    @media (max-width: 680px){ .cards{grid-template-columns: 1fr;} }
+    .card{
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:14px;
+      background: rgba(17,24,39,0.55);
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      min-height:120px;
+    }
+    .card h3{margin:0; font-size:15px;}
+    .card p{margin:0; color:var(--muted); font-size:13px;}
+    .btnrow{display:flex; gap:10px; flex-wrap:wrap; margin-top:auto;}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:9px 10px;
+      border-radius:10px;
+      border:1px solid rgba(96,165,250,0.55);
+      background: rgba(96,165,250,0.10);
+      text-decoration:none;
+      font-size:13px;
+      transition:transform .1s ease, background .1s ease;
+    }
+    .btn:hover{transform:translateY(-1px); background: rgba(96,165,250,0.16);}
+    .btn.secondary{
+      border-color: rgba(52,211,153,0.55);
+      background: rgba(52,211,153,0.10);
+    }
+    .btn.secondary:hover{background: rgba(52,211,153,0.16);}
+    .callout{
+      border-left: 4px solid rgba(52,211,153,.75);
+      padding:10px 12px;
+      border-radius:12px;
+      background: rgba(52,211,153,0.06);
+      color:#d1fae5;
+      font-size:13px;
+      margin-top:10px;
+    }
+    footer{
+      margin-top:18px;
+      color:var(--muted);
+      font-size:12px;
+      display:flex; gap:10px; flex-wrap:wrap; justify-content:space-between;
+      opacity:0.9;
+    }
   </style>
 </head>
+
 <body>
+  <div class="wrap">
 
-  <h1>Seth Foss</h1>
-  <p>
-    Policy researcher and housing strategist focused on reforming housing subsidy delivery
-    in New York City as public infrastructure - improving integrity, accountability,
-    and household stability through measurable, accountable systems.
-  </p>
+    <header>
+      <div class="brand">
+        <div class="kicker">Policy Portfolio</div>
+        <h1>Housing Subsidy Reform (PETF)</h1>
+        <p class="sub">
+          Decision-ready deliverables for NYC implementation: executive memo, pitch deck, legal scaffolding, and citations.
+          Built for transition teams, budget offices, and implementing agencies.
+        </p>
+        <div class="tagrow">
+          <span class="tag">fiscal discipline</span>
+          <span class="tag">implementation-first</span>
+          <span class="tag">compliance integrity</span>
+          <span class="tag">NYC housing systems</span>
+        </div>
+      </div>
 
-  <h2>Core Policy Idea (in 1 sentence)</h2>
-  <p>
-    Treat housing subsidy delivery as governed public infrastructure with clear
-    compliance standards, measurable performance, and escalation pathways to reduce
-    preventable eviction and downstream public cost.
-  </p>
+      <nav class="toplinks" aria-label="Primary links">
+        <a class="pill" href="https://www.linkedin.com/in/sethrfoss/" target="_blank" rel="noopener">LinkedIn</a>
+        <!-- Keep GitHub link if you want, but NOT a big “Full Research Repo” button -->
+        <a class="pill" href="https://github.com/sfossshousing/HousingPolicyResearch" target="_blank" rel="noopener">GitHub (source)</a>
+      </nav>
+    </header>
 
-  <div class="section">
-    <h2>Policy Summary (what it does)</h2>
-    <p>
-      My approach reframes housing subsidies from "case-by-case" to a systems
-      delivery problem: standardize workflows, tighten documentation and accountability,
-      and build operational dashboards that reveal bottlenecks and prioritize rapid
-      fixes. This approach produces faster, more consistent outcomes for households and
-      lowers long-term public cost.
-    </p>
+    <main class="grid">
+      <section class="panel col-8" aria-labelledby="deliverables">
+        <h2 id="deliverables">Submit-Ready Deliverables</h2>
+        <p class="muted">
+          These are the materials intended for policymakers and senior staff. If a PDF link 404s, it means the file path in the repo needs to be updated.
+        </p>
+
+        <div class="cards" role="list">
+          <article class="card" role="listitem">
+            <h3>Mayoral Transition Memo (1 page)</h3>
+            <p>Executive framing: problem, approach, fiscal upside, and the decision ask.</p>
+            <div class="btnrow">
+              <a class="btn" href="./deliverables/Transition_Memo.pdf" target="_blank" rel="noopener">Open PDF</a>
+              <a class="btn secondary" href="./deliverables/Transition_Memo.docx" target="_blank" rel="noopener">Open DOCX</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Mini Pitch Deck (10–14 slides)</h3>
+            <p>Transition-team deck: mechanism, feasibility, risk controls, and next steps.</p>
+            <div class="btnrow">
+              <a class="btn" href="./deliverables/Pitch_Deck.pdf" target="_blank" rel="noopener">Open PDF</a>
+              <a class="btn secondary" href="./deliverables/Pitch_Deck.pptx" target="_blank" rel="noopener">Open PPTX</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Works Cited (APA Master)</h3>
+            <p>Primary-source-first bibliography scaffold (budget, law, program rules, evaluations).</p>
+            <div class="btnrow">
+              <a class="btn" href="./deliverables/Works_Cited_Master.pdf" target="_blank" rel="noopener">Open PDF</a>
+              <a class="btn secondary" href="./deliverables/Works_Cited_Master.md" target="_blank" rel="noopener">Open MD</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Model Legal Document Set</h3>
+            <p>Draft enabling local law + rules/SOP + MOU + pilot authorization memo template.</p>
+            <div class="btnrow">
+              <a class="btn" href="./deliverables/Model_Legal_Set.pdf" target="_blank" rel="noopener">Open PDF</a>
+              <a class="btn secondary" href="./deliverables/Model_Legal_Set.md" target="_blank" rel="noopener">Open MD</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="callout">
+          If you want a “budget office one-pager” and “hostile Q&A” added as separate cards, add them under <span style="font-family:var(--mono)">./deliverables/</span> and copy a card block.
+        </div>
+      </section>
+
+      <aside class="panel col-4" aria-labelledby="about">
+        <h2 id="about">Quick Context</h2>
+        <p class="muted">
+          This package is designed to shift housing subsidy spending from a recurring emergency expense into a more controlled,
+          performance-managed stabilization instrument—without ideological framing and without making up numbers.
+        </p>
+
+        <div class="tagrow">
+          <span class="tag">transition-ready</span>
+          <span class="tag">OMB-friendly</span>
+          <span class="tag">agency-executable</span>
+        </div>
+
+        <div style="height:12px"></div>
+
+        <h2>Contact</h2>
+        <p class="muted">
+          Seth Foss<br/>
+          <a href="mailto:sfosss@icloud.com">sfosss@icloud.com</a><br/>
+          <a href="https://www.linkedin.com/in/sethrfoss/" target="_blank" rel="noopener">linkedin.com/in/sethrfoss</a>
+        </p>
+      </aside>
+    </main>
+
+    <footer>
+      <div>© <span id="y"></span> Seth Foss</div>
+      <div class="muted">Last updated: <span id="d"></span></div>
+    </footer>
+
   </div>
 
-  <div class="section">
-    <h2>Submit-Ready Deliverables</h2>
-    <a class="btn" href="assets/pdf/Transition_Memo_Housing_Subsidy_Reform.pdf" target="_blank">Transition Memo (PDF)</a>
-    <a class="btn" href="assets/pdf/Mini_Deck_Housing_Subsidy_Reform.pdf" target="_blank">Mini Pitch Deck (PDF)</a>
-    <a class="btn" href="https://github.com/SfosssHousing/HousingPolicyResearch" target="_blank">Full Research Repo</a>
-  </div>
-
-  <div class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:sfosss@icloud.com">sfosss@icloud.com</a></p>
-    <p>LinkedIn: <a href="[PASTE_LINKEDIN_URL]" target="_blank">View Profile</a></p>
-  </div>
-
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Seth Foss - Housing Subsidy Reform Portfolio</title>
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:40px auto;max-width:860px;padding:0 18px;line-height:1.55;color:#111}
-    h1{margin:0 0 10px;font-size:34px}
-    h2{margin:26px 0 8px;font-size:20px}
-    p{margin:10px 0}
-    .box{border:1px solid #ddd;border-radius:10px;padding:14px 16px;background:#fafafa;margin:12px 0}
-    ul{margin:8px 0 0 18px}
-    a{color:#0b63ce;text-decoration:none}
-    .btn{display:inline-block;margin:8px 10px 0 0;padding:10px 12px;border:1px solid #0b63ce;border-radius:8px;font-weight:700}
-    .btn.primary{background:#0b63ce;color:#fff}
-    .muted{color:#444}
-  </style>
-</head>
-<body>
-
-  <h1>Seth Foss</h1>
-  <p class="muted">
-    Housing policy researcher and practitioner focused on NYC housing subsidy reform as <strong>policy infrastructure</strong>:
-    governed, auditable delivery that reduces preventable eviction risk and downstream public cost.
-  </p>
-
-  <div class="box">
-    <strong>Policy at a glance</strong>
-    <ul>
-      <li><strong>Problem:</strong> Fragmented subsidy workflows and weak accountability create avoidable arrears, instability, and churn.</li>
-      <li><strong>Solution:</strong> Standardize documentation + handoffs, enforce time-bound escalation, and measure performance end-to-end.</li>
-      <li><strong>Outcome:</strong> Faster, more consistent payments/processing; fewer preventable eviction events; reduced court/shelter pressure.</li>
-    </ul>
-  </div>
-
-  <h2>What I am proposing NYC do</h2>
-  <div class="box">
-    <ul>
-      <li><strong>Define minimum delivery standards</strong> (timelines, documentation, decision logs).</li>
-      <li><strong>Map the full workflow</strong>: eligibility -> verification -> approval -> payment -> reconciliation -> disputes.</li>
-      <li><strong>Stand up a simple dashboard</strong>: queue age, failure types, resolution time, repeat blockers.</li>
-      <li><strong>Create an escalation protocol</strong> for time-sensitive households (clear triggers + ownership).</li>
-    </ul>
-  </div>
-
-  <h2>First 100 days (transition-ready)</h2>
-  <div class="box">
-    <ul>
-      <li>Run a cross-agency <strong>Subsidy Integrity Sprint</strong> to identify the top 3 system failures causing arrears/churn.</li>
-      <li>Deploy the <strong>escalation protocol</strong> + baseline dashboard (even manual first).</li>
-      <li>Publish internal performance targets and assign <strong>queue ownership</strong> at each handoff.</li>
-    </ul>
-  </div>
-
-  <h2>Deliverables</h2>
-  <a class="btn primary" href="assets/pdf/Transition_Memo_Housing_Subsidy_Reform.pdf" target="_blank" rel="noopener">Transition Memo (PDF)</a>
-  <a class="btn" href="assets/pdf/Mini_Deck_Housing_Subsidy_Reform.pdf" target="_blank" rel="noopener">Mini Pitch Deck (PDF)</a>
-  <a class="btn" href="assets/pdf/Works_Cited_Master.pdf" target="_blank" rel="noopener">Works Cited Master (PDF)</a>
-  <a class="btn" href="assets/pdf/Model_Legal_Document_Set.pdf" target="_blank" rel="noopener">Model Legal Document Set (PDF)</a>
-
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:sfosss@icloud.com">sfosss@icloud.com</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/sethrfoss/" target="_blank" rel="noopener">View Profile</a></p>
-
+  <script>
+    // Simple timestamps (non-authoritative; just for page display)
+    const now = new Date();
+    document.getElementById("y").textContent = now.getFullYear();
+    document.getElementById("d").textContent = now.toISOString().slice(0,10);
+  </script>
 </body>
 </html>
