@@ -99,7 +99,7 @@ ______________________________________________________________________
 OpenJS Foundation. (n.d.). *Node.js documentation*. Node.js. https://nodejs.org/
 
 **Annotation:**
-JavaScript runtime required for Codex CLI and npm-based automation tools. Prerequisite for development environment setup.
+JavaScript runtime required for npm-based automation tools and OpenAI Node.js SDK. Prerequisite for development environment setup.
 
 **Quality:** `[Primary source]` `[Technical documentation]`\
 **Used in:** [`docs/integration-plan.md`](integration-plan.md#1-prerequisites), [`README.md`](../README.md)\
