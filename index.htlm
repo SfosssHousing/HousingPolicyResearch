@@ -1,36 +1,71 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Seth Foss – Housing Policy Portfolio</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      margin: 0; padding: 0;
+      background: #fff; color: #111;
+      max-width: 900px; margin: auto; padding: 24px;
+    }
+    h1 { font-size: 32px; margin-bottom: 8px; }
+    h2 { margin-top: 28px; font-size: 22px; }
+    p { margin: 12px 0; line-height: 1.5; }
+    a { color: #0072e3; text-decoration: none; }
+    .btn {
+      display: inline-block;
+      margin: 8px 8px 0 0;
+      padding: 10px 14px;
+      background: #0072e3;
+      color: #fff; border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section { margin-top: 32px; }
+  </style>
 </head>
-<body style="font-family: system-ui; max-width: 700px; margin: 40px auto;">
+<body>
+
   <h1>Seth Foss</h1>
   <p>
-    Housing policy researcher and practitioner focused on housing subsidy reform,
-    delivery integrity, and eviction prevention.
+    Policy researcher and housing strategist focused on reforming housing subsidy delivery
+    in New York City as *public infrastructure* — improving integrity, accountability,
+    and household stability through measurable, accountable systems.
   </p>
 
-  <ul>
-    <li>
-      <a href="assets/pdf/Transition_Memo_Housing_Subsidy_Reform.pdf">
-        Transition Memo – Housing Subsidy Reform (PDF)
-      </a>
-    </li>
-    <li>
-      <a href="assets/pdf/Mini_Deck_Housing_Subsidy_Reform.pdf">
-        Mini Pitch Deck (PDF)
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/SfosssHousing/HousingPolicyResearch">
-        Research Repository (GitHub)
-      </a>
-    </li>
-  </ul>
-
+  <h2>Core Policy Idea (in 1 sentence)</h2>
   <p>
-    Contact: <a href="mailto:sfosss@icloud.com">sfosss@icloud.com</a>
+    Treat housing subsidy delivery as **governed public infrastructure** with clear
+    compliance standards, measurable performance, and escalation pathways to reduce
+    preventable eviction and downstream public cost.
   </p>
+
+  <div class="section">
+    <h2>Policy Summary (what it does)</h2>
+    <p>
+      My approach reframes housing subsidies from “case-by-case” to a **systems
+      delivery problem**: standardize workflows, tighten documentation and accountability,
+      and build operational dashboards that reveal bottlenecks and prioritize rapid
+      fixes. This approach produces faster, more consistent outcomes for households and
+      lowers long-term public cost.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Submit-Ready Deliverables</h2>
+    <a class="btn" href="assets/pdf/Transition_Memo_Housing_Subsidy_Reform.pdf" target="_blank">Transition Memo (PDF)</a>
+    <a class="btn" href="assets/pdf/Mini_Deck_Housing_Subsidy_Reform.pdf" target="_blank">Mini Pitch Deck (PDF)</a>
+    <a class="btn" href="https://github.com/SfosssHousing/HousingPolicyResearch" target="_blank">Full Research Repo</a>
+  </div>
+
+  <div class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sfosss@icloud.com">sfosss@icloud.com</a></p>
+    <p>LinkedIn: <a href="[PASTE_LINKEDIN_URL]" target="_blank">View Profile</a></p>
+  </div>
+
 </body>
 </html>
