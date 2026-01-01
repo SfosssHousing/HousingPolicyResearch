@@ -9,6 +9,12 @@ __pycache__/
 *.egg-info/
 *.egg
 
+# Node/npm (especially for raycast-extension build artifacts)
+node_modules/
+.npm
+package-lock.json
+dist/
+
 # Editors
 .vscode/
 .idea/
@@ -31,4 +37,9 @@ htmlcov/
 # Misc
 *.log
 *.tmp
+*.zip
+
+# Local workspace (not versioned)
+workspace/
+*_BACKUP/
 
