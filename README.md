@@ -64,20 +64,18 @@ This repository centralizes documentation, tooling plans, and integration guidel
 
 2. Review the [Environment Integration and Documentation Plan](docs/integration-plan.md) for platform-specific setup steps.
 3. Copy `.env.template` to `.env` and add the required secrets for OpenAI, Notion, GitHub, and Zotero.
-4. Run the automated setup script (creates a virtual environment and installs dependencies):
+4. Create a virtual environment and install dependencies:
    ```bash
-   ./setup.sh
-   ```
-5. Activate the virtual environment:
-   ```bash
+   python -m venv .venv
    source .venv/bin/activate
+   pip install -r requirements.txt
    ```
-6. Validate third-party connections (requires configured environment variables):
+5. Validate third-party connections (requires configured environment variables):
    ```bash
    python scripts/validate_connections.py
    ```
-7. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
-8. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
+6. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
+7. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
 
 ## Repository Structure
 

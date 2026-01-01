@@ -56,9 +56,13 @@ The recommended pattern is:
 
    ```python
    from openai import OpenAI
-   client = OpenAI()
-   # Test connection
-   client.models.list()
+   
+   try:
+       client = OpenAI()
+       models = client.models.list()
+       print("✓ OpenAI API connection successful")
+   except Exception as e:
+       print(f"✗ OpenAI API connection failed: {e}")
    ```
 
 4. Document standard prompts, rate limits, and logging practices in the team wiki.
