@@ -1,0 +1,21 @@
+# Copilot Setup Steps Workflow
+# This workflow provides setup steps for GitHub Copilot integration
+
+name: Copilot Setup Steps
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read # for actions/checkout
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          lfs: true

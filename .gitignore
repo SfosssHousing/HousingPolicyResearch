@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Node/npm (especially for raycast-extension build artifacts)
+node_modules/
+.npm
+package-lock.json
+dist/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs and artifacts (keep placeholder files)
+logs/*
+!logs/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+
+# Test and tooling outputs
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Misc
+*.log
+*.tmp
+*.zip
+
+# Local workspace (not versioned)
+workspace/
+*_BACKUP/
+
