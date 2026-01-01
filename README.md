@@ -10,12 +10,12 @@ This repository hosts documentation and tooling for collaborative research on ho
 
 ## Tooling Overview
 
-| Tool            | Purpose                                                          | Notes                                                                     |
-| --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| ChatGPT / Codex | Draft analytical memos, code snippets, and summaries.            | Secure API keys via environment variables or GitHub secrets.              |
-| Notion          | Organize meeting notes, project plans, and shared knowledge.     | Configure a private integration and restrict shared pages.                |
-| GitHub          | Version control for documentation, data scripts, and automation. | Enable branch protection and use pull requests for review.                |
-| Zotero          | Manage research references and citations.                        | Maintain a dedicated group library and export bibliographies to the repo. |
+| Tool           | Purpose                                                          | Notes                                                                     |
+| -------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| OpenAI API     | Draft analytical memos, code snippets, and summaries.            | Secure API keys via environment variables or GitHub secrets.              |
+| Notion         | Organize meeting notes, project plans, and shared knowledge.     | Configure a private integration and restrict shared pages.                |
+| GitHub         | Version control for documentation, data scripts, and automation. | Enable branch protection and use pull requests for review.                |
+| Zotero         | Manage research references and citations.                        | Maintain a dedicated group library and export bibliographies to the repo. |
 
 ## Security Practices
 
@@ -37,7 +37,7 @@ This repository centralizes documentation, tooling plans, and integration guidel
 
 ## Documentation
 
-- [Environment Integrations and Documentation](docs/environment-integrations.md): describes the end-to-end setup for secure, bidirectional connections between ChatGPT, Codex automations, Notion, GitHub, and Zotero, and outlines follow-up tasks for the project workspace.
+- [Environment Integrations and Documentation](docs/environment-integrations.md): describes the end-to-end setup for secure, bidirectional connections between OpenAI API, Notion, GitHub, and Zotero, and outlines follow-up tasks for the project workspace.
 - [Workspace Readiness and Outstanding Setup](docs/workspace-readiness.md): actionable checklist for finishing the Raycast extension build, Quarto/APA installation, secrets configuration, and shortcut automation.
 - `SECURITY.md`: organization-wide security policies.
 
@@ -63,22 +63,19 @@ This repository centralizes documentation, tooling plans, and integration guidel
 ```
 
 2. Review the [Environment Integration and Documentation Plan](docs/integration-plan.md) for platform-specific setup steps.
-3. Copy `.env.template` to `.env` and add the required secrets for ChatGPT, Codex, Notion, GitHub, and Zotero.
-4. Install the Codex CLI (requires Node.js):
+3. Copy `.env.template` to `.env` and add the required secrets for OpenAI, Notion, GitHub, and Zotero.
+4. Create a virtual environment and install dependencies:
    ```bash
-   ./setup.sh
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   pip install -r requirements.txt
    ```
-5. Copy `.env.template` to `.env` and add the required secrets for OpenAI, Notion, GitHub, and Zotero.
-6. Activate the virtual environment:
-   ```bash
-   source .venv/bin/activate
-   ```
-7. Validate third-party connections (requires configured environment variables):
+5. Validate third-party connections (requires configured environment variables):
    ```bash
    python scripts/validate_connections.py
    ```
-8. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
-9. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
+6. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
+7. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
 
 ## Repository Structure
 
