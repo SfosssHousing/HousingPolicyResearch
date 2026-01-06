@@ -1,13 +1,7 @@
-# Section 10 — Works Cited and Source Control
+```markdown
+# Section 10 – Complete Works Cited (APA 7th Edition)
 
-This section contains the consolidated reference list in APA 7th edition format for all sources cited in the PET/TCAP master proposal, followed by a source-control protocol to keep the bibliography stable as the proposal evolves.
-
-## 10.1 Works Cited (APA 7th)
-
-Notes:
-
-- Entries are listed as provided in the project library. Where an entry is missing a URL or publisher detail, treat it as a “metadata completion” task (fill via the primary source, not a secondary citation).
-- If a source is used only in an appendix (e.g., legislative text excerpts), it remains listed here to preserve auditability.
+This section provides the full APA reference list for all sources cited throughout the TCAP/Public Equity Transfer Framework policy proposal.
 
 ______________________________________________________________________
 
@@ -195,63 +189,9 @@ All web sources were verified as accessible as of October 2025. For archival pur
 
 ______________________________________________________________________
 
-**Reference List Compiled By:** Policy Research Documentation Services\
-**APA Edition:** 7th Edition (2020)\
-**Total Sources:** 50+ primary and secondary sources\
+**Reference List Compiled By:** Policy Research Documentation Services\\
+**APA Edition:** 7th Edition (2020)\\
+**Total Sources:** 50+ primary and secondary sources\\
 **Document Version:** October 25, 2025
 
-______________________________________________________________________
-
-## 10.2 Source Control Protocol
-
-### A. Canonical bibliography file
-
-Maintain **one** canonical bibliography and treat it as the source of truth:
-
-- `Works_Cited_MASTER.md` (human-readable, APA formatted)
-- `Works_Cited_MASTER.csv` (machine-readable fields for automation: author, year, title, publisher, url, access_date, notes, tags)
-
-Every other artifact (one-pager, briefing memo, slide deck, legislative memos, toolkits) should reference this master list rather than maintaining separate bibliographies.
-
-### B. Primary-source rule
-
-When the proposal cites numbers, statutory text, or program parameters:
-
-1. Prefer **primary sources** (statutes, agency reports, audited budget documents, HUD/NYC DSS/HPD program documents).
-1. If a secondary source is used for interpretation, cite **both**: the primary data source and the interpretive analysis.
-
-### C. Citation integrity checks (required before “final” exports)
-
-Before exporting the master report to PDF/Word:
-
-- **In-text to bibliography check:** Every in-text citation must have a corresponding bibliography entry.
-- **Bibliography to in-text check:** Remove any entry not used anywhere in the report (unless explicitly marked “background / future integration”).
-- **Date sanity check:** Verify years, edition numbers, and “retrieved on” dates for online sources.
-- **Numeric claim traceability:** For every numeric claim in the Executive Summary and Financial/ROI section, record the exact source and page/table reference in a footnote or endnote comment.
-
-### D. Legislative drafting citations
-
-For local laws and model legislation:
-
-- Cite the **controlling authority** (NYC Admin Code, NYS Private Housing Finance Law, Cooperative Corporations Law, HUD guidance, NYDFS guidance).
-- When modeling from another jurisdiction (e.g., DC TOPA), cite the statute and an authoritative explainer (government or legal aid publication) if needed.
-
-### E. Update workflow (when adding new sources)
-
-When a new source is added:
-
-1. Add it to the master bibliography.
-1. Add a 1–3 sentence annotation (what it supports, and which section it belongs to).
-1. Tag it (examples): `ROI`, `CityFHEPS`, `TOPA`, `cooperatives`, `CLT`, `HDFCs`, `health impacts`, `education impacts`.
-1. If it replaces an older source for the same claim, mark the older one as `superseded` rather than deleting immediately (keep a short deprecation log).
-
-### F. Versioning
-
-Use a date-stamped versioning convention for releases:
-
-- `TCAP_PET_Master_Report_vYYYY-MM-DD.md`
-- `Works_Cited_MASTER_vYYYY-MM-DD.md`
-
-Keep a short change log at the top of the master bibliography (added sources, removed sources, corrected metadata).
-
-______________________________________________________________________
+```
