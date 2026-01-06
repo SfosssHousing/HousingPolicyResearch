@@ -22,7 +22,7 @@ Brennan, M., Lubell, J., & Holtzclaw, J. (2014). *The impacts of affordable hous
 
 Chernick, H., Reschovsky, A., & Newman, S. (2021). The effect of the housing crisis on the finances of central cities. *Journal of Housing Economics, 54*, Article 101767. https://doi.org/10.1016/j.jhe.2021.101767
 
-Clark, W. A., & Ledwith, V. (2006). Mobility, housing stress, and neighborhood contexts: Evidence from Los Angeles. *Environment and Planning A: Economy and Space, 38*(6), 1077–1093. https://doi.org/10.1068/a37254
+Clark, W. A., & Ledwith, V. (2006). Mobility, housing stress, and neighborhood contexts: Evidence from Los Angeles. *Environment and Planning A: Economy and Space, 38*(6), 1077–1093. https://doi.org/10.1068/a37254 [Paywalled]
 
 Dubb, S. (2020, March 4). LISC at 40: Coming to terms with the limits of markets. *Nonprofit Quarterly*. https://nonprofitquarterly.org/lisc-at-40-the-serious-limits-of-markets-and-the-crying-need-for-policy-change/
 
