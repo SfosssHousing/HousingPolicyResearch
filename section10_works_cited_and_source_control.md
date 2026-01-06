@@ -47,7 +47,7 @@ Maqbool, N., Viveiros, J., & Ault, M. (2015). *The impacts of affordable housing
 
 McConnell, E. D. (2013). Disparities in housing cost burden by race, nativity, and legal status in Los Angeles, California. *Population Research and Policy Review, 32*(6), 825–854. https://doi.org/10.1007/s11113-013-9299-1
 
-Mimura, Y. (2007). Housing cost burden, poverty status, and economic hardship among low-income families. *Journal of Family and Economic Issues, 28*(2), 191–211. https://doi.org/10.1007/s10834-007-9059-y
+Mimura, Y. (2007). Housing cost burden, poverty status, and economic hardship among low-income families. *Journal of Family and Economic Issues, 28*(2), 191–211. https://doi.org/10.1007/s10834-007-9085-4
 
 New York City Comptroller. (2024). *Spotlight: New York City's homeowner housing market*. Office of the New York City Comptroller. https://comptroller.nyc.gov/reports/spotlight-new-york-citys-homeowner-housing-market/
 
