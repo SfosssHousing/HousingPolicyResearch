@@ -5,8 +5,8 @@ This repository hosts documentation and tooling for collaborative research on ho
 ## Getting Started
 
 1. Clone the repository and create a local development environment (see [Environment Setup](docs/environment-setup.md)).
-1. Review the [Project Roadmap](docs/project-roadmap.md) for outstanding tasks.
-1. Use GitHub issues to track progress and link commits to roadmap items.
+2. Review the [Project Roadmap](docs/project-roadmap.md) for outstanding tasks.
+3. Use GitHub issues to track progress and link commits to roadmap items.
 
 ## Tooling Overview
 
@@ -26,9 +26,9 @@ This repository hosts documentation and tooling for collaborative research on ho
 ## Contributing
 
 1. Create a branch for your change.
-1. Make updates and add tests or documentation as needed.
-1. Run any relevant checks locally (linting, formatting, unit tests).
-1. Submit a pull request referencing the related roadmap tasks or issues.
+2. Make updates and add tests or documentation as needed.
+3. Run any relevant checks locally (linting, formatting, unit tests).
+4. Submit a pull request referencing the related roadmap tasks or issues.
 
 ## Support
 
@@ -62,23 +62,23 @@ This repository centralizes documentation, tooling plans, and integration guidel
 └── README.md              # This overview
 ```
 
-1. Review the [Environment Integration and Documentation Plan](docs/integration-plan.md) for platform-specific setup steps.
-1. Copy `.env.template` to `.env` and add the required secrets for ChatGPT, Codex, Notion, GitHub, and Zotero.
-1. Install the Codex CLI (requires Node.js):
+2. Review the [Environment Integration and Documentation Plan](docs/integration-plan.md) for platform-specific setup steps.
+3. Copy `.env.template` to `.env` and add the required secrets for ChatGPT, Codex, Notion, GitHub, and Zotero.
+4. Install the Codex CLI (requires Node.js):
    ```bash
    ./setup.sh
    ```
-1. Copy `.env.template` to `.env` and add the required secrets for OpenAI, Notion, GitHub, and Zotero.
-1. Activate the virtual environment:
+5. Copy `.env.template` to `.env` and add the required secrets for OpenAI, Notion, GitHub, and Zotero.
+6. Activate the virtual environment:
    ```bash
    source .venv/bin/activate
    ```
-1. Validate third-party connections (requires configured environment variables):
+7. Validate third-party connections (requires configured environment variables):
    ```bash
    python scripts/validate_connections.py
    ```
-1. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
-1. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
+8. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
+9. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
 
 ## Repository Structure
 
