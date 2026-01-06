@@ -71,6 +71,7 @@ For detailed setup instructions and integration configuration, continue reading 
 **Note:** For automated setup, you can use the provided `setup.sh` script (see [Quick Start](#quick-start)). The steps below provide detailed manual instructions.
 
 1. **Clone the repository**
+
    ```bash
    git clone git@github.com:SfosssHousing/HousingPolicyResearch.git
    cd HousingPolicyResearch
@@ -81,8 +82,9 @@ For detailed setup instructions and integration configuration, continue reading 
    cd HousingPolicyResearch
    ```
 
-2. **Create a Python environment (recommended)**
+1. **Create a Python environment (recommended)**
    If analysis notebooks or scripts are added later, create an isolated Python environment so dependencies do not conflict with global packages.
+
    ```bash
    python -m venv .venv
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
@@ -115,6 +117,7 @@ For detailed setup instructions and integration configuration, continue reading 
    ```bash
    pre-commit install
    ```
+
    Hooks help enforce code quality checks before commits are pushed.
 
 ## ChatGPT / Codex Integration
@@ -132,6 +135,7 @@ For detailed setup instructions and integration configuration, continue reading 
 - `CHATGPT_ARCHIVE_PATH` – Directory for storing ChatGPT conversation logs (default: `logs/chatgpt`)
 
 **Sample `.gitignore` for sensitive files:**
+
 ```gitignore
 # Python virtual environments
 .venv/
