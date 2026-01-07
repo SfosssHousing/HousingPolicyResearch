@@ -194,7 +194,7 @@ ______________________________________________________________________
 ### Phase 4: Configure GitHub Actions (5 minutes)
 
 - [ ] **Add secrets to GitHub** (for CI/CD automation)
-  - [ ] Go to: https://github.com/sfosss/HousingPolicyResearch/settings/secrets/actions
+  - [ ] Go to: https://github.com/SfosssHousing/HousingPolicyResearch/settings/secrets/actions
   - [ ] Click "New repository secret"
   - [ ] Add `OPENAI_API_KEY` with your NEW key value
   - [ ] Add `NOTION_TOKEN` with your token

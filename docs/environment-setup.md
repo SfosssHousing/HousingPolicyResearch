@@ -124,7 +124,7 @@ For detailed setup instructions and integration configuration, continue reading 
 
 | Task | Recommended Action |
 | ---- | ------------------ |
-| Authentication | Generate an OpenAI API key from https://platform.openai.com/account/api-keys. Store it in a secrets manager or in your shell profile as `OPENAI_API_KEY`. |
+| Authentication | Generate an OpenAI API key from <https://platform.openai.com/account/api-keys>. Store it in a secrets manager or in your shell profile as `OPENAI_API_KEY`. |
 | Secure Storage | Use environment variables or encrypted secrets (`gh secret set`)—never commit keys to the repository. Add keys to your `.env` file (created from `.env.template`). |
 | Access | Ensure the repository has a `.gitignore` file that blocks `.env` or credential files. If it does not exist, create one as shown below. |
 | Reverse Connection | If the project requires feedback from ChatGPT to GitHub, use scripts or GitHub Actions that call the OpenAI API with stored secrets. Log responses in Markdown files committed to the repo. |
