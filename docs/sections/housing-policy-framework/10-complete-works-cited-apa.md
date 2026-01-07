@@ -12,7 +12,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-Alba, R. D., & Logan, J. R. (1992). Assimilation and stratification in the homeownership patterns of racial and ethnic groups. *International Migration Review, 26*(4), 1314–1340. https://doi.org/10.1177/019791839202600407
+Alba, R. D., & Logan, J. R. (1992). Assimilation and stratification in the homeownership patterns of racial and ethnic groups. *International Migration Review, 26*(4), 1314–1340. https://doi.org/10.1177/019791839202600407 [Paywalled]
 
 Assembly Bill A3353. (2023). *Tenant Opportunity to Purchase Act*. New York State Assembly. https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A03353&term=2023
 
@@ -28,7 +28,7 @@ Dubb, S. (2020, March 4). LISC at 40: Coming to terms with the limits of markets
 
 Elder, G. H., Johnson, M. K., & Crosnoe, R. (2003). The emergence and development of life course theory. In J. T. Mortimer & M. J. Shanahan (Eds.), *Handbook of the life course* (pp. 3–19). Springer. https://doi.org/10.1007/978-0-306-48247-2_1
 
-Elmelech, Y. (2004). Housing inequality in New York City: Racial and ethnic disparities in homeownership and shelter-cost burden. *Housing, Theory and Society, 21*(4), 163–175. https://doi.org/10.1080/14036090410026338
+Elmelech, Y. (2004). Housing inequality in New York City: Racial and ethnic disparities in homeownership and shelter-cost burden. *Housing, Theory and Society, 21*(4), 163–175. https://doi.org/10.1080/14036090410026338 [Paywalled]
 
 Ford Foundation. (1989). *Affordable housing: The years ahead*. Ford Foundation.
 
@@ -38,7 +38,7 @@ Lubell, J., Gubits, D., Paulen, L., Dastrup, S., Travis, A., McInnis, D., & Lo, 
 
 Maqbool, N., Viveiros, J., & Ault, M. (2015). *The impacts of affordable housing on health: A research summary*. Center for Housing Policy. https://nhc.org/policy-guide/the-impacts-of-affordable-housing-on-health-a-research-summary/
 
-McConnell, E. D. (2013). Disparities in housing cost burden by race, nativity, and legal status in Los Angeles, California. *Population Research and Policy Review, 32*(6), 825–854. https://doi.org/10.1007/s11113-013-9299-1
+McConnell, E. D. (2013). Disparities in housing cost burden by race, nativity, and legal status in Los Angeles, California. *Population Research and Policy Review, 32*(6), 825–854. https://doi.org/10.1007/s11113-013-9299-1 [Paywalled]
 
 Mimura, Y. (2007). Housing cost burden, poverty status, and economic hardship among low-income families. *Journal of Family and Economic Issues, 28*(2), 191–211. https://doi.org/10.1007/s10834-007-9085-4
 
@@ -54,9 +54,9 @@ NYU Furman Center for Real Estate and Urban Policy. (2022). *State of New York C
 
 Oliver, M. L., & Shapiro, T. M. (1995). *Black wealth/White wealth: A new perspective on racial inequality*. Routledge. https://doi.org/10.4324/9780203707425
 
-Rosenbaum, E. (1994). The constraints on minority housing choices, New York City 1978–1987. *Social Forces, 72*(3), 725–747. https://doi.org/10.2307/2579778
+Rosenbaum, E. (1994). The constraints on minority housing choices, New York City 1978–1987. *Social Forces, 72*(3), 725–747. https://doi.org/10.2307/2579778 [Paywalled]
 
-Sassen, S. (1990). Economic restructuring and the American city. *Annual Review of Sociology, 16*(1), 465–490. https://doi.org/10.1146/annurev.so.16.080190.002341
+Sassen, S. (1990). Economic restructuring and the American city. *Annual Review of Sociology, 16*(1), 465–490. https://doi.org/10.1146/annurev.so.16.080190.002341 [Paywalled]
 
 Schill, M., Friedman, S., & Rosenbaum, E. (1998). The housing conditions of immigrants in New York City. *Journal of Housing Research, 9*(2), 201–235. https://www.jstor.org/stable/24833763
 
@@ -64,7 +64,7 @@ Shrier, C. (2016). No place like home: Tenant harassment and the frailty of hous
 
 Skidmore, M., Alm, J., & Anenberg, E. (2011). Causes and consequences of fiscal stress in Michigan cities. *Regional Science and Urban Economics, 41*(4), 360–371. https://doi.org/10.1016/j.regsciurbeco.2011.02.007
 
-United States Department of Commerce, Bureau of the Census. (2003). *Net worth and asset ownership of households: 1998 and 2000*. U.S. Census Bureau. https://www.census.gov/prod/2003pubs/p70-88.pdf
+United States Department of Commerce, Bureau of the Census. (2003). *Net worth and asset ownership of households: 1998 and 2000*. U.S. Census Bureau. https://web.archive.org/web/20230701000000/https://www.census.gov/prod/2003pubs/p70-88.pdf
 
 U.S. Department of Housing and Urban Development. (2022). *Housing Choice Voucher program: Voucher utilization statistics*. HUD Office of Policy Development and Research. https://www.hud.gov/program_offices/public_indian_housing/programs/hcv/about/fact_sheet
 
@@ -82,7 +82,7 @@ New York City Department of Housing Preservation and Development. (2024). *Third
 
 New York City Housing Authority. (2023). *NYCHA fact sheet*. NYC Housing Authority. https://www.nycha.info/about/factsheet
 
-New York State Homes and Community Renewal. (2023). *Rent stabilization in New York City*. NYS HCR. https://hcr.ny.gov/rent-stabilization-new-york-city
+New York State Homes and Community Renewal. (2023). *Rent stabilization in New York City*. NYS HCR. https://hcr.ny.gov/services-housing/rent-stabilization
 
 ______________________________________________________________________
 
