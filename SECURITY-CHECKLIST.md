@@ -44,7 +44,11 @@ ______________________________________________________________________
 
 - [ ] **ProPublica Congress API Key - REVOKE NOW**
 
-  - [ ] Go to: https://projects.propublica.org/api-keys
+<<<<<<< HEAD
+  - [ ] Go to: https://www.propublica.org/datastore/api
+=======
+  - [ ] Go to: https://www.propublica.org/datastore/api
+>>>>>>> 245551a (docs: small link fixes — GAO product pages, DOI [Paywalled], HCR URL, ProPublica/GitHub URL fixes, mark dead link)
   - [ ] Find the key: `CIYC1Oum37M9ueK9o8fBYuz5FFgSWixCEIOI4WwU`
   - [ ] Revoke/delete it
   - **Status:** \_\_\_\_\_\_\_\_\_\_\_
@@ -194,7 +198,11 @@ ______________________________________________________________________
 ### Phase 4: Configure GitHub Actions (5 minutes)
 
 - [ ] **Add secrets to GitHub** (for CI/CD automation)
+<<<<<<< HEAD
   - [ ] Go to: https://github.com/SfosssHousing/HousingPolicyResearch/settings/secrets/actions
+=======
+  - [ ] Go to: https://github.com/SfosssHousing/HousingPolicyResearch/settings/secrets
+>>>>>>> 245551a (docs: small link fixes — GAO product pages, DOI [Paywalled], HCR URL, ProPublica/GitHub URL fixes, mark dead link)
   - [ ] Click "New repository secret"
   - [ ] Add `OPENAI_API_KEY` with your NEW key value
   - [ ] Add `NOTION_TOKEN` with your token

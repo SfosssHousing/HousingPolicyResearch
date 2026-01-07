@@ -89,7 +89,7 @@ New York City Department of Housing Preservation and Development. (2024). *Third
 
 New York City Housing Authority. (2023). *NYCHA fact sheet*. NYC Housing Authority. https://www.nycha.info/about/factsheet
 
-New York State Homes and Community Renewal. (2023). *Rent stabilization in New York City*. NYS HCR. https://hcr.ny.gov/services-housing/rent-stabilization
+New York State Homes and Community Renewal. (2023). *Rent stabilization in New York City*. NYS HCR. https://hcr.ny.gov/rent-regulation-fact-sheets-0
 
 ______________________________________________________________________
 

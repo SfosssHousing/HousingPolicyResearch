@@ -60,7 +60,7 @@ Sassen, S. (1990). Economic restructuring and the American city. *Annual Review 
 
 Schill, M., Friedman, S., & Rosenbaum, E. (1998). The housing conditions of immigrants in New York City. *Journal of Housing Research, 9*(2), 201–235. https://www.jstor.org/stable/24833763
 
-Shrier, C. (2016). No place like home: Tenant harassment and the frailty of housing court. *New York University Review of Law & Social Change, 40*(4), 661–724. https://socialchangenyu.com/review/no-place-like-home-tenant-harassment-and-the-frailty-of-housing-court/
+Shrier, C. (2016). No place like home: Tenant harassment and the frailty of housing court. *New York University Review of Law & Social Change, 40*(4), 661–724. https://socialchangenyu.com/review/no-place-like-home-tenant-harassment-and-the-frailty-of-housing-court/ [Dead link]
 
 Skidmore, M., Alm, J., & Anenberg, E. (2011). Causes and consequences of fiscal stress in Michigan cities. *Regional Science and Urban Economics, 41*(4), 360–371. https://doi.org/10.1016/j.regsciurbeco.2011.02.007
 
@@ -82,7 +82,7 @@ New York City Department of Housing Preservation and Development. (2024). *Third
 
 New York City Housing Authority. (2023). *NYCHA fact sheet*. NYC Housing Authority. https://www.nycha.info/about/factsheet
 
-New York State Homes and Community Renewal. (2023). *Rent stabilization in New York City*. NYS HCR. https://hcr.ny.gov/services-housing/rent-stabilization
+New York State Homes and Community Renewal. (2023). *Rent stabilization in New York City*. NYS HCR. https://hcr.ny.gov/rent-regulation-fact-sheets-0
 
 ______________________________________________________________________
 
