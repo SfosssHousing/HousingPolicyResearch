@@ -5,17 +5,17 @@ This repository hosts documentation and tooling for collaborative research on ho
 ## Getting Started
 
 1. Clone the repository and create a local development environment (see [Environment Setup](docs/environment-setup.md)).
-2. Review the [Project Roadmap](docs/project-roadmap.md) for outstanding tasks.
-3. Use GitHub issues to track progress and link commits to roadmap items.
+1. Review the [Project Roadmap](docs/project-roadmap.md) for outstanding tasks.
+1. Use GitHub issues to track progress and link commits to roadmap items.
 
 ## Tooling Overview
 
-| Tool           | Purpose                                                          | Notes                                                                     |
-| -------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| OpenAI API     | Draft analytical memos, code snippets, and summaries.            | Secure API keys via environment variables or GitHub secrets.              |
-| Notion         | Organize meeting notes, project plans, and shared knowledge.     | Configure a private integration and restrict shared pages.                |
-| GitHub         | Version control for documentation, data scripts, and automation. | Enable branch protection and use pull requests for review.                |
-| Zotero         | Manage research references and citations.                        | Maintain a dedicated group library and export bibliographies to the repo. |
+| Tool       | Purpose                                                          | Notes                                                                     |
+| ---------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| OpenAI API | Draft analytical memos, code snippets, and summaries.            | Secure API keys via environment variables or GitHub secrets.              |
+| Notion     | Organize meeting notes, project plans, and shared knowledge.     | Configure a private integration and restrict shared pages.                |
+| GitHub     | Version control for documentation, data scripts, and automation. | Enable branch protection and use pull requests for review.                |
+| Zotero     | Manage research references and citations.                        | Maintain a dedicated group library and export bibliographies to the repo. |
 
 ## Security Practices
 
@@ -26,9 +26,9 @@ This repository hosts documentation and tooling for collaborative research on ho
 ## Contributing
 
 1. Create a branch for your change.
-2. Make updates and add tests or documentation as needed.
-3. Run any relevant checks locally (linting, formatting, unit tests).
-4. Submit a pull request referencing the related roadmap tasks or issues.
+1. Make updates and add tests or documentation as needed.
+1. Run any relevant checks locally (linting, formatting, unit tests).
+1. Submit a pull request referencing the related roadmap tasks or issues.
 
 ## Support
 
@@ -63,19 +63,19 @@ This repository centralizes documentation, tooling plans, and integration guidel
 ```
 
 2. Review the [Environment Integration and Documentation Plan](docs/integration-plan.md) for platform-specific setup steps.
-3. Copy `.env.template` to `.env` and add the required secrets for OpenAI, Notion, GitHub, and Zotero.
-4. Create a virtual environment and install dependencies:
+1. Copy `.env.template` to `.env` and add the required secrets for OpenAI, Notion, GitHub, and Zotero.
+1. Create a virtual environment and install dependencies:
    ```bash
    python -m venv .venv
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    pip install -r requirements.txt
    ```
-5. Validate third-party connections (requires configured environment variables):
+1. Validate third-party connections (requires configured environment variables):
    ```bash
    python scripts/validate_connections.py
    ```
-6. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
-7. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
+1. Use GitHub Issues or Projects to track automation scripts and data synchronization tasks described in the plan.
+1. For native/web clients, follow the [Universal Linking Guide](docs/universal-linking-guide.md) to keep deep links aligned with repository content.
 
 ## Repository Structure
 

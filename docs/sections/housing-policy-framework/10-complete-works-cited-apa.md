@@ -12,7 +12,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-Alba, R. D., & Logan, J. R. (1992). Assimilation and stratification in the homeownership patterns of racial and ethnic groups. *International Migration Review, 26*(4), 1314–1340. https://doi.org/10.1177/019791839202600407 [Paywalled]
+Alba, R. D., & Logan, J. R. (1992). Assimilation and stratification in the homeownership patterns of racial and ethnic groups. *International Migration Review, 26*(4), 1314–1340. https://doi.org/10.1177/019791839202600407 \[Paywalled\]
 
 Assembly Bill A3353. (2023). *Tenant Opportunity to Purchase Act*. New York State Assembly. https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A03353&term=2023
 
@@ -22,13 +22,13 @@ Brennan, M., Lubell, J., & Holtzclaw, J. (2014). *The impacts of affordable hous
 
 Chernick, H., Reschovsky, A., & Newman, S. (2021). The effect of the housing crisis on the finances of central cities. *Journal of Housing Economics, 54*, Article 101767. https://doi.org/10.1016/j.jhe.2021.101767
 
-Clark, W. A., & Ledwith, V. (2006). Mobility, housing stress, and neighborhood contexts: Evidence from Los Angeles. *Environment and Planning A: Economy and Space, 38*(6), 1077–1093. https://doi.org/10.1068/a37254 [Paywalled]
+Clark, W. A., & Ledwith, V. (2006). Mobility, housing stress, and neighborhood contexts: Evidence from Los Angeles. *Environment and Planning A: Economy and Space, 38*(6), 1077–1093. https://doi.org/10.1068/a37254 \[Paywalled\]
 
 Dubb, S. (2020, March 4). LISC at 40: Coming to terms with the limits of markets. *Nonprofit Quarterly*. https://nonprofitquarterly.org/lisc-at-40-the-serious-limits-of-markets-and-the-crying-need-for-policy-change/
 
 Elder, G. H., Johnson, M. K., & Crosnoe, R. (2003). The emergence and development of life course theory. In J. T. Mortimer & M. J. Shanahan (Eds.), *Handbook of the life course* (pp. 3–19). Springer. https://doi.org/10.1007/978-0-306-48247-2_1
 
-Elmelech, Y. (2004). Housing inequality in New York City: Racial and ethnic disparities in homeownership and shelter-cost burden. *Housing, Theory and Society, 21*(4), 163–175. https://doi.org/10.1080/14036090410026338 [Paywalled]
+Elmelech, Y. (2004). Housing inequality in New York City: Racial and ethnic disparities in homeownership and shelter-cost burden. *Housing, Theory and Society, 21*(4), 163–175. https://doi.org/10.1080/14036090410026338 \[Paywalled\]
 
 Ford Foundation. (1989). *Affordable housing: The years ahead*. Ford Foundation.
 
@@ -38,7 +38,7 @@ Lubell, J., Gubits, D., Paulen, L., Dastrup, S., Travis, A., McInnis, D., & Lo, 
 
 Maqbool, N., Viveiros, J., & Ault, M. (2015). *The impacts of affordable housing on health: A research summary*. Center for Housing Policy. https://nhc.org/policy-guide/the-impacts-of-affordable-housing-on-health-a-research-summary/
 
-McConnell, E. D. (2013). Disparities in housing cost burden by race, nativity, and legal status in Los Angeles, California. *Population Research and Policy Review, 32*(6), 825–854. https://doi.org/10.1007/s11113-013-9299-1 [Paywalled]
+McConnell, E. D. (2013). Disparities in housing cost burden by race, nativity, and legal status in Los Angeles, California. *Population Research and Policy Review, 32*(6), 825–854. https://doi.org/10.1007/s11113-013-9299-1 \[Paywalled\]
 
 Mimura, Y. (2007). Housing cost burden, poverty status, and economic hardship among low-income families. *Journal of Family and Economic Issues, 28*(2), 191–211. https://doi.org/10.1007/s10834-007-9085-4
 
@@ -54,13 +54,13 @@ NYU Furman Center for Real Estate and Urban Policy. (2022). *State of New York C
 
 Oliver, M. L., & Shapiro, T. M. (1995). *Black wealth/White wealth: A new perspective on racial inequality*. Routledge. https://doi.org/10.4324/9780203707425
 
-Rosenbaum, E. (1994). The constraints on minority housing choices, New York City 1978–1987. *Social Forces, 72*(3), 725–747. https://doi.org/10.2307/2579778 [Paywalled]
+Rosenbaum, E. (1994). The constraints on minority housing choices, New York City 1978–1987. *Social Forces, 72*(3), 725–747. https://doi.org/10.2307/2579778 \[Paywalled\]
 
-Sassen, S. (1990). Economic restructuring and the American city. *Annual Review of Sociology, 16*(1), 465–490. https://doi.org/10.1146/annurev.so.16.080190.002341 [Paywalled]
+Sassen, S. (1990). Economic restructuring and the American city. *Annual Review of Sociology, 16*(1), 465–490. https://doi.org/10.1146/annurev.so.16.080190.002341 \[Paywalled\]
 
 Schill, M., Friedman, S., & Rosenbaum, E. (1998). The housing conditions of immigrants in New York City. *Journal of Housing Research, 9*(2), 201–235. https://www.jstor.org/stable/24833763
 
-Shrier, C. (2016). No place like home: Tenant harassment and the frailty of housing court. *New York University Review of Law & Social Change, 40*(4), 661–724. https://socialchangenyu.com/review/no-place-like-home-tenant-harassment-and-the-frailty-of-housing-court/ [Dead link]
+Shrier, C. (2016). No place like home: Tenant harassment and the frailty of housing court. *New York University Review of Law & Social Change, 40*(4), 661–724. https://socialchangenyu.com/review/no-place-like-home-tenant-harassment-and-the-frailty-of-housing-court/ \[Dead link\]
 
 Skidmore, M., Alm, J., & Anenberg, E. (2011). Causes and consequences of fiscal stress in Michigan cities. *Regional Science and Urban Economics, 41*(4), 360–371. https://doi.org/10.1016/j.regsciurbeco.2011.02.007
 

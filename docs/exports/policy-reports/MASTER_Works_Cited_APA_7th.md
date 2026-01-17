@@ -140,7 +140,7 @@ ______________________________________________________________________
 
 ## J. GENERAL HOUSING POLICY & RESEARCH
 
-Byrne, J. P., Fox-Karvalis, A., & Gorton, J. (2021). *Renter in the COVID-19 pandemic: Policy responses and ongoing challenges*. Housing Policy Debate, 31(3–4), 451–479. https://doi.org/10.1080/10511482.2021.1893274 [Paywalled]
+Byrne, J. P., Fox-Karvalis, A., & Gorton, J. (2021). *Renter in the COVID-19 pandemic: Policy responses and ongoing challenges*. Housing Policy Debate, 31(3–4), 451–479. https://doi.org/10.1080/10511482.2021.1893274 \[Paywalled\]
 
 Desmond, M. (2016). *Evicted: Poverty and profit in the American city*. Crown Publishers.
 

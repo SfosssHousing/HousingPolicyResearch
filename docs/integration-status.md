@@ -9,6 +9,7 @@ After configuring API connections and secrets, run validation scripts to confirm
 ## Validation Template
 
 For each integration, record:
+
 - **Date tested:** YYYY-MM-DD
 - **Tool:** ChatGPT/Codex, Notion, GitHub Actions, Zotero
 - **Test performed:** Brief description (e.g., "Listed Zotero items via API", "Created Notion page via integration")
@@ -25,6 +26,6 @@ For each integration, record:
 - **Result:** Success
 - **Notes:** Integration token rotated on 2025-11-15; confirmed read/write access to shared databases
 
----
+______________________________________________________________________
 
 *Add new entries below as integrations are validated or reconfigured.*
