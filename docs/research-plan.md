@@ -5,6 +5,7 @@ This document defines the research questions, hypotheses, and methodological app
 ## Research Questions
 
 *To be defined. Consider questions such as:*
+
 - What are the primary barriers to affordable housing in the target region?
 - How do different policy interventions (zoning reform, rent control, subsidies) impact housing availability and affordability?
 - What data sources and analytical methods best capture the effectiveness of housing policies?
@@ -16,6 +17,7 @@ This document defines the research questions, hypotheses, and methodological app
 ## Data Sources
 
 *List datasets to be used:*
+
 - HUD (Housing and Urban Development) public data
 - American Community Survey (ACS) census data
 - Local housing authority records
@@ -24,6 +26,7 @@ This document defines the research questions, hypotheses, and methodological app
 ## Methodology
 
 *Describe the analytical approach:*
+
 - Data collection and cleaning procedures
 - Statistical methods or models (regression, time-series analysis, etc.)
 - Tools and software (Python, R, Stata, etc.)
@@ -32,6 +35,7 @@ This document defines the research questions, hypotheses, and methodological app
 ## Timeline
 
 *Outline key milestones:*
+
 - [ ] Data inventory complete
 - [ ] Research questions finalized
 - [ ] Initial analysis prototype
@@ -42,6 +46,6 @@ This document defines the research questions, hypotheses, and methodological app
 
 *List foundational literature, policy reports, and prior research that inform this plan.*
 
----
+______________________________________________________________________
 
 **Last updated:** 2025-12-02

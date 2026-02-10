@@ -10,7 +10,6 @@
 
 from __future__ import annotations
 
-import os
 import re
 import sys
 import json
@@ -21,7 +20,8 @@ from typing import Dict, List, Set, Tuple
 try:
     import requests
 except Exception:
-    print("This script requires the 'requests' package. Install with: pip install requests")
+    print("This script requires the 'requests' package.")
+    print("Install with: pip install requests")
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -32,9 +32,9 @@ MD_EXT = ".md"
 
 FENCE_RE = re.compile(r"```.*?```", re.S)
 INLINE_CODE_RE = re.compile(r"`[^`]+`")
-MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\((https?://[^)\s]+)\)")
-BARE_URL_RE = re.compile(r"(?<!\()https?://[\w\-./?=&%#]+")
-BARE_URL_RE2 = re.compile(r"https?://[\w\-./?=&%#]+")
+MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\(" r"(https?://[^)\s]+)\)")
+BARE_URL_RE = re.compile(r"(?<!\()https?://" r"[\w\-./?=&%#]+")
+BARE_URL_RE2 = re.compile(r"https?://" r"[\w\-./?=&%#]+")
 
 TIMEOUT = 10
 
@@ -65,13 +65,23 @@ def extract_links(text: str) -> Set[str]:
 
 def check_url(url: str) -> Tuple[str, int | None, str | None]:
     """Return (url, status_code or None, error_message or None)"""
-    headers = {"User-Agent": "HousingPolicyResearch-link-check/1.0 (+https://github.com/SfosssHousing)"}
+    headers = {"User-Agent": "HousingPolicyResearch-link-check/1.0"}
     try:
-        r = requests.head(url, allow_redirects=True, timeout=TIMEOUT, headers=headers)
+        r = requests.head(
+            url,
+            allow_redirects=True,
+            timeout=TIMEOUT,
+            headers=headers,
+        )
         code = r.status_code
         if code >= 400 or code == 405:
             # try GET
-            r = requests.get(url, allow_redirects=True, timeout=TIMEOUT, headers=headers)
+            r = requests.get(
+                url,
+                allow_redirects=True,
+                timeout=TIMEOUT,
+                headers=headers,
+            )
             code = r.status_code
         return url, code, None
     except requests.RequestException as exc:
@@ -101,15 +111,29 @@ def main() -> int:
     for url, meta in sorted(discovered.items()):
         print(f"Checking: {url}")
         u, code, err = check_url(url)
-        results.append({"url": u, "status_code": code, "error": err, "files": sorted(list(meta["files"]))})
+        results.append(
+            {
+                "url": u,
+                "status_code": code,
+                "error": err,
+                "files": sorted(list(meta["files"])),
+            }
+        )
 
     now = datetime.utcnow().strftime("%Y-%m-%dT%H%M%SZ")
     out_path = LOG_DIR / f"link-check-{now}.json"
-    out_path.write_text(json.dumps({"timestamp": now, "results": results}, indent=2), encoding="utf-8")
+    payload = {"timestamp": now, "results": results}
+    out_path.write_text(
+        json.dumps(payload, indent=2),
+        encoding="utf-8",
+    )
 
     # Summary
     total = len(results)
-    failures = [r for r in results if (r["status_code"] is None or r["status_code"] >= 400)]
+    failures = []
+    for r in results:
+        if r["status_code"] is None or r["status_code"] >= 400:
+            failures.append(r)
     print("\nSummary:")
     print(f"  Files scanned: {len(files)}")
     print(f"  Unique external links found: {total}")
@@ -118,11 +142,16 @@ def main() -> int:
     if failures:
         print("\nTop failures:")
         for f in failures[:25]:
-            print(f"- {f['url']} -> {f['status_code']} / {f['error']} (seen in {len(f['files'])} file(s))")
+            url = f["url"]
+            code = f["status_code"]
+            err = f["error"]
+            seen = len(f["files"])
+            print(f"- {url}")
+            print(f"  -> {code} / {err} (seen in {seen} file(s))")
 
     print(f"Results written to: {out_path}")
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     raise SystemExit(main())
