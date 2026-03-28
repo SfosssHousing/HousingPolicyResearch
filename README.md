@@ -79,7 +79,7 @@ This repository centralizes documentation, tooling plans, and integration guidel
 
 ## Repository Structure
 
-- `Capstone/` – Data indexes and cross-chat CSV exports (automation target for `cross-chat-sync.sh`).
+- `Capstone/` – Data indexes and cross-chat CSV exports (automation target for [`scripts/cross-chat-sync.sh`](scripts/cross-chat-sync.sh)).
 - `capstone/` – Capstone documentation and narrative materials.
 - `comments/` – Project discussion artifacts and proposals.
 - `data/` – Research datasets (planned).
