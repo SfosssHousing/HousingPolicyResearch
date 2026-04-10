@@ -1,0 +1,8 @@
+black==24.4.2
+flake8==7.1.0
+mdformat==0.7.17
+openai==1.35.3
+pandas==2.2.2
+pre-commit==3.7.1
+python-dotenv==1.0.1
+requests==2.32.3
