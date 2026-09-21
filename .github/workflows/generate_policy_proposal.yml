@@ -37,7 +37,18 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Update policy proposal"
             git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64)" \
-              push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"
+            for attempt in 1 2 3; do
+              git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64)" \
+                fetch "https://github.com/${GITHUB_REPOSITORY}.git" "$GITHUB_REF_NAME"
+              git rebase --strategy-option=theirs FETCH_HEAD
+              if git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64)" \
+                push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"; then
+                break
+              fi
+              if [ "$attempt" -eq 3 ]; then
+                exit 1
+              fi
+            done
           else
             echo "No changes to commit"
           fi
